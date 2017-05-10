@@ -1,0 +1,104 @@
+Transcribe!,6089,Seventh String Software
+Transcribe!,GTK,8,65,7,S,0
+
+SectionStart,Main
+SoundFileName,11_za_stabla_zivota.mp3,Nix,/home/work/music/transcribe/frbo_2017/hr/11_za_stabla_zivota.mp3
+SoundFileInfo,MP3 (MPEG audio layer 3),MP3 (MPEG-1 Layer III\C Variable Bitrate),2,3772489,44100,6991488,158.537143
+Loops,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0
+MarkerNumberContinuously,0
+MarkerAutoSection,0
+MarkerAutoMeasure,0
+MarkerAutoBeat,1
+SectionEnd,Main
+
+SectionStart,View0
+FX_Mix,0,0,100,0
+FX_Tuning,1,1,0,0,0,0,60,50,0
+FX_Transposition,1,1,0,0,0
+FX_EQ,1,0,0,0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+FX_Speed,1,0,100000,0
+FX_Misc,1,0,50
+ShowTextZone,0
+ShowPianoRoll,0
+PianoRollPiano,1
+PianoRollSensitivity,3
+ShowVideo,1
+TVVZoomPercent,100
+TVVVtimeOffset,0.000000
+TVVVideoMirror,0
+TVVVideoVFlip,0
+ShowNavbar,0
+NavBarMeasures,1
+NavBarMeasuresMenu,1
+ShowSpectrum,0
+ShowGuessNotes,0
+ShowGuessChords,0
+ShowDB,0
+ShowTimeLine,0
+FitWholeFile,1
+FitWholeFileHorizZoom,1.000000
+FitWholeFileStartwavpix,90
+LoopMode,1
+ScrollMode,1
+PlayZone,4
+PianoBtmNote,24
+PianoTopNote,96
+PianoRollBtmNote,24
+PianoRollTopNote,96
+TextZoneSplitterPos,0.250000
+PianoRollSplitterPos,0.500000
+ViewSplitterPos,0.700000
+VertProfileZoom,1.000000
+HorizProfileZoom,0.043993
+HorizProfilePos,0
+SelectionLeft,3679824
+SelectionRight,3679824
+SectionEnd,View0
+
+SectionStart,Markers
+Howmany,15
+S,411817,0,A kitica,0,0:00:09.338
+M,807551,1,A2,0,0:00:18.312
+S,1208428,0,B ref,0,0:00:27.402
+M,1608373,1,B2,0,0:00:36.471
+S,2009547,0,C nana,0,0:00:45.568
+M,2406377,1,C2,0,0:00:54.566
+S,2907188,0,D kit 2,0,0:01:05.923
+M,3305458,1,D2,0,0:01:14.954
+S,3706592,0,E ref,0,0:01:24.050
+M,4106419,1,E2,0,0:01:33.116
+S,4504600,0,F nana,0,0:01:42.145
+S,5403960,0,G kit 3,0,0:02:02.539
+M,5801136,0,G2 hvala,0,0:02:11.545
+M,6201167,1,G3,0,0:02:20.616
+M,6598808,1,G4,0,0:02:29.633
+SectionEnd,Markers
+
+SectionStart,TextBlocks
+TextBlockFont,80,12,,
+Howmany,0
+SectionEnd,TextBlocks
+
+SectionStart,Loops
+Howmany,20
+L,1,0,0,0,,White,
+L,2,0,0,0,,White,
+L,3,0,0,0,,White,
+L,4,0,0,0,,White,
+L,5,0,0,0,,White,
+L,6,0,0,0,,White,
+L,7,0,0,0,,White,
+L,8,0,0,0,,White,
+L,9,0,0,0,,White,
+L,10,0,0,0,,White,
+L,11,0,0,0,,White,
+L,12,0,0,0,,White,
+L,13,0,0,0,,White,
+L,14,0,0,0,,White,
+L,15,0,0,0,,White,
+L,16,0,0,0,,White,
+L,17,0,0,0,,White,
+L,18,0,0,0,,White,
+L,19,0,0,0,,White,
+L,20,0,0,0,,White,
+SectionEnd,Loops
