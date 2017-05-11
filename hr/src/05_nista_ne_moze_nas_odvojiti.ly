@@ -19,19 +19,11 @@
 note = \relative c' {
   \key f \major
   \time 2/2
-  
-  \once \override Score.MetronomeMark.Y-offset = #3.3
-  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
-  \once \override Score.MetronomeMark.self-alignment-X = #-1.
-  \tempo 2 = 74
 
   %one
   \partial 4*3
   c4 f e8 f ~ |
-  \bar "||"
-  \once \override Score.RehearsalMark.self-alignment-X = #0.8
-  \once \override Score.RehearsalMark.Y-offset = #0.4
-  \mark \default
+  \markMoj
   f2 f4 e8 f ~ |
   f4. f8 f4( g8) e ~ |
   e1 |
@@ -48,11 +40,10 @@ note = \relative c' {
   c4 b a b |
   b4( a4) a a |
   r4 \breathemoj d4( c) a |
-  \bar "||"
-  %\mark \default
+  \markMoj
   g8 f ~ f f ~ f2 |
-  r4 f8 c f( g) a a ~ |
-  a4( g2.) |
+  r4 f8 c f( g) a a( ~ |
+  a4 g2.) |
   r4 d'4 c8 a ~ a g( |
   f1) |
   r4 f f g |
@@ -60,16 +51,13 @@ note = \relative c' {
   a1 |
   d1 |
   a2 g4 f ~ |
-  f4. c8 f( g) a g ~ |
-  g4( f2.) |
+  f4. c8 f( g) a g( ~ |
+  g4 f2.) |
   c'4 b2. |
   r4 a4 a8( g) f f ~ |
   f1 |
   r1 |
-  \bar "||"
-    \once \override Score.RehearsalMark.self-alignment-X = #0.5
-  \once \override Score.RehearsalMark.Y-offset = #0.4
-  \mark \default
+  \markMoj
   d'1 ~ |
   d4 c c b |
   c4 d2 a4 ~ |
@@ -84,10 +72,10 @@ note = \relative c' {
   a2 r4 a8 a |
   b4 b r2 |
   b2 b8 a4. |
-  a8( g) ~ g2. |
-  r4 \breathemoj r8 c,8 c' b a g |
+  a8( g ~ g2.) |
+  r4 r8 \breathemoj c,8 c' b a g |
   \bar "||"
-  %\mark \default
+  \markMoj
   g4. a8 ~ a4 g ~ |
   g2 r4 c, |
   c'4. a8 ~ a g f4 ~ |
@@ -100,21 +88,21 @@ note = \relative c' {
 }
 
 tekst = \lyricmode {
-U -- vje -- ren sam, da ni smrt ni ži -- vot,
-ni an -- đe -- li  ni po -- gla -- var -- stva
+U -- vje -- ren sam, __ da ni smrt ni ži -- vot, __
+ni an -- đe -- li __  ni po -- gla -- var -- stva
 ni sa -- da -- šnjost ni bu -- du -- ćnost
-ne mo -- že nas o -- dvo -- ji -- ti od Bo -- žje lju -- ba -- vi.
+ne mo -- že nas o -- dvo -- ji -- ti __ od Bo -- žje lju -- ba -- vi.
 
-Ni -- šta ne mo -- že nas o -- dvo -- ji -- ti,
-o -- dvo -- ji -- ti od Bo -- žje lju -- ba -- vi
-i -- ska -- za -- ne u I -- su -- su
-na -- šem Go -- spo -- di -- nu.
+Ni -- šta ne mo -- že __ nas o -- dvo -- ji -- ti, __
+o -- dvo -- ji -- ti __ od Bo -- žje lju -- ba -- vi __
+i -- ska -- za -- ne __ u I -- su -- su __
+na -- šem Go -- spo -- di -- nu. __
 
-Tko će nas o -- dvo -- ji -- ti od Kri -- sto -- ve lju -- ba -- vi.
+Tko će nas o -- dvo -- ji -- ti __ od Kri -- sto -- ve lju -- ba -- vi. __
 Ne -- vo -- lja i -- li tu -- ga il' pro -- gon -- stvo i -- li glad,
-si -- ro -- ma -- štvo, strah i -- li  rat.
-U sve -- mu to -- me nad -- mo -- ćno
-po -- bje -- đu -- je -- mo po o -- no -- me
+si -- ro -- ma -- štvo, strah i -- li  rat. __
+U sve -- mu to -- me nad -- mo -- ćno __
+po -- bje -- đu -- je -- mo __ po o -- no -- me
 ko -- ji nas lju -- bi.
 }
 

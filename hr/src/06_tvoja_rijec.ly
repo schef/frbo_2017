@@ -13,57 +13,49 @@
 \include "s02_frbo.ily"
 
 \paper {
- \aFourL
+  \aFourL
 }
 
 note = \relative c' {
-  \once \override Score.MetronomeMark #'outside-staff-priority = #1 
-  \once \override Score.MetronomeMark.Y-offset = #3.5
-  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
-  \once \override Score.MetronomeMark.self-alignment-X = #-1.1
-  \tempo 4 = 116
   \key e \major
-  %    \set Score.markFormatter = #format-mark-box-letters
   
-  %dio A
-    \once \override Score.RehearsalMark.self-alignment-X = #-2
-  \once \override Score.RehearsalMark.Y-offset = #2.8
-  \mark \default
+  %one
+  \markMojPoc
+  \once \override Score.RehearsalMark.X-offset = #9.5
+  \once \override Score.RehearsalMark.Y-offset = #0
   \repeat volta 2 {
-  cis4 cis8 cis cis cis4 dis8 ~ |
-  \once \override Score.RehearsalMark.color = #black
-  \once \override Score.RehearsalMark.self-alignment-X = #LEFT
-  \once \override Score.BarNumber.break-visibility = #all-invisible
-  \once \override Score.RehearsalMark.padding = #4
-  \once \override Score.RehearsalMark.X-offset = #-29
-  \once \override Score.RehearsalMark.Y-offset = #7
-  \rhythmMark #"Swing" \rhyMarkIIEighths \rhyMarkSlurredTriplets
-  dis8 dis ~ dis4 r4 r8 dis8 |
-  e4 e8 e ~ e e4 fis8 ~ |
+    cis4 cis8 cis cis cis4 dis8 ~ |
+    \once \override Score.RehearsalMark.color = #black
+    \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \once \override Score.BarNumber.break-visibility = #all-invisible
+    \once \override Score.RehearsalMark.padding = #4
+    \once \override Score.RehearsalMark.X-offset = #-29.8
+    \once \override Score.RehearsalMark.Y-offset = #3.8
+    \rhythmMark #"Swing" \rhyMarkIIEighths \rhyMarkSlurredTriplets
+    dis8 dis ~ dis4 r4 r8 dis8 |
+    e4 e8 e ~ e e4 fis8( ~ |
   }
   \alternative{
-    {fis4.( e8 ~ e4 dis) |}
+    {fis4. e8 ~ e4 dis) |}
     {fis4. gis8 ~ gis fis e fis | \bar "||"}
   }
-  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
-  \once \override Score.RehearsalMark.self-alignment-X = #0.2
-  \once \override Score.RehearsalMark.Y-offset = #0.3
-  \mark \default
+
+  \markMoj
   \repeat volta 2 {
-  gis4 cis,8 e ~ e fis4( dis8 ~ |
-  dis4.) gis8 ~ gis fis e fis |
-  gis4 cis,8 e ~ e8 fis4( dis8 ~ |
-  dis4.) h'8 ~ h a gis fis |
-  gis4 cis,8 e ~ e fis4 dis8 ~ |
-  dis2 r2 |
+    gis4 cis,8 e ~ e fis4( dis8 ~ |
+    dis4.) gis8 ~ gis fis e fis |
+    gis4 cis,8 e ~ e8 fis4( dis8 ~ |
+    dis4.) h'8 ~ h a gis fis |
+    gis4 cis,8 e ~ e fis4 dis8 ~ |
+    dis2 r2 |
   }
   \alternative{
     {e2 fis4.( dis8 ~ | dis1) |}
     {e2( fis4.) a8( ~ | a8 gis gis2.) | \bar ".|:"}
   }
-    \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
   \once \override Score.RehearsalMark.self-alignment-X = #-1.8
-  \once \override Score.RehearsalMark.Y-offset = #0.3
+  \once \override Score.RehearsalMark.Y-offset = #0.2
   \mark \default
   \repeat volta 2 {
     \once \override Score.StaffSpacing.stem-spacing-correction = #4
@@ -75,45 +67,45 @@ note = \relative c' {
     gis8 fis ~ fis2. |
   }
   \alternative{
-    {h2 h4 a8 gis ~ | gis8 fis4 e8 ~ e( fis4.) |}
+    {h2 h4 a8 gis ~ | gis8 fis4 e8( ~ e fis4.) |}
     {e2 e4 fis8 e ~ | e8 dis4 cis8( ~ cis dis ~ dis4) | \bar "|."}
   }
 }
 
 tekst = \lyricmode {
-\set stanza = "1."
-Ka -- ko će mla -- di  či -- stim sa -- ču -- va -- ti __ put svoj? __
-\tiny (svoj?) 
-Ču -- va -- ju -- ći rije -- či Bo -- žje, __
-ču -- va -- ju -- ći rije -- či Bo -- žje, __
-i svim sr -- cem svo -- jim tra -- že -- ći, __ Bo -- ga. __
-Bo -- ga. __
+  \set stanza = "1."
+  Ka -- ko će mla -- di  či -- stim sa -- ču -- va -- ti __ put svoj? __
+  (svoj?) 
+  Ču -- va -- ju -- ći rije -- či Bo -- žje, __
+  ču -- va -- ju -- ći rije -- či Bo -- žje, __
+  i svim sr -- cem svo -- jim tra -- že -- ći, __ Bo -- ga. __
+  Bo -- ga. __
 
-Tvo -- ja riječ, o Bo -- že, no -- zi je mo -- joj __ svje -- tilj -- ka __
-i svje -- tlo mo -- joj sta -- zi. __ Te -- be ću slije -- di -- ti. __
-Te -- be ću slije -- di -- ti. __
+  Tvo -- ja riječ, o Bo -- že, no -- zi je mo -- joj __ svje -- tilj -- ka __
+  i svje -- tlo mo -- joj sta -- zi. __ Te -- be ću slije -- di -- ti. __
+  Te -- be ću slije -- di -- ti. __
 }
 
 tekstDva = \lyricmode {
   \set stanza = "2."
-Ka -- ko ću, Bo -- že, či -- stim sa -- ču -- va -- ti __ put svoj? __
-\tiny (svoj?)
-Ču -- va -- ju -- ći rije -- či Tvo -- je, __
-ču -- va -- ju -- ći rije -- či Tvo -- je, __
-i svim sr -- cem svo -- jim tra -- že -- ći, __ Te -- be. __
-Te -- be. __
+  Ka -- ko ću, Bo -- že, či -- stim sa -- ču -- va -- ti __ put svoj? __
+  (svoj?)
+  Ču -- va -- ju -- ći rije -- či Tvo -- je, __
+  ču -- va -- ju -- ći rije -- či Tvo -- je, __
+  i svim sr -- cem svo -- jim tra -- že -- ći, __ Te -- be. __
+  Te -- be. __
 }
 
 tekstTri = \lyricmode {
   \set stanza = "3."
-Ta -- ko ću Bo -- že či -- stim sa -- ču -- va -- ti put svoj... __
+  Ta -- ko ću Bo -- že či -- stim sa -- ču -- va -- ti put svoj... __
 }
 
 akordi = \chordmode {
-cis1:m | h | a | gis:7 |
-gis1:m/c | cis:m | h | a | gis:7/c |
-cis1:m | h | a | gis:7/c | a | gis:7/c |
-e1 | h | cis:m | h | a | h | a | h | a | gis:7/c |
+  cis1:m | h | a | gis:7 |
+  gis1:m/c | cis:m | h | a | gis:7/c |
+  cis1:m | h | a | gis:7/c | a | gis:7/c |
+  e1 | h | cis:m | h | a | h | a | h | a | gis:7/c |
 }
 
 \score {
@@ -155,7 +147,7 @@ e1 | h | cis:m | h | a | h | a | h | a | gis:7/c |
   \hspace #11.8
   \huge {
     \rounded-box {
-            \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3 \teeny \italic { chorus } } \teeny \italic {(prima volta)} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3 \teeny \italic { chorus } } \teeny \italic {(prima volta)} }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3 \teeny \italic { chorus } } }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 1 \italic \teeny { verse 3. (fade out on prima volta) } }
     }

@@ -1,11 +1,9 @@
 \version "2.19.49"
 
-%\language "deutsch"
-
 \header {
   title = "JA I MOJ DOM"
   titlex = "Sidro"
-  composer = "Tekst i glazba: Frank Bosch"
+  composer = "Frank Bosch"
   style = "Jošua 24,15"
   broj = "4"
 }
@@ -19,16 +17,10 @@
 note = \relative c' {
   \key d \major
   \time 4/4
-  
-  \once \override Score.MetronomeMark.Y-offset = #3.3
-  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
-  \once \override Score.MetronomeMark.self-alignment-X = #-1.
-  \tempo 4 = 92
+
 
   %one
-    \once \override Score.RehearsalMark.self-alignment-X = #2
-  \once \override Score.RehearsalMark.Y-offset = #3
-  \mark \default
+  \markMoj
   \bar ".|:"
   \repeat volta 2 {
     fis4 r2 e8 d |
@@ -42,11 +34,11 @@ note = \relative c' {
     {d4 r4 r2}
     {d4 r2 fis8 e |}
   }
-  \bar ".|:"
+  
   %two
-      \once \override Score.RehearsalMark.self-alignment-X = #0
-  \once \override Score.RehearsalMark.Y-offset = #3.8
-    \mark \default
+  \markMoj
+  \once \override Score.RehearsalMark.Y-offset = #3.7
+  \bar ".|:"
   \repeat volta 2 {
   e8 d ~ d4 r4 fis8 e |
   e8 d ~ d4 r2 |

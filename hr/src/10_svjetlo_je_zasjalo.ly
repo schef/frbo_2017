@@ -22,7 +22,7 @@ note = \relative c' {
   
   %one
   \once \override Score.RehearsalMark.self-alignment-X = #-1.8
-  \once \override Score.RehearsalMark.Y-offset = #3.4
+  \once \override Score.RehearsalMark.Y-offset = #3.2
   \mark \default
   f8 f f f f4. f8 |
   f8 e d c c2 |
@@ -34,9 +34,7 @@ note = \relative c' {
   g8 f ~ f4 r2 |
   \bar "||"
   
-  \once \override Score.RehearsalMark.self-alignment-X = #0
-  \once \override Score.RehearsalMark.Y-offset = #0.3
-  \mark \default
+  \markMoj
   f4.( e16 f) e4. c8 |
   g'4. g8 f4. c8 |
   a'4. a8 g4. c,8 |
@@ -86,8 +84,10 @@ i vo -- di  nas kroz ži -- vot dok svu -- gdje vla -- da ta -- ma
 akordi = \chordmode {
 f2 f:maj7 | b/f f | f c/e | d:m7 b | f f:maj7 |
 b/f f | d:m c | f1 |
-
-f2 c/e | g:m d:m | f/a c | g:m d:m | f/a b | c d:m | a:m7 d:m | c f |
+\set chordChanges = ##f
+f2 c/e |
+\set chordChanges = ##t
+g:m d:m | f/a c | g:m d:m | f/a b | c d:m | a:m7 d:m | c f |
 
 f2 c/e | f/a b | f d:m | g:m a:7 |
 f2 c/e | f/a b | f d:m | g:m a:7 |
