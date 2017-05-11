@@ -1,0 +1,234 @@
+\version "2.19.49"
+
+%\language "deutsch"
+
+\header {
+  title = "SIDRO MOJE DUŠE"
+  titlex = "Sidro"
+  composer = "Tekst i glazba: Frank Bosch"
+  style = "Heb 6,19"
+  broj = "1"
+}
+
+\include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
+
+altLyric = {
+  \once \teeny
+  \once \override Stem  #'no-stem-extend = ##t
+  \once \override Stem  #'length-fraction = #0.7
+}
+
+note = \relative c' {
+  \key c \major
+  \time 4/4
+  
+  \once \override Score.MetronomeMark.Y-offset = #3.2
+  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.
+  \tempo 4 = 89
+  
+  %\once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-2.4
+  \once \override Score.RehearsalMark.Y-offset = #3.9
+  %zero
+  \mark \default
+  %\tiny
+  c'4 h g e' |
+  g4 f8 e d2 |
+  c4 h8 c a2 |
+  f'4 e d2 |
+  \bar "||"
+  
+  \once \override Score.RehearsalMark.Y-offset = #0.25
+  \once \override Score.RehearsalMark.X-offset = #3.2
+  %one
+  \mark \default
+  \normalsize
+  e,4 g c, d |
+  e4.( d8) d4.
+  \small \parenthesize
+  %\altLyric
+  g,8 |
+  \normalsize
+  e'4 g a g |
+  e4.( d8) d4. g,8 |
+  e'4 g c, d |
+  e4.( d8) d4.
+  \small \parenthesize
+  g,8 |
+  \normalsize
+  e'4 g a g |
+  e4.( d8) d4.
+  %\once \override Score.RehearsalMark.Y-offset = #0.3
+  %\once \override Score.RehearsalMark.X-offset = #3.3
+  \noBreak
+  \once \override Score.RehearsalMark.Y-offset = #0.25
+  %\once \override Staff.BarLine #'extra-spacing-width = #'(-5 . 3)
+  \once \override Staff.BarLine #'extra-spacing-width = #'(-4 . 8)
+  \once \override Staff.BarLine #'color = #red
+  \once \override Staff.BarLine.bar-extent = #'(1.5 . 2.5)
+  \bar "|"
+  \mark \default
+  g,16 g |
+  \bar "||"
+      
+  %two
+  %\mark \default
+      d'4.( c8) c2 |
+      e8( d f4) e4.\(e8\) |
+      f4 f e d8( c) |
+      d4.( c8) c4.
+      \breathemoj
+      e16 g |
+      \bar "||"
+      %three
+      
+      a8 e d( c~c4.) c8 |
+      c8\( d\) e4 d4. e16 g |
+      a8 e d( c~c4.) c8 |
+      a'8\( g\) e4 d4. e16 g |
+      a8 e d( c~c4.) c8 |
+      c8\( d\) e4 d2 |
+      f4 f e d8( c) |
+      d4.( c8) c2 |
+      \bar "|."
+}
+
+tekst = \lyricmode {
+    \repeat unfold 15 { \skip1 }
+    \set stanza = "1."
+    Bo -- že ti si si -- dro, __ _ si -- dro mo -- je du -- še.
+    Kad va -- lo -- vi me pla -- še __ _ i o -- lu -- ja pu -- še.
+    Ti si si -- dro, si -- dro, _ si -- dro mo -- je __ du -- še.
+    Ti si u -- vijek tu __ i dr __ _ -- žiš me,
+    ti si u -- vijek tu __ i dr __ _ -- žiš me.
+    Ti si u -- vijek tu __ i dr __ _ -- žiš me,
+    si -- dro mo -- je __ du -- še.
+}
+
+tekstDva = \lyricmode {
+    \repeat unfold 15 { \skip1 }
+    \set stanza = "2."
+    Ti si svje -- ti -- o -- nik, i svje -- tlo mo -- je du -- še. __ _
+    Kad se ne -- bo smra -- či, i vje -- tar kad za -- pu -- še.
+    Ti si svje -- tlo, svje -- tlo i svje -- ti -- o -- nik du -- še.
+    Ti si u -- vijek tu __ po -- ka -- zu -- ješ put,
+    ti si u -- vijek tu __ po -- ka -- zu -- ješ put.
+    Ti si u -- vijek tu __ po -- ka -- zu -- ješ put,
+    svje -- ti -- o -- nik du -- še.
+}
+
+%tekstTri = \lyricmode {
+
+%}
+
+akordi = \chordmode {
+  %zero
+      a2:m f |
+      c2/e g/h |
+      a2:m f |
+      d4:m f g2 |
+      \break
+      %one
+      c4 c/e f g |
+      f2 g |
+      c4 c/e f g |
+      a2:m g4:sus4 g |
+      c4 c/e f g |
+      f2 g |
+      c4 c/e f g |
+      a2:m g4.:sus4 g8 |
+      %two
+      d2:m7 a:m |
+      g4/d g/h c2 |
+      f2 a:m |
+      g2 c |
+      %three
+      a2:m f |
+      c2 g |
+      a2:m f |
+      c2/e g/h |
+      a2:m f |
+      c2 g |
+      d2:m7 a:m |
+      g2 c |
+}
+
+\score {
+  <<
+    \new ChordNames { \jazzChords \akordi }
+    \new Staff { \note }
+    \addlyrics { \tekst }
+    \addlyrics { \tekstDva }
+%    \addlyrics { \tekstTri }
+  >>
+  \layout {}
+}
+
+\score {
+  <<
+    \new ChordNames { \jazzChords \akordi }
+    \new Staff { \note }
+  >>
+  \midi { \tempo 8 = 174 }
+}
+
+\markup {
+  \vspace #2
+  \smaller \italic Leadsheet: \hspace #2
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 1 \italic \teeny { intro } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny { verse 1. } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 3 \italic \teeny { bridge 1. } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 4 \teeny \italic { chorus 1. } } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 1 \italic \teeny { solo } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny { verse 2. } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 3 \italic \teeny { bridge 2. } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 4 \teeny \italic { chorus 2. } } }
+    }
+  }
+}
+\markup {
+  \hspace #11.8
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) { 4 \teeny \italic { solo } } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \teeny \italic modulation }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 4 \teeny \italic { chorus 1. } } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 4 \teeny \italic { :23-24 } } }
+    }
+  }
+}
+
+%\markup {
+%\vspace #2
+%\smaller \italic Leadsheet: \hspace #2
+%		\huge {
+%		\rounded-box {
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 2.05) \bold { 1 \teeny \italic chorus } }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny vers }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 2.05) \bold { 1 \teeny \italic chorus } }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny vers }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 2.05) \bold { 1 \teeny \italic chorus } }
+%			\line { \pad-to-box #'(0 . 0) #'(0 . 2.05) 3 \teeny \italic bridge }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold { 1 \italic \teeny chorus \bold \tiny ×2 } }
+%		}
+%	}
+%}
+
+%{
+convert-ly (GNU LilyPond) 2.18.2  convert-ly: Processing `'...
+Applying conversion: 2.17.97, 2.18.0
+%}
+
+
+%{
+convert-ly (GNU LilyPond) 2.19.59  convert-ly: Processing `'...
+Applying conversion: 2.19.2, 2.19.7, 2.19.11, 2.19.16, 2.19.22,
+2.19.24, 2.19.28, 2.19.29, 2.19.32, 2.19.40, 2.19.46, 2.19.49
+%}
