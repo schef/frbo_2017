@@ -1,0 +1,123 @@
+Transcribe!,6089,Seventh String Software
+Transcribe!,GTK,8,65,7,S,0
+
+SectionStart,Main
+SoundFileName,11_freue_dich_sehr.mp3,Nix,/home/work/music/transcribe/frbo_2017/de/11_freue_dich_sehr.mp3
+SoundFileInfo,MP3 (MPEG audio layer 3),MP3 (MPEG-1 Layer III\C Variable Bitrate),2,4798533,44100,8009856,181.629388
+Loops,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0
+MarkerNumberContinuously,0
+MarkerAutoSection,0
+MarkerAutoMeasure,0
+MarkerAutoBeat,1
+SectionEnd,Main
+
+SectionStart,View0
+FX_Mix,0,0,100,0
+FX_Tuning,1,1,0,0,0,0,60,50,0
+FX_Transposition,1,1,0,0,0
+FX_EQ,1,0,0,0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+FX_Speed,1,0,100000,0
+FX_Misc,1,0,50
+ShowTextZone,0
+ShowPianoRoll,0
+PianoRollPiano,1
+PianoRollSensitivity,3
+ShowVideo,1
+TVVZoomPercent,100
+TVVVtimeOffset,0.000000
+TVVVideoMirror,0
+TVVVideoVFlip,0
+ShowNavbar,0
+NavBarMeasures,1
+NavBarMeasuresMenu,1
+ShowSpectrum,0
+ShowGuessNotes,0
+ShowGuessChords,0
+ShowDB,0
+ShowTimeLine,0
+FitWholeFile,1
+FitWholeFileHorizZoom,1.000000
+FitWholeFileStartwavpix,0
+LoopMode,1
+ScrollMode,1
+PlayZone,4
+PianoBtmNote,24
+PianoTopNote,96
+PianoRollBtmNote,24
+PianoRollTopNote,96
+TextZoneSplitterPos,0.250000
+PianoRollSplitterPos,0.500000
+ViewSplitterPos,0.700000
+VertProfileZoom,1.000000
+HorizProfileZoom,0.076799
+HorizProfilePos,0
+SelectionLeft,7621732
+SelectionRight,7621732
+SectionEnd,View0
+
+SectionStart,Markers
+Howmany,34
+S,849906,0,A r,0,0:00:19.272
+M,1060709,1,A2,0,0:00:24.052
+M,1271374,1,A3,0,0:00:28.829
+M,1482613,1,A4,0,0:00:33.619
+S,1696807,0,B k,0,0:00:38.476
+M,1909632,1,B2,0,0:00:43.302
+M,2119200,1,B3,0,0:00:48.054
+M,2333410,1,B4,0,0:00:52.912
+S,2544756,0,C r,0,0:00:57.704
+M,2753228,1,C2,0,0:01:02.431
+M,2754683,1,C3,0,0:01:02.464
+M,2966328,1,C4,0,0:01:07.264
+M,3177338,1,C5,0,0:01:12.048
+S,3389767,0,D k,0,0:01:16.865
+M,3601936,1,D2,0,0:01:21.677
+M,3814170,1,D3,0,0:01:26.489
+M,4024731,1,D4,0,0:01:31.264
+S,4237556,0,E r,0,0:01:36.090
+M,4448031,1,E2,0,0:01:40.862
+M,4660093,1,E3,0,0:01:45.671
+M,4872313,1,E4,0,0:01:50.483
+S,5083038,0,F b,0,0:01:55.262
+M,5296569,1,F2,0,0:02:00.104
+M,5507698,1,F3,0,0:02:04.891
+M,5719271,1,F4,0,0:02:09.689
+S,5929523,0,G r,0,0:02:14.456
+M,6142733,1,G2,0,0:02:19.291
+M,6354025,1,G3,0,0:02:24.082
+M,6564493,1,G4,0,0:02:28.855
+S,6776052,0,H r +1,0,0:02:33.652
+M,6988286,1,H2,0,0:02:38.465
+M,7200329,1,H3,0,0:02:43.273
+M,7411690,1,H4,0,0:02:48.066
+S,7621732,0,I r:12,0,0:02:52.828
+SectionEnd,Markers
+
+SectionStart,TextBlocks
+TextBlockFont,80,12,,
+Howmany,0
+SectionEnd,TextBlocks
+
+SectionStart,Loops
+Howmany,20
+L,1,0,0,0,,White,
+L,2,0,0,0,,White,
+L,3,0,0,0,,White,
+L,4,0,0,0,,White,
+L,5,0,0,0,,White,
+L,6,0,0,0,,White,
+L,7,0,0,0,,White,
+L,8,0,0,0,,White,
+L,9,0,0,0,,White,
+L,10,0,0,0,,White,
+L,11,0,0,0,,White,
+L,12,0,0,0,,White,
+L,13,0,0,0,,White,
+L,14,0,0,0,,White,
+L,15,0,0,0,,White,
+L,16,0,0,0,,White,
+L,17,0,0,0,,White,
+L,18,0,0,0,,White,
+L,19,0,0,0,,White,
+L,20,0,0,0,,White,
+SectionEnd,Loops

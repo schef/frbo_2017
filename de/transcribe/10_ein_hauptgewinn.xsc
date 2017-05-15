@@ -1,0 +1,124 @@
+Transcribe!,6089,Seventh String Software
+Transcribe!,GTK,8,65,7,S,0
+
+SectionStart,Main
+SoundFileName,10_ein_hauptgewinn.mp3,Nix,/home/work/music/transcribe/frbo_2017/de/10_ein_hauptgewinn.mp3
+SoundFileInfo,MP3 (MPEG audio layer 3),MP3 (MPEG-1 Layer III\C Variable Bitrate),2,4787277,44100,8675712,196.728163
+Loops,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0
+MarkerNumberContinuously,0
+MarkerAutoSection,0
+MarkerAutoMeasure,0
+MarkerAutoBeat,1
+SectionEnd,Main
+
+SectionStart,View0
+FX_Mix,0,0,100,0
+FX_Tuning,1,1,0,0,0,0,60,50,0
+FX_Transposition,1,1,0,0,0
+FX_EQ,1,0,0,0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+FX_Speed,1,0,100000,0
+FX_Misc,1,0,50
+ShowTextZone,0
+ShowPianoRoll,0
+PianoRollPiano,1
+PianoRollSensitivity,3
+ShowVideo,1
+TVVZoomPercent,100
+TVVVtimeOffset,0.000000
+TVVVideoMirror,0
+TVVVideoVFlip,0
+ShowNavbar,0
+NavBarMeasures,1
+NavBarMeasuresMenu,1
+ShowSpectrum,0
+ShowGuessNotes,0
+ShowGuessChords,0
+ShowDB,0
+ShowTimeLine,0
+FitWholeFile,1
+FitWholeFileHorizZoom,1.000000
+FitWholeFileStartwavpix,0
+LoopMode,1
+ScrollMode,1
+PlayZone,4
+PianoBtmNote,24
+PianoTopNote,96
+PianoRollBtmNote,24
+PianoRollTopNote,96
+TextZoneSplitterPos,0.250000
+PianoRollSplitterPos,0.500000
+ViewSplitterPos,0.700000
+VertProfileZoom,1.000000
+HorizProfileZoom,0.035452
+HorizProfilePos,0
+SelectionLeft,3836201
+SelectionRight,3836201
+SectionEnd,View0
+
+SectionStart,Markers
+Howmany,35
+S,237039,0,A k,0,0:00:05.375
+M,471298,1,A2,0,0:00:10.687
+M,709659,1,A3,0,0:00:16.092
+M,944650,1,A4,0,0:00:21.421
+S,1177310,0,B b,0,0:00:26.696
+M,1416683,1,B2,0,0:00:32.124
+S,1650944,0,C r,0,0:00:37.436
+M,1885090,1,C2,0,0:00:42.746
+M,2117839,1,C3,0,0:00:48.024
+M,2354509,1,C4,0,0:00:53.390
+S,2590481,0,D k,0,0:00:58.741
+M,2823986,1,D2,0,0:01:04.036
+M,3061301,1,D3,0,0:01:09.417
+M,3297210,1,D4,0,0:01:14.767
+S,3530393,0,E b,0,0:01:20.054
+M,3763166,1,E2,0,0:01:25.333
+S,4000544,0,F r,0,0:01:30.715
+M,4236114,1,F2,0,0:01:36.057
+M,4469619,1,F3,0,0:01:41.352
+M,4706692,1,F4,0,0:01:46.728
+S,4944641,0,G k,0,0:01:52.123
+M,5177915,1,G2,0,0:01:57.413
+M,5411281,1,G3,0,0:02:02.705
+M,5648212,1,G4,0,0:02:08.077
+S,5885936,0,H b,0,0:02:13.468
+M,6117020,1,H2,0,0:02:18.708
+S,6351886,0,I r,0,0:02:24.034
+M,6587517,1,I2,0,0:02:29.377
+M,6820072,1,I3,0,0:02:34.650
+M,7059037,1,I4,0,0:02:40.069
+S,7290771,0,J r,0,0:02:45.324
+M,7528098,1,J2,0,0:02:50.705
+M,7764064,1,J3,0,0:02:56.056
+M,7999560,1,J4,0,0:03:01.396
+S,8236961,0,K o,0,0:03:06.779
+SectionEnd,Markers
+
+SectionStart,TextBlocks
+TextBlockFont,80,12,,
+Howmany,0
+SectionEnd,TextBlocks
+
+SectionStart,Loops
+Howmany,20
+L,1,0,0,0,,White,
+L,2,0,0,0,,White,
+L,3,0,0,0,,White,
+L,4,0,0,0,,White,
+L,5,0,0,0,,White,
+L,6,0,0,0,,White,
+L,7,0,0,0,,White,
+L,8,0,0,0,,White,
+L,9,0,0,0,,White,
+L,10,0,0,0,,White,
+L,11,0,0,0,,White,
+L,12,0,0,0,,White,
+L,13,0,0,0,,White,
+L,14,0,0,0,,White,
+L,15,0,0,0,,White,
+L,16,0,0,0,,White,
+L,17,0,0,0,,White,
+L,18,0,0,0,,White,
+L,19,0,0,0,,White,
+L,20,0,0,0,,White,
+SectionEnd,Loops

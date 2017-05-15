@@ -1,0 +1,108 @@
+Transcribe!,6089,Seventh String Software
+Transcribe!,GTK,8,65,7,S,0
+
+SectionStart,Main
+SoundFileName,12_singt_dem_herrn_ein_neues_lied.mp3,Nix,/home/work/music/transcribe/frbo_2017/de/12_singt_dem_herrn_ein_neues_lied.mp3
+SoundFileInfo,MP3 (MPEG audio layer 3),MP3 (MPEG-1 Layer III\C Variable Bitrate),2,3576195,44100,6943104,157.440000
+Loops,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0
+MarkerNumberContinuously,0
+MarkerAutoSection,0
+MarkerAutoMeasure,0
+MarkerAutoBeat,1
+SectionEnd,Main
+
+SectionStart,View0
+FX_Mix,0,0,100,0
+FX_Tuning,1,1,0,0,0,0,60,50,0
+FX_Transposition,1,1,0,0,0
+FX_EQ,1,0,0,0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+FX_Speed,1,0,100000,0
+FX_Misc,1,0,50
+ShowTextZone,0
+ShowPianoRoll,0
+PianoRollPiano,1
+PianoRollSensitivity,3
+ShowVideo,1
+TVVZoomPercent,100
+TVVVtimeOffset,0.000000
+TVVVideoMirror,0
+TVVVideoVFlip,0
+ShowNavbar,0
+NavBarMeasures,1
+NavBarMeasuresMenu,1
+ShowSpectrum,0
+ShowGuessNotes,0
+ShowGuessChords,0
+ShowDB,0
+ShowTimeLine,0
+FitWholeFile,1
+FitWholeFileHorizZoom,1.000000
+FitWholeFileStartwavpix,660
+LoopMode,1
+ScrollMode,1
+PlayZone,4
+PianoBtmNote,24
+PianoTopNote,96
+PianoRollBtmNote,24
+PianoRollTopNote,96
+TextZoneSplitterPos,0.250000
+PianoRollSplitterPos,0.500000
+ViewSplitterPos,0.700000
+VertProfileZoom,1.000000
+HorizProfileZoom,0.088598
+HorizProfilePos,0
+SelectionLeft,639451
+SelectionRight,639451
+SectionEnd,View0
+
+SectionStart,Markers
+Howmany,19
+S,672148,0,A r,0,0:00:15.241
+M,1004267,1,A2,0,0:00:22.772
+S,1340971,0,B k,0,0:00:30.408
+M,1674222,1,B2,0,0:00:37.964
+S,2013892,0,C r,0,0:00:45.666
+M,2341522,1,C2,0,0:00:53.096
+S,2675233,0,D k,0,0:01:00.663
+M,3011559,1,D2,0,0:01:08.289
+S,3343977,0,E r,0,0:01:15.827
+M,3680145,1,E2,0,0:01:23.450
+S,4011891,0,F b,0,0:01:30.973
+M,4346869,1,F2,0,0:01:38.568
+M,4680378,1,F3,0,0:01:46.131
+S,4765742,0,G r +1,0,0:01:48.067
+M,5100558,1,G2,0,0:01:55.659
+S,5435345,0,H r,0,0:02:03.250
+M,5767368,1,H2,0,0:02:10.779
+M,6102175,1,H3,0,0:02:18.371
+M,6436455,1,H4,0,0:02:25.951
+SectionEnd,Markers
+
+SectionStart,TextBlocks
+TextBlockFont,80,12,,
+Howmany,0
+SectionEnd,TextBlocks
+
+SectionStart,Loops
+Howmany,20
+L,1,0,0,0,,White,
+L,2,0,0,0,,White,
+L,3,0,0,0,,White,
+L,4,0,0,0,,White,
+L,5,0,0,0,,White,
+L,6,0,0,0,,White,
+L,7,0,0,0,,White,
+L,8,0,0,0,,White,
+L,9,0,0,0,,White,
+L,10,0,0,0,,White,
+L,11,0,0,0,,White,
+L,12,0,0,0,,White,
+L,13,0,0,0,,White,
+L,14,0,0,0,,White,
+L,15,0,0,0,,White,
+L,16,0,0,0,,White,
+L,17,0,0,0,,White,
+L,18,0,0,0,,White,
+L,19,0,0,0,,White,
+L,20,0,0,0,,White,
+SectionEnd,Loops
