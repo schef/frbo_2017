@@ -22,7 +22,7 @@ note = \relative c'' {
   
   %one
   \once \override Score.RehearsalMark.self-alignment-X = #-1.8
-  \once \override Score.RehearsalMark.Y-offset = #3.9
+  \once \override Score.RehearsalMark.Y-offset = #3.7
   \mark \default
   h,8( fis') d e4 e8 |
   e8( a) g fis4. |
@@ -32,10 +32,9 @@ note = \relative c'' {
   e8( a) g fis4. |
   e8. fis16 e8 d4 cis8 |
   h4. r4. |
+  
+  \markMoj
   \bar ":|."
-    \once \override Score.RehearsalMark.self-alignment-X = #0.4
-  \once \override Score.RehearsalMark.Y-offset = #0.25
-  \mark \default
   a'8. g16 fis e e4 cis8 |
   d4. r8 fis8( g) |
   a8. g16 fis e e4 cis8 |
@@ -53,9 +52,7 @@ note = \relative c'' {
   r2. |
   \bar "||"
   
-      \once \override Score.RehearsalMark.self-alignment-X = #0.4
-  \once \override Score.RehearsalMark.Y-offset = #0.25
-  \mark \default
+  \markMoj
   h8 h h h( cis) d |
   cis4. r4 cis8 |
   cis 4 cis8 cis( d) e |
@@ -131,7 +128,7 @@ g2. | d | a | h:m | g | d | fis:m | h:m |
 }
 
 \markup {
-  \vspace #2
+  \vspace #1.5
   \smaller \italic Leadsheet: \hspace #2
   \huge {
     \rounded-box {

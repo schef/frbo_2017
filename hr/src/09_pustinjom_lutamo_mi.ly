@@ -34,10 +34,9 @@ note = \relative c' {
   f2. r4 |
   f4 f g a8 a ~ |
   a2. r4 |
+  
+  \markMoj
   \bar ":|."
-  \once \override Score.RehearsalMark.self-alignment-X = #1
-  \once \override Score.RehearsalMark.Y-offset = #0.3
-  \mark \default
   \repeat volta 2 {
   d4.( c8) c( b a g) |
   g4.( f16 g ~ g8) a ~ a4 |
@@ -53,7 +52,7 @@ note = \relative c' {
   a4 ~ a16 b16 a16 g) a2 |
   d4. c16 c c8 b ~ b4 |
   r8 c b b ~ b a ~ a c ~ |
-  c8 b b a g( f) ~ f e |
+  c8 b b a g( f ~ f) e |
   }
   \alternative{
     {f8( g) e f ~ f4. e8 |}

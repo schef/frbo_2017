@@ -1,11 +1,9 @@
 \version "2.19.49"
 
-%\language "deutsch"
-
 \header {
   title = "PLANOVE MIRA"
   titlex = "Sidro"
-  composer = "Tekst i glazba: Frank Bosch"
+  composer = "Frank Bosch"
   style = "Jeremija 29,11"
   broj = "3"
 }
@@ -13,26 +11,18 @@
 \include "s02_frbo.ily"
 
 \paper {
- \aFourL
+  \aFourL
 }
 
 note = \relative c' {
   \key f \major
   \time 4/4
-  
-  \once \override Score.MetronomeMark.Y-offset = #3.2
-  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
-  \once \override Score.MetronomeMark.self-alignment-X = #-1.
-  \tempo 4 = 112
-  
 
   %one
   \partial 4*2
   a4 b |
-    %\once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
-  \once \override Score.RehearsalMark.self-alignment-X = #1
-  \once \override Score.RehearsalMark.Y-offset = #3.25
-  \mark \default
+  \markMoj
+  \bar "|"
   c4 f8 f f e ~ e f ~ |
   f2 f4 g
   g8 a ~ a4 a g8 b ~
@@ -53,6 +43,10 @@ note = \relative c' {
   \breathemoj
   a,4 a b |
   \bar "||"
+  
+  %two
+  \markMoj
+  \once \override Score.RehearsalMark.Y-offset = #3.16
   c2 f2 |
   r4 r8 e e2 |
   g4 f8 f ~ f2 ~ |
@@ -73,18 +67,18 @@ note = \relative c' {
 }
 
 tekst = \lyricmode {
-Jer ja znam svo -- je pla -- no -- ve, __
-ko -- je "s va" -- ma na -- mje -- ra -- vam
-ka -- že Bog __ ko -- ji te vo -- li. __
-Jer ja znam svo -- je pla -- no -- ve, __
-ko -- je "s va" -- ma na -- mje -- ra -- vam
-ka -- že Bog __ ko -- ji te vo -- li. __
+  Jer ja znam svo -- je pla -- no -- ve, __
+  ko -- je "s va" -- ma na -- mje -- ra -- vam
+  ka -- že Bog __ ko -- ji te vo -- li. __
+  Jer ja znam svo -- je pla -- no -- ve, __
+  ko -- je "s va" -- ma na -- mje -- ra -- vam
+  ka -- že Bog __ ko -- ji te vo -- li. __
 
-Pla -- no -- ve mi -- ra, a ne ne -- sre -- će, __
-da vam da -- dem bu -- du -- ćnost i na -- du,
-da vam da -- dem bu -- du -- ćnost i na -- du,
-Pla -- no -- ve mi -- ra, a ne ne -- sre -- će, __
-ka -- že __ Bog __ ko -- ji te vo -- li. __
+  Pla -- no -- ve mi -- ra, a ne ne -- sre -- će, __
+  da vam da -- dem bu -- du -- ćnost i na -- du,
+  da vam da -- dem bu -- du -- ćnost i na -- du,
+  Pla -- no -- ve mi -- ra, a ne ne -- sre -- će, __
+  ka -- že __ Bog __ ko -- ji te vo -- li. __
 }
 
 %tekstDva = \lyricmode {
@@ -116,7 +110,7 @@ akordi = \chordmode {
     \new Staff { \note }
     \addlyrics { \tekst }
     %\addlyrics { \tekstDva }
-%    \addlyrics { \tekstTri }
+    %    \addlyrics { \tekstTri }
   >>
   \layout {}
 }

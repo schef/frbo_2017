@@ -41,9 +41,7 @@ note = \relative c'' {
   e4 g8 r g fis |
   g2. |
   \bar "||"
-  \once \override Score.RehearsalMark.self-alignment-X = #0.8
-  \once \override Score.RehearsalMark.Y-offset = #0.3
-  \mark \default
+  \markMoj
   r8 c c c h a ~ |
   a4. r4 d,8 |
   h'4 c8 h( a) g ~ |
