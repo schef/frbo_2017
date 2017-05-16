@@ -2,7 +2,7 @@
 
 % correct markup for "b" and "#" (use symbols from current font...)
 %chordFlat = \markup { \hspace #0.2 \fontsize #-3 \raise #0.7 "!" }
-chordFlat = \markup { \hspace #-0.5 \translate #'(0 . -0.2) \epsfile #X #0.8 #"snizilica.eps" }
+chordFlat = \markup { \hspace #-0.5 \translate #'(0 . -0.2) \epsfile #X #0.4 #"snizilica.eps" }
 chordSharp = \markup { \hspace #0.2 \fontsize #-3 \raise #0.7 "#" }
 
 %definicija znakova
@@ -19,6 +19,7 @@ sest = \markup { \fontsize #-4 \raise #0.8 "6" }
 sedam = \markup { \fontsize #-4 \raise #0.8 "7" }
 devet = \markup { \fontsize #-4 \raise #0.8 "9" }
 trinaest = \markup { \fontsize #-4 \raise #0.8 "13" }
+jedanaest = \markup { \fontsize #-4 \raise #0.8 "11" }
 sus = \markup { \hspace #0.1 \fontsize #-5 \raise #1.16 "sus" }
 
 jazzChordsMusic =
@@ -33,15 +34,17 @@ jazzChordsMusic =
   <c e g a>-\markup { \sest }
   <c es g as>-\markup { \min \chordFlat \sest }
   <c e g b>-\markup { \sedam }
-  <c e g h>-\markup { \maj\sedam }
+  <c e g h>-\markup { \maj \sedam }
   <c es g b>-\markup { \min \sedam }
   <c es ges b>-\markup { \hdim }
   <c f g des'>-\markup { \sus \chordFlat \devet }
+  <c e g b d'>-\markup { \devet }
   <c f g b>-\markup { \sedam \sus \cetri }
   %nonakordi
   <c es g b d'>-\markup { \min \devet }
   <c e fes g b>-\markup { \maj \chordFlat \cetri }
   <c e fis g b>-\markup { \maj \chordSharp \cetri }
+  <c e g b d' f'>-\markup { \jedanaest }
   % Add more as needed
 }
 
@@ -105,7 +108,7 @@ markup))
               (make-hspace-markup 0)
               (markup #:fontsize -2 (make-raise-markup 0.4
                 (make-text-markup
-								(markup #:line (#:override (cons 'font-name "Lilypond JohnSans Medium Pro") #:hspace 0 #:translate (cons 0.1 -0.65) (#:epsfile 0 1.1 "snizilica.eps")))
+								(markup #:line (#:override (cons 'font-name "Lilypond JohnSans Medium Pro") #:hspace 0 #:translate (cons 0.1 -0.65) (#:epsfile 0 1 "snizilica.eps")))
 								)))
             ))
           ;; or handle adding the sharp symbol

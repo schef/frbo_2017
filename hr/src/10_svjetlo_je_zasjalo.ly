@@ -114,7 +114,7 @@ f2 c/e | f/a b | f d:m | g:m a:7 |
 }
 
 \markup {
-  \vspace #2
+  \vspace #1
   \smaller \italic Leadsheet: \hspace #2
   \huge {
     \rounded-box {

@@ -148,7 +148,7 @@ akordi = \chordmode {
 }
 
 \markup {
-  \vspace #2
+  \vspace #1.5
   \smaller \italic Leadsheet: \hspace #2
   \huge {
     \rounded-box {

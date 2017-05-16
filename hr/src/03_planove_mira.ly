@@ -1,7 +1,7 @@
 \version "2.19.49"
 
 \header {
-  title = "PLANOVE MIRA"
+  title = "PLANOVI MIRA"
   titlex = "Sidro"
   composer = "Frank Bosch"
   style = "Jeremija 29,11"
@@ -124,7 +124,7 @@ akordi = \chordmode {
 }
 
 \markup {
-  \vspace #2
+  \vspace #1.5
   \smaller \italic Leadsheet: \hspace #2
   \huge {
     \rounded-box {
@@ -134,7 +134,7 @@ akordi = \chordmode {
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 1 \italic \teeny { verse } }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic { chorus } } }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny { solo  } }
-      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny { modulation } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny { modulation:+1 } }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic { chorus [24] } } }
     }
   }

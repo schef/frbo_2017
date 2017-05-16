@@ -118,7 +118,7 @@ d2. | g | e:m | c | d | g4. d/fis | e2.:m | a:m | d | g4. d/fis | e2.:m | a:m | 
 }
 
 \markup {
-  \vspace #2
+  \vspace #1.5
   \smaller \italic Leadsheet: \hspace #2
   \huge {
     \rounded-box {

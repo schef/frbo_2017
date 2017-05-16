@@ -124,7 +124,7 @@ b2 c | f d:m | b c | b4 c f2 | b4 c f2 |
 }
 
 \markup {
-  \vspace #2
+  \vspace #1.5
   \smaller \italic Leadsheet: \hspace #2
   \huge {
     \rounded-box {

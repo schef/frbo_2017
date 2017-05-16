@@ -78,7 +78,7 @@ Ti!
 akordi = \chordmode {
   %one
   d2 g | d a | d g | d a | d a |
-  h2:m g | h1:m | d2 g | a1 | a |
+  h2:m g | h1:m | d2 g | a1 | \set chordChanges = ##f a |
 }
 
 \score {
@@ -101,7 +101,7 @@ akordi = \chordmode {
 }
 
 \markup {
-  \vspace #2
+  \vspace #1.5
   \smaller \italic Leadsheet: \hspace #2
   \huge {
     \rounded-box {

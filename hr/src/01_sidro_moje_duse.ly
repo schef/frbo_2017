@@ -4,7 +4,7 @@
   title = "SIDRO MOJE DUŠE"
   titlex = "Sidro"
   composer = "Frank Bosch"
-  style = "Heb 6,19"
+  style = "Hebrejima 6,19"
   broj = "1"
 }
 
@@ -146,7 +146,7 @@ akordi = \chordmode {
 }
 
 \markup {
-  \vspace #2
+  \vspace #1.2
   \smaller \italic Leadsheet: \hspace #2
   \huge {
     \rounded-box {
@@ -166,7 +166,7 @@ akordi = \chordmode {
   \huge {
     \rounded-box {
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) { 4 \teeny \italic { solo } } }
-      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \teeny \italic modulation }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \teeny \italic modulation:+1/2 }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 4 \teeny \italic { chorus 1. } } }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 4 \teeny \italic { :23-24 } } }
     }

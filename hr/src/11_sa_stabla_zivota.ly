@@ -13,6 +13,12 @@
 
 \paper {
  \aFourL
+ score-markup-spacing.padding = #6
+ markup-markup-spacing.padding = #0
+ %markup-system-spacing.basic-distance =#0
+ last-bottom-spacing.padding = #0
+ %annotate-spacing = ##t
+ page-count = #1
 }
 
 note = \relative c' {
@@ -140,8 +146,8 @@ akordi = \chordmode {
 }
 
 \markup {
-  \vspace #2
-  \smaller \italic Leadsheet: \hspace #2
+  \vspace #0
+  \smaller \italic Leadsheet: \hspace #0.3
   \huge {
     \rounded-box {
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny { intro [4] } }
@@ -153,14 +159,8 @@ akordi = \chordmode {
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3 \teeny \italic { chorus } } }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 4 \italic \teeny { verse } }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 5 \italic \teeny { ending } }
-    }
-  }
-}
-\markup {
-  \hspace #11.8
-  \huge {
-    \rounded-box {
-      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny { outro [2] } }
+            \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny { outro [2] } }
+
     }
   }
 }

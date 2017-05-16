@@ -35,8 +35,9 @@ myStaffSize = #22
   system-system-spacing.stretchability = #0
   score-system-spacing.stretchability = #5
   print-page-number = ##f
-  last-bottom-spacing.minimum-distance =#0
+  last-bottom-spacing.minimum-distance = #0
   score-markup-spacing.stretchability = #0
+  %score-markup-spacing.padding = #5
 
   %first-page-number = #16
   %print-first-page-number = ##t
