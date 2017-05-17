@@ -29,7 +29,7 @@ note = \relative c' {
   }
   \alternative {
     {d4 fis8( e16 e ~ e4) r4 |}
-    {d4 r2 fis8 e |}
+    {d4 r2 \breathemoj fis8 e |}
   }
   
   %two

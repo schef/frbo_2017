@@ -59,7 +59,7 @@ note = \relative c'' {
   \alternative{
     {e8 d ~ d2. |}
     {\once \override LaissezVibrerTie.head-direction = #1
-     e8\laissezVibrer d ~ d4 h h |}
+     e8\laissezVibrer d ~ d4 \breathemoj h h |}
   }
   \markMoj
   c4. e8 ~ e4 e |

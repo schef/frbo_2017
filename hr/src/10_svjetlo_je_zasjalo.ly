@@ -14,6 +14,9 @@
 
 \paper {
  \aFourL
+ min-systems-per-page = #6
+  system-system-spacing.padding = #2.2 
+
 }
 
 note = \relative c' {
@@ -35,6 +38,7 @@ note = \relative c' {
   \bar "||"
   
   \markMoj
+  \once \override Score.RehearsalMark.Y-offset = #3.8
   f4.( e16 f) e4. c8 |
   g'4. g8 f4. c8 |
   a'4. a8 g4. c,8 |
@@ -45,9 +49,7 @@ note = \relative c' {
   g4.( a8) a2 |
   \bar "||"
   
-  \once \override Score.RehearsalMark.self-alignment-X = #0
-  \once \override Score.RehearsalMark.Y-offset = #4.3
-  \mark \default
+  \markMoj
   f8 c4 f8 g c,16 c ~ c8. b'16 |
   a16 b8. a8 g g f16 f ~ f8. f16 |
   a8 b a g g f f e |
@@ -61,18 +63,18 @@ note = \relative c' {
 
 tekst = \lyricmode {
 Na -- rod ko -- ji je u ta -- mi ho -- di -- o svje -- tlo vi -- dje ve -- li -- ko __
-Nad o -- ni -- ma ko -- ji sta -- nu -- ju u ze -- mlji smr -- tne sje -- ne
+Nad o -- ni -- ma ko -- ji sta -- nu -- ju u ze -- mlji smr -- tne sje -- ne __
    
 %Refr:
 Svje -- tlo je za -- sja -- lo
 jer dije -- te nam se ro -- di -- lo
 I -- me mu je E -- ma -- nu -- el
-Bog je "s na" -- ma
+Bog __ je "s na" -- ma
 
 %Bridge:
-Svje -- tlo je za -- sja -- lo, jer dije -- te nam se ro -- di -- lo.
+Svje -- tlo je za -- sja -- lo, __ jer dije -- te nam se ro -- di -- lo.
 Dok cije -- lo čo -- vje -- ča -- nstvo je u ta -- mi ho -- di -- lo.
-I -- sus na -- še svje -- tlo  za -- u -- vijek je "s na" -- ma
+I -- sus na -- še svje -- tlo __  za -- u -- vijek je "s na" -- ma __
 i vo -- di  nas kroz ži -- vot dok svu -- gdje vla -- da ta -- ma
 }
 

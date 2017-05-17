@@ -32,7 +32,10 @@ note = \relative c' {
   }
   \alternative {
     {d4 r4 r2}
-    {d4 r2 fis8 e |}
+    {d4 r2
+     \breathemoj
+     \once \override Staff.BarLine #'extra-spacing-width = #'(-4 . 0)
+     fis8 e |}
   }
   
   %two

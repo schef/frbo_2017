@@ -37,7 +37,7 @@ note = \relative c' {
   }
   \alternative{
     {fis4. e8 ~ e4 dis) |}
-    {fis4. gis8 ~ gis fis e fis | \bar "||"}
+    {fis4. \breathemoj gis8 ~ gis fis e fis | \bar "||"}
   }
 
   \markMoj

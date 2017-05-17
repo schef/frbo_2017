@@ -13,6 +13,7 @@
 \paper {
   \aFourL
   %annotate-spacing = ##t
+  page-breaking-system-system-spacing.padding = #0
 }
 
 note = \relative c' {

@@ -14,6 +14,8 @@
 
 \paper {
   \aFourL
+  system-system-spacing.padding = #2.5
+  %annotate-spacing = ##t
 }
 
 note = \relative c' {

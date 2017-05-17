@@ -60,7 +60,7 @@ note = \relative c'' {
   a4 d,8 d ~ d e d4 |
   \override ParenthesesItem.font-size = #5
   r4
-  \startParenthesis \parenthesize d4 d
+  \startParenthesis \breathemoj \parenthesize d4 d
   \endParenthesis \parenthesize a' |
   \markMoj
   a4 g g fis8 fis ~ |
