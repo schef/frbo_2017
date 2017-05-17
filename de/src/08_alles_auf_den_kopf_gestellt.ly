@@ -9,6 +9,7 @@
 }
 
 \include "s02_frbo.ily"
+\include "de_footer.ily"
 
 \paper {
   \aFourL

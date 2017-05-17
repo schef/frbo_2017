@@ -1,5 +1,7 @@
 \version "2.19.49"
 
+\include "s02_frbo.ily"
+
 \header {
   title = "GEDANKEN DES FRIEDENS"
   titlex = "Anker"
@@ -8,7 +10,7 @@
   broj = "1"
 }
 
-\include "s02_frbo.ily"
+\include "de_footer.ily"
 
 \paper {
   \aFourL
