@@ -4,7 +4,7 @@
   title = "DER HERR IST MEIN LICHT"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Psalm 27,1+4-5"
+  style = "Psalm 27,1.4–5"
   broj = "2"
 }
 

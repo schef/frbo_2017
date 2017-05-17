@@ -4,7 +4,7 @@
   title = "SINGT DEM HERRN"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Psalm 96,1-3+10"
+  style = "Psalm 96,1–3.10"
   broj = "12"
 }
 

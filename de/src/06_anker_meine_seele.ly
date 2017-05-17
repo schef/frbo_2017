@@ -4,7 +4,7 @@
   title = "ANKER MEINE SEELE"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Hebr. 6,19"
+  style = "Hebrbäer 6,19"
   broj = "6"
 }
 

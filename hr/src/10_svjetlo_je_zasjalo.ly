@@ -6,7 +6,7 @@
   title = "SVJETLO JE ZASJALO"
   titlex = "Sidro"
   composer = "Frank Bosch"
-  style = "Izaija 9,1+5 i 7,14"
+  style = "Izaija 9,1.5; 7,14"
   broj = "10"
 }
 

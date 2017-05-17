@@ -6,7 +6,7 @@
   title = "NICHTS KANN UNS TRENNEN"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Römer 8.35+37-39"
+  style = "Römer 8,35.37–39"
   broj = "7"
 }
 

@@ -4,7 +4,7 @@
   title = "LJUBAV JE"
   titlex = "Sidro"
   composer = "Frank Bosch"
-  style = "1 Kor 13,4-5.13"
+  style = "1. Korinćanima 13,4-5.13"
   broj = "2"
 }
 

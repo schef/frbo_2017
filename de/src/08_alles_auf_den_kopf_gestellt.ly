@@ -4,7 +4,7 @@
   title = "ALLES AUF DEN KOPF GESTELLT"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Matthäus 23,10-12"
+  style = "Matthäus 23,10–12"
   broj = "8"
 }
 

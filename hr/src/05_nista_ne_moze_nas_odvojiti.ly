@@ -6,7 +6,7 @@
   title = "NIŠTA NE MOŽE NAS ODVOJITI"
   titlex = "Sidro"
   composer = "Frank Bosch"
-  style = "Rim 8, 35. 37-39"
+  style = "Rimljanima 8,35.37-39"
   broj = "5"
 }
 

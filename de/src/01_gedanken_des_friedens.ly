@@ -6,7 +6,7 @@
   title = "GEDANKEN DES FRIEDENS"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Jeremiah 29,11"
+  style = "Jeremia 29,11"
   broj = "1"
 }
 

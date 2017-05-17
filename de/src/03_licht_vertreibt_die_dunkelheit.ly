@@ -6,7 +6,7 @@
   title = "LICHT VERTREIBT DIE DUNKELHEIT"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Jesaja 9,1+5-7,14"
+  style = "Jesaja 9,17.14"
   broj = "3"
 }
 

@@ -4,7 +4,7 @@
   title = "DENNOCH BLEIBE ICH STETS AN DIR"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Psalm 73,23-26"
+  style = "Psalm 73,23–26"
   broj = "5"
 }
 
