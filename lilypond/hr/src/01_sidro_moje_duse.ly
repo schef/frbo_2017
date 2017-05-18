@@ -12,6 +12,7 @@
 
 \paper {
   \aFourL
+  min-systems-per-page = #7
 }
 
 note = \relative c' {
@@ -46,6 +47,7 @@ note = \relative c' {
   
   %three
   \markMoj
+  \once \override Score.RehearsalMark.X-offset = 3.4
   d'4.( c8) c2 |
   e8( d f4) e4.\(e8\) |
   f4 f e d8( c) |
@@ -55,6 +57,7 @@ note = \relative c' {
   
   %four
   \markMoj
+  \once \override Score.RehearsalMark.X-offset = 3.3
   a8 e d( c~c4.) c8 |
   c8\( d\) e4 d4. e16 g |
   a8 e d( c~c4.) c8 |
@@ -71,7 +74,7 @@ tekst = \lyricmode {
   \set stanza = "1."
   Bo -- že, ti si si -- dro, __ _ si -- dro mo -- je du -- še.
   Kad va -- lo -- vi me pla -- še __ _ i o -- lu -- ja pu -- še.
-  Ti si si -- dro, si -- dro, _ si -- dro mo -- je __ du -- še.
+  Ti si si -- dro, si -- dro, __ _ si -- dro mo -- je __ du -- še.
   Ti si u -- vijek tu __ i dr __ _ -- žiš me,
   ti si u -- vijek tu __ i dr __ _ -- žiš me.
   Ti si u -- vijek tu __ i dr __ _ -- žiš me,
