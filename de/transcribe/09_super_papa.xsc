@@ -1,0 +1,106 @@
+Transcribe!,6089,Seventh String Software
+Transcribe!,GTK,8,65,7,S,0
+
+SectionStart,Main
+SoundFileName,09_super_papa.mp3,Nix,/home/work/music/transcribe/frbo_2017/de/09_super_papa.mp3
+SoundFileInfo,MP3 (MPEG audio layer 3),MP3 (MPEG-1 Layer III\C Variable Bitrate),2,4888316,44100,9021312,204.564898
+Loops,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0,0:0
+MarkerNumberContinuously,0
+MarkerAutoSection,0
+MarkerAutoMeasure,0
+MarkerAutoBeat,1
+SectionEnd,Main
+
+SectionStart,View0
+FX_Mix,0,0,100,0
+FX_Tuning,1,1,0,0,0,0,60,50,0
+FX_Transposition,1,1,0,0,0
+FX_EQ,1,0,0,0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
+FX_Speed,1,0,100000,0
+FX_Misc,1,0,50
+ShowTextZone,0
+ShowPianoRoll,0
+PianoRollPiano,1
+PianoRollSensitivity,3
+ShowVideo,1
+TVVZoomPercent,100
+TVVVtimeOffset,0.000000
+TVVVideoMirror,0
+TVVVideoVFlip,0
+ShowNavbar,0
+NavBarMeasures,1
+NavBarMeasuresMenu,1
+ShowSpectrum,0
+ShowGuessNotes,0
+ShowGuessChords,0
+ShowDB,0
+ShowTimeLine,0
+FitWholeFile,1
+FitWholeFileHorizZoom,0.250000
+FitWholeFileStartwavpix,0
+LoopMode,1
+ScrollMode,1
+PlayZone,4
+PianoBtmNote,24
+PianoTopNote,96
+PianoRollBtmNote,24
+PianoRollTopNote,96
+TextZoneSplitterPos,0.250000
+PianoRollSplitterPos,0.500000
+ViewSplitterPos,0.700000
+VertProfileZoom,1.000000
+HorizProfileZoom,0.034094
+HorizProfilePos,0
+SelectionLeft,1156734
+SelectionRight,1156734
+SectionEnd,View0
+
+SectionStart,Markers
+Howmany,17
+S,653221,0,A kit 1,0,0:00:14.812
+M,1156734,1,A2,0,0:00:26.230
+S,1659519,0,B kit 2,0,0:00:37.631
+M,2162441,1,B2,0,0:00:49.035
+S,2666194,0,C ref,0,0:01:00.458
+M,3171637,1,C2,0,0:01:11.919
+S,3675080,0,D kit 3,0,0:01:23.335
+M,4177025,1,D2,0,0:01:34.717
+S,4684589,0,E ref,0,0:01:46.227
+M,5186905,1,E2,0,0:01:57.617
+S,5691013,0,F kit 4,0,0:02:09.048
+M,6196221,1,F2,0,0:02:20.504
+S,6701256,0,G ref,0,0:02:31.956
+M,7205569,1,G2,0,0:02:43.392
+S,7708550,0,H ref nana,0,0:02:54.797
+M,8211211,1,H2,0,0:03:06.195
+M,8718565,1,H3,0,0:03:17.700
+SectionEnd,Markers
+
+SectionStart,TextBlocks
+TextBlockFont,80,12,,
+Howmany,0
+SectionEnd,TextBlocks
+
+SectionStart,Loops
+Howmany,20
+L,1,0,0,0,,White,
+L,2,0,0,0,,White,
+L,3,0,0,0,,White,
+L,4,0,0,0,,White,
+L,5,0,0,0,,White,
+L,6,0,0,0,,White,
+L,7,0,0,0,,White,
+L,8,0,0,0,,White,
+L,9,0,0,0,,White,
+L,10,0,0,0,,White,
+L,11,0,0,0,,White,
+L,12,0,0,0,,White,
+L,13,0,0,0,,White,
+L,14,0,0,0,,White,
+L,15,0,0,0,,White,
+L,16,0,0,0,,White,
+L,17,0,0,0,,White,
+L,18,0,0,0,,White,
+L,19,0,0,0,,White,
+L,20,0,0,0,,White,
+SectionEnd,Loops
