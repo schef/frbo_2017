@@ -101,6 +101,7 @@ BoldItalicFont=fonts/JohnSansWhiteBoldItalic.ttf
 \newcommand{\doccolor}{\color{red}}
 \newcommand{\twodigitspacing}{5pt}
 \newcommand{\onedigitspacing}{13.2pt}
+\newcommand{\impresspac}{7pt}
 
 %=========================================
 %   TITLE PAGE CUSTOMIZATION
@@ -135,30 +136,33 @@ BoldItalicFont=fonts/JohnSansWhiteBoldItalic.ttf
 \vspace*{\fill}
 \begin{onehalfspacing}
 \textbf{\textsf{Impressum}}\\
-\vspace{5pt}
+\vspace{10pt}
 Naslov: Sidro\\
+\vspace{\impresspac}
 Izdavač: Udruga Mjuzikids\\
+\vspace{\impresspac}
 Kontakt: www.mjuzikids.com\\
+\vspace{\impresspac}
 Zapis nota: Stjepan i Benjamin Horvat | Lilypond 2.19.59 (http://lilypond.org)\\
+\vspace{\impresspac}
 Korektorica: Monika Schwarz\\
-Design i priprema: Filip i Benjamin Horvat | LaTeX (http://latex-project.org)
-\par
-\begin{singlespacing}
-\par
-Slike: Susanne Stoehr, Mihovil Dorotić i Kornelija Turić Dorotić;\\ Copyright by Sussane Stoehr, Mihovil Dorotić i Kornelija Turić Dorotić\\
-\par
-\end{singlespacing}
+\vspace{\impresspac}
+Design i priprema: Filip i Benjamin Horvat | LaTeX (http://latex-project.org) \\
+\vspace{\impresspac}
+Slike: Susanne Stoehr, Mihovil Dorotić i Kornelija Turić Dorotić;\\
+Copyright by Sussane Stoehr, Mihovil Dorotić i Kornelija Turić Dorotić\\
+\vspace{\impresspac}
 Tekst i glazba: Frank Bosch\\
+\vspace{\impresspac}
 Licenca: Creative Commons—Attribution-ShareAlike 4.0\\
+\vspace{\impresspac}
 Udruga “Mjuzikids” Grigora Viteza 2, 10090 Zagreb, Hrvatska\\
-
-\singlespacing
+\vspace{\impresspac}
 \textit{Svi dijelovi ovog rada su pod zaštitom autorskih prava.\\
 Svaka druga uporaba zahtijeva izričito dopuštenje izdavača.}\\
+\vspace{\impresspac}
+ISMN 979-0-9013650-1-8\\
 
-\onehalfspacing
-ISMN 979-0-9013650-1-8
-\par
 \end{onehalfspacing}
 \end{center}
 
@@ -170,10 +174,16 @@ ISMN 979-0-9013650-1-8
 \renewcommand{\cftsecfont}{\sffamily}
 \renewcommand{\cftsecpagefont}{\sffamily}
 \renewcommand{\cfttoctitlefont}{\rmfamily\fontsize{50}{60}\selectfont}
-\renewcommand{\contentsname}{\rmfamily\hfill\doccolor Kazalo \hfill}
-\renewcommand{\cftaftertoctitle}{\vspace*{2cm}}
+\renewcommand{\contentsname}{
+    {\rmfamily\hfill\doccolor Kazalo \hfill}
+    
+    \vspace*{0.5cm}
+    
+    {\Huge\hfill Pjesmarica "Sidro" -- CD1 \hfill}
+}
+\renewcommand{\cftaftertoctitle}{\vspace*{3cm}}
 \vspace*{1cm}
-{\Large{\tableofcontents}}
+{\large{\tableofcontents}}
 \thispagestyle {empty}
 \end{adjustwidth*}
 
