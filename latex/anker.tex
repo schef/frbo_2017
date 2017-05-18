@@ -1,0 +1,249 @@
+%
+% Body text font is Palatino!
+%
+
+%\documentclass[a4paper,pagesize,10pt,bibtotoc,pointlessnumbers,
+%normalheadings,DIV=9]{scrbook}
+\documentclass[a4paper,twoside]{article}
+
+% twoside, openright
+%\KOMAoptions{DIV=last}
+
+%\usepackage{trajan}
+ 
+%\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%\usepackage[babel,german=guillemets]{csquotes}
+
+%\usepackage[sc]{mathpazo}
+%\linespread{1.05} 
+
+%\usepackage{verbatim} % for comments
+%\usepackage{listings} % for comments
+
+%\setlength{\parindent}{10pt}
+%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
+%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
+
+%\usepackage{blindtext}
+%\newcommand{\q}[1]{>>\textit{#1}<<}
+
+%====paketi koje sam dodal================
+
+\usepackage{fontspec}
+ 
+% JohnSansTextPro
+\setromanfont[
+BoldFont=JohnSansTextBold.ttf,
+ItalicFont=JohnSansTextItalic.ttf,
+BoldItalicFont=JohnSansTextBoldItalic.ttf
+]{JohnSansText.ttf}
+
+% JohnSansMediumPro
+\setsansfont[
+BoldFont=JohnSansMediumProBold.ttf,
+ItalicFont=JohnSansMediumProItalic.ttf,
+BoldItalicFont=JohnSansMediumProBoldItalic.ttf
+]{JohnSansMediumPro.ttf}
+
+% JohnSansWhitePro
+\setmonofont[Scale=1,
+BoldFont=JohnSansWhiteBold.ttf,
+ItalicFont=JohnSansWhiteItalic.ttf,
+BoldItalicFont=JohnSansWhiteBoldItalic.ttf
+]{JohnSansWhite.ttf}
+
+\usepackage{pdfpages}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[RE,LO]{\ttfamily\thepage}
+\renewcommand{\headrulewidth}{0pt} \renewcommand{\footrulewidth}{0pt} 
+\includepdfset{pagecommand=\thispagestyle{fancy}}
+%\setlength{\footrulewidth}{-10mm}
+
+%parametri za brojeve str BEZ geometry paketa
+%\setlength{\footskip}{-26.5mm}
+%\fancyfootoffset[R]{15.5mm}
+%\fancyfootoffset[L]{15.5mm}
+
+%parametri za brojeve str SA geometry paketa
+\setlength{\footskip}{-37.8mm}
+\fancyfootoffset[R]{11.5mm}
+\fancyfootoffset[L]{11.5mm}
+
+%\usepackage{hyperref}
+%\hypersetup{
+%    colorlinks,
+%    citecolor=black,
+%    filecolor=black,
+%    linkcolor=black,
+%    urlcolor=black,
+%    linktoc=all
+%%}
+\usepackage[colorlinks=false,pdfborder={0 0 0},pdfpagelabels]{hyperref}
+%\hypersetup{linktocpage}
+%\usepackage[all]{hypcap}
+
+%\usepackage{titlesec}
+%\usepackage{geometry}
+\usepackage[hmarginratio=1:1]{geometry}
+%=========================================
+
+\title{Pjesmarica prema albumu: Na Putu (2014)}   
+\author{Frank Bosch} 
+\date{\today} 
+
+\begin{document}
+
+%=========================================
+\begin{titlepage}
+		\centering{
+			{\fontsize{60}{60}\selectfont 
+			Liederbuch \vspace{2mm} \par 
+			\fontsize{30}{30}\selectfont
+			\ttfamily\textit{Unterwegs}}
+		}\\
+			
+		\vspace{168mm}
+		\ttfamily\centering{\Large{Frank Bosch}}\\
+		\vspace{\fill}
+		\ttfamily\centering \large{2014}
+\end{titlepage}
+
+%=========================================
+\newpage{}
+\thispagestyle {empty}
+
+\vspace*{2cm}
+
+\begin{center}
+
+	\Large{\parbox{10cm}{
+		\begin{raggedright}
+		{\Large 
+			\textit{Do what you think is interesting, 
+			do something that you think is fun and worthwhile, 
+			because otherwise you won’t do it well anyway.}
+		}
+	
+		\vspace{.5cm}\hfill{---Frank Boš}
+		\end{raggedright}
+	}
+}
+\end{center}
+
+\newpage
+
+
+%=========================================
+%\blinddocument
+\renewcommand\contentsname{Inhalt}
+\tableofcontents
+\newpage
+%\newgeometry{textwidth=16cm,textheight=28cm,voffset=-2cm,bottom=0cm}
+%\section{konjina}
+
+%pjesma 1
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{{\color{red}1}\hspace{7.9pt} DIE GÜTE GOTTES}
+\includepdf[pages={1},noautoscale]{unterwegs/die_gute_gottes.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 2
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{{\color{red}2}\hspace{7.9pt} ICH LASS DICH NICHT LOS}
+\includepdf[pages={1},noautoscale]{unterwegs/ich_lass_dich_nicht_los.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 3
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{{\color{red}3}\hspace{7.9pt} GOTT DU BIST MEIN GOTT}
+\includepdf[pages={1},noautoscale]{unterwegs/gott_du_bist_mein_gott.pdf}
+\end{minipage}
+%\newpage
+\includepdf[pages={2},noautoscale]{unterwegs/gott_du_bist_mein_gott.pdf}
+
+%pjesma 4
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{{\color{red}4}\hspace{7.9pt} ALL EURE SORGE WERFT AUF DEN HERRN}
+\includepdf[pages={1},noautoscale]{unterwegs/all_eure_sorge_werft_auf_den_herrn.pdf}
+\end{minipage}
+\newpage
+%slikica
+%\newpage
+
+%pjesma 5
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{{\color{red}5}\hspace{7.9pt} LASST DIE KINDER ZU MIR KOMMEN}
+\includepdf[pages={1},noautoscale]{unterwegs/lasst_die_kinder_zu_mir_kommen.pdf}
+\end{minipage}
+\newpage
+%\includepdf[pages={2},noautoscale]{na_putu/stat_cut_i_poslusat.pdf}
+
+%pjesma 6
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{{\color{red}6}\hspace{7.9pt} EINFACH SUPER DICH ZU SEHEN}
+\includepdf[pages={1},noautoscale]{unterwegs/einfach_super_dich_zu_sehen.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 7
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{{\color{red}7}\hspace{7.9pt} FÜRCHTE DICH NICHT}
+\includepdf[pages={1},noautoscale]{unterwegs/furchte_dich_nicht.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 8
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{{\color{red}8}\hspace{7.9pt} DEINE GNADE}
+\includepdf[pages={1},noautoscale]{unterwegs/deine_gnade.pdf}
+\end{minipage}
+\newpage
+%slikica
+%\newpage
+
+%pjesma 9
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{{\color{red}9}\hspace{7.9pt} DER HERR BEHÜTE DICH}
+\includepdf[pages={1},noautoscale]{unterwegs/der_herr_behute_dich.pdf}
+\end{minipage}
+\newpage
+%\includepdf[pages={2},noautoscale]{na_putu/kao_jonatan.pdf}
+
+%pjesma 10
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{{\color{red}10}\hspace{2pt} MEIN HAUS SOLL EIN BETHAUS SEIN}
+\includepdf[pages={1},noautoscale]{unterwegs/mein_haus.pdf}
+\end{minipage}
+\includepdf[pages={2},noautoscale]{unterwegs/mein_haus.pdf}
+%\newpage
+%slikica
+%\newpage
+
+
+%=========================================
+%\begin{comment}
+%Just some notes, not visible in pdf.
+%\end{comment}
+
+
+\end{document}
