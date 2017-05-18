@@ -78,7 +78,7 @@ tekst = \lyricmode {
   (svoj?) 
   Ču -- va -- ju -- ći rije -- či Bo -- žje, __
   ču -- va -- ju -- ći rije -- či Bo -- žje, __
-  i svim sr -- cem svo -- jim tra -- že -- ći, __ Bo -- ga. __
+  i svim sr -- cem svo -- jim tra -- že -- ći __ Bo -- ga. __
   Bo -- ga. __
 
   Tvo -- ja riječ, o Bo -- že, no -- zi je mo -- joj __ svje -- tilj -- ka __
@@ -92,13 +92,13 @@ tekstDva = \lyricmode {
   (svoj?)
   Ču -- va -- ju -- ći rije -- či Tvo -- je, __
   ču -- va -- ju -- ći rije -- či Tvo -- je, __
-  i svim sr -- cem svo -- jim tra -- že -- ći, __ Te -- be. __
+  i svim sr -- cem svo -- jim tra -- že -- ći __ Te -- be. __
   Te -- be. __
 }
 
 tekstTri = \lyricmode {
   \set stanza = "3."
-  Ta -- ko ću Bo -- že či -- stim sa -- ču -- va -- ti put svoj... __
+  Ta -- ko ću, Bo -- že, či -- stim sa -- ču -- va -- ti put svoj... __
 }
 
 akordi = \chordmode {

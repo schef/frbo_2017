@@ -90,20 +90,20 @@ note = \relative c' {
 
 tekst = \lyricmode {
 U -- vje -- ren sam, __ da ni smrt ni ži -- vot, __
-ni an -- đe -- li __  ni po -- gla -- var -- stva
-ni sa -- da -- šnjost ni bu -- du -- ćnost
+ni an -- đe -- li, __  ni po -- gla -- var -- stva,
+ni sa -- da -- šnjost, ni bu -- du -- ćnost
 ne mo -- že nas o -- dvo -- ji -- ti __ od Bo -- žje lju -- ba -- vi.
 
 Ni -- šta ne mo -- že __ nas o -- dvo -- ji -- ti, __
 o -- dvo -- ji -- ti __ od Bo -- žje lju -- ba -- vi __
-i -- ska -- za -- ne __ u I -- su -- su __
+i -- ska -- za -- ne __ u I -- su -- su, __
 na -- šem Go -- spo -- di -- nu. __
 
-Tko će nas o -- dvo -- ji -- ti __ od Kri -- sto -- ve lju -- ba -- vi. __
+Tko će nas o -- dvo -- ji -- ti __ od Kri -- sto -- ve lju -- ba -- vi? __
 Ne -- vo -- lja i -- li tu -- ga il' pro -- gon -- stvo i -- li glad,
 si -- ro -- ma -- štvo, strah i -- li  rat. __
 U sve -- mu to -- me nad -- mo -- ćno __
-po -- bje -- đu -- je -- mo __ po o -- no -- me
+po -- bje -- đu -- je -- mo __ po O -- no -- me
 ko -- ji nas lju -- bi.
 }
 

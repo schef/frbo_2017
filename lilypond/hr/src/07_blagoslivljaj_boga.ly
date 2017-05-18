@@ -72,16 +72,16 @@ note = \relative c'' {
 
 tekst = \lyricmode {
 Bla -- go -- sli -- vljaj Bo -- ga, __ du -- šo mo -- ja, __
-I sve što je u me -- ni sve -- to i -- me nje -- go -- vo!
+i sve što je u me -- ni sve -- to i -- me nje -- go -- vo!
 Bla -- go -- sli -- vljaj Bo -- ga, __ du -- šo mo -- ja
-I ne za -- bo -- ra -- vi do -- bro -- čin -- stva nje -- go -- va:
+i ne za -- bo -- ra -- vi do -- bro -- čin -- stva nje -- go -- va:
 
-On ti o -- tpu -- šta __ sve grije -- he tvo -- je __
-On i -- scje -- lju -- je __ sve sla -- bo -- sti tvo -- je
-On ti od pro -- pa -- sti __ ču -- va ži -- vot,
-Kru -- ni te do -- bro -- tom __ i lju -- bav -- lju
-Ži -- vot ti i -- spu -- nja do -- brim
-Ko or -- lu ti se mla -- dost ob -- nav -- lja.
+On ti o -- tpu -- šta __ sve grije -- he tvo -- je. __
+On i -- scje -- lju -- je __ sve sla -- bo -- sti tvo -- je.
+On ti od pro -- pa -- sti __ ču -- va ži -- vot.
+Kru -- ni te do -- bro -- tom __ i lju -- bav -- lju.
+Ži -- vot ti i -- spu -- nja do -- brim.
+K'o or -- lu ti se mla -- dost ob -- nav -- lja.
 }
 
 %tekstDva = \lyricmode {

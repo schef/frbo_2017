@@ -73,21 +73,21 @@ note = \relative c'' {
 }
 
 tekst = \lyricmode {
-Kli -- či Bo -- gu ze -- mljo sva
-Slu -- ži -- te Bo -- gu "s ve" -- se -- ljem
-Pred li -- ce mu do -- đi -- te,  do -- đi -- te!
-"s ra" -- do -- snim kli -- ca -- njem
+Kli -- či Bo -- gu ze -- mljo sva,
+slu -- ži -- te Bo -- gu "s ve" -- se -- ljem.
+Pred li -- ce mu do -- đi -- te,  do -- đi -- te,
+"s ra" -- do -- snim kli -- ca -- njem.
 
-Znaj -- te da je Go -- spod Bog, oh, __ znaj -- te da je Go -- spod Bog
+Znaj -- te da je Go -- spod Bog, oh, __ znaj -- te da je Go -- spod Bog.
 On nas stvo -- ri hej  hej hej hej
 Mi smo nje -- go -- vi hej hej hej hej
 Nje -- gov na -- rod smo	hej hej hej hej
-I o -- vce pa -- še nje -- go -- ve
+i o -- vce pa -- še nje -- go -- ve.
 
 U -- đi -- te "s hva" -- la -- ma, na vra -- ta nje -- go -- va,
-U dvo -- re nje -- go -- ve "s pje" -- sma -- ma  
-Sla -- vi -- te Ga, i -- me mu hva -- li -- te
-Do -- bar je Bog, Do -- bar je Bog
+u dvo -- re nje -- go -- ve. "S pje" -- sma -- ma  
+sla -- vi -- te Ga, i -- me mu hva -- li -- te.
+Do -- bar je Bog, do -- bar je Bog.
 }
 
 %tekstDva = \lyricmode {

@@ -59,17 +59,17 @@ tekst = \lyricmode {
 Ja i moj dom, slu -- _ žit __ _ će -- mo Go -- spo -- du.
 du. 
 
-Ko -- me dru -- gom, Ko -- me dru -- gom?   Ne -- ma Bo -- ga ka -- o što je On!
+Ko -- me dru -- gom, ko -- me dru -- gom?   Ne -- ma Bo -- ga ka -- o što je On!
 Ko -- me
 On!
 }
 
 tekstDva = \lyricmode {
   \set stanza = "2."
-Ja i moj dom, slu -- žit će -- mo te -- be Bo -- _ že.
+Ja i moj dom, slu -- žit će -- mo te -- be, Bo -- _ že.
 že. 
 
-Ko -- me dru -- gom, Ko -- me dru -- gom?   Ne -- ma Bo -- ga ka -- o što si Ti!
+Ko -- me dru -- gom, ko -- me dru -- gom?   Ne -- ma Bo -- ga ka -- o što si Ti!
 Ko -- me
 Ti!
 }

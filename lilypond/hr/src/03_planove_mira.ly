@@ -69,16 +69,16 @@ note = \relative c' {
 tekst = \lyricmode {
   Jer ja znam svo -- je pla -- no -- ve, __
   ko -- je "s va" -- ma na -- mje -- ra -- vam
-  ka -- že Bog __ ko -- ji te vo -- li. __
+  ka -- že Bog, __ ko -- ji te vo -- li. __
   Jer ja znam svo -- je pla -- no -- ve, __
   ko -- je "s va" -- ma na -- mje -- ra -- vam
-  ka -- že Bog __ ko -- ji te vo -- li. __
+  ka -- že Bog, __ ko -- ji te vo -- li. __
 
   Pla -- no -- ve mi -- ra, a ne ne -- sre -- će, __
   da vam da -- dem bu -- du -- ćnost i na -- du,
-  da vam da -- dem bu -- du -- ćnost i na -- du,
+  da vam da -- dem bu -- du -- ćnost i na -- du.
   Pla -- no -- ve mi -- ra, a ne ne -- sre -- će, __
-  ka -- že __ Bog __ ko -- ji te vo -- li. __
+  ka -- že __ Bog, __ ko -- ji te vo -- li. __
 }
 
 %tekstDva = \lyricmode {

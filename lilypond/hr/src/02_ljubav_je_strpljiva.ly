@@ -86,24 +86,24 @@ note = \relative c'' {
 }
 
 tekst = \lyricmode {
-  Lju -- bav _ je str -- plji -- va, __ _ oooooh __
-  Lju -- bav _ je do -- bro -- sti -- va __ mmmmh __
+  Lju -- bav _ je str -- plji -- va, __ _ oooooh. __
+  Lju -- bav _ je do -- bro -- sti -- va, __ mmmmh. __
   Lju -- bav _ _ ne za -- vi -- di, __
   ne hva -- sta se __ i ne o -- ho -- li. __
 
-  Sa -- da o -- sta -- je vje -- ra na -- da
+  Sa -- da o -- sta -- je vje -- ra, na -- da
   i lju -- bav to tro -- je,
   a -- li naj -- ve -- ća __ me -- đu nji -- ma je...
-  Lju -- bav, __ lju -- bav, __ lju -- bav ni -- kad ne pre -- sta -- je.
+  Lju -- bav, __ lju -- bav, __ lju -- bav ni -- kad ne pre -- sta -- je,
 
-  ooh __
+  ooh. __
 
   pre -- sta -- je.
 }
 
 tekstDva = \lyricmode {
-  Lju -- bav ni -- je ne -- pri -- stoj -- na, oooooh __
-  Lju -- bav ne tra -- ži svo __ _ -- je, __ mmmmh __
+  Lju -- bav ni -- je ne -- pri -- stoj -- na, oooooh. __
+  Lju -- bav ne tra -- ži svo __ _ -- je, __ mmmmh. __
   Lju -- bav se ne raz -- dra -- žu -- je, __
   za -- bo -- rav -- lja __ i __ _ pra -- šta zlo.  
 }

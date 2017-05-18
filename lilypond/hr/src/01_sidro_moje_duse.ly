@@ -69,7 +69,7 @@ note = \relative c' {
 tekst = \lyricmode {
   \repeat unfold 15 { \skip1 }
   \set stanza = "1."
-  Bo -- že ti si si -- dro, __ _ si -- dro mo -- je du -- še.
+  Bo -- že, ti si si -- dro, __ _ si -- dro mo -- je du -- še.
   Kad va -- lo -- vi me pla -- še __ _ i o -- lu -- ja pu -- še.
   Ti si si -- dro, si -- dro, _ si -- dro mo -- je __ du -- še.
   Ti si u -- vijek tu __ i dr __ _ -- žiš me,
