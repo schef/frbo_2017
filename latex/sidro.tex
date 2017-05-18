@@ -1,7 +1,3 @@
-%
-% Body text font is Palatino!
-%
-
 %\documentclass[a4paper,pagesize,10pt,bibtotoc,pointlessnumbers,
 %normalheadings,DIV=9]{scrbook}
 \documentclass[a4paper,twoside, svgnames]{article}
@@ -14,23 +10,10 @@
 %\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
-%\usepackage[babel,german=guillemets]{csquotes}
 
-%\usepackage[sc]{mathpazo}
-%\linespread{1.05} 
-
-%\usepackage{verbatim} % for comments
-%\usepackage{listings} % for comments
-
-%\setlength{\parindent}{10pt}
-%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
-%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
-
-%\usepackage{blindtext}
-%\newcommand{\q}[1]{>>\textit{#1}<<}
-
-%====paketi koje sam dodal================
-
+%=========================================
+%   INCLUDE CUSTOM PAKETA
+%=========================================
 \usepackage{fontspec}
  
 % JohnSansTextPro
@@ -93,7 +76,7 @@ BoldItalicFont=fonts/JohnSansWhiteBoldItalic.ttf
 %\usepackage{titlesec}
 %\usepackage{geometry}
 %\usepackage[hmarginratio=1:1]{geometry}
-\usepackage[footskip=34pt, hmarginratio=1:1, left=20mm, bottom=24mm]{geometry}
+\usepackage[footskip=34pt, hmarginratio=1:1, left=20mm, bottom=24mm, top=31.4mm]{geometry}
 \usepackage{graphicx}
 
 %\multicolumn paket za tekst
@@ -106,34 +89,48 @@ BoldItalicFont=fonts/JohnSansWhiteBoldItalic.ttf
 %Paketi za slike u slici...
 \usepackage{mwe,tikz}
 
+%za mijenjanje TOCa
+\usepackage[]{tocloft}
+
+%za namjestanje margina po stranici
+\usepackage{changepage}
+
 %=========================================
+%   CUSTOM VARIABLES
+%=========================================
+\newcommand{\doccolor}{\color{red}}
+\newcommand{\twodigitspacing}{5pt}
+\newcommand{\onedigitspacing}{13.2pt}
 
-%----------------------------------------------------------------------------------------
-%	TITLE PAGE
-%----------------------------------------------------------------------------------------
-
+%=========================================
+%   TITLE PAGE CUSTOMIZATION
+%=========================================
 \newcommand*{\titleTH}{\begingroup
 \centering
 \vspace*{5cm}
-
-{\textcolor{Blue}{\fontsize{60}{70}\selectfont \textrm{\bfseries PJESMARICA}}}\\[\baselineskip]
-
+{\doccolor{\fontsize{60}{70}\selectfont \textrm{\bfseries PJESMARICA}}}\\[\baselineskip]
 {\fontsize{113}{123}\selectfont \textsf{\textbf{SIDRO}}}\par
-
 \vfill % Whitespace between the title block and the publisher
-
 {Zagreb, 2017.}\par % Publisher and logo
-
 %\vspace*{3\baselineskip} % Whitespace at the bottom of the page
 \endgroup}
- 
 
+%#################################################################################
+%   BEGINING OF DOCUMENT
+%#################################################################################
+%=========================================
+%   TITLE PAGE
+%=========================================
 \begin{document}
 \thispagestyle {empty}
 \titleTH
+
+%=========================================
+%   IMPRESSUM
 %=========================================
 \newpage
 %\centering
+\thispagestyle {empty}
 \begin{center}
 \vspace*{\fill}
 \begin{onehalfspacing}
@@ -164,17 +161,26 @@ ISMN 979-0-9013650-1-8
 \par
 \end{onehalfspacing}
 \end{center}
+
+%=========================================
+%   TOC
+%=========================================
 \newpage
+\begin{adjustwidth*}{2cm}{2cm}
+\renewcommand{\cftsecfont}{\sffamily}
+\renewcommand{\cftsecpagefont}{\sffamily}
+\renewcommand{\cfttoctitlefont}{\rmfamily\fontsize{50}{60}\selectfont}
+\renewcommand{\contentsname}{\rmfamily\hfill\doccolor Kazalo \hfill}
+\renewcommand{\cftaftertoctitle}{\vspace*{2cm}}
+\vspace*{1cm}
+{\Large{\tableofcontents}}
+\thispagestyle {empty}
+\end{adjustwidth*}
 
 
 %=========================================
-%\blinddocument
-\renewcommand\contentsname{Kazalo}
-\tableofcontents
-\newpage
-%\newgeometry{textwidth=16cm,textheight=28cm,voffset=-2cm,bottom=0cm}
-%\section{konjina}
-
+%   O PROJEKTU
+%=========================================
 %\test za multicolumn tekst
 \newpage
 \begin{multicols}{2}
@@ -224,11 +230,14 @@ Bog je sa svojom Riječju  to sidro. O tome govore pjesme na ovoj pjesmarici. Ve
      \end{onehalfspacing}
 \end{multicols}
 
+%=========================================
+%   PJESME
+%=========================================
 %pjesma 1
 \newpage
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{\texorpdfstring{{\color{blue}1}\hspace{7.9pt}}{}VREMEPLOV}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor1}\hspace{\onedigitspacing}}{}SIDRO MOJE DUŠE}
 \includepdf[pages={1},noautoscale]{lilypond/hr/src/01_sidro_moje_duse.pdf}
 \end{minipage}
 \newpage
@@ -236,7 +245,7 @@ Bog je sa svojom Riječju  to sidro. O tome govore pjesme na ovoj pjesmarici. Ve
 %pjesma 2
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{\texorpdfstring{{\color{blue}2}\hspace{7.9pt}}{BUDI JAK I HRABAR}}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor2}\hspace{\onedigitspacing}}{}LJUBAV JE STRPLJIVA}
 \includepdf[pages={1},noautoscale]{lilypond/hr/src/02_ljubav_je_strpljiva.pdf}
 \end{minipage}
 \newpage
@@ -244,7 +253,7 @@ Bog je sa svojom Riječju  to sidro. O tome govore pjesme na ovoj pjesmarici. Ve
 %pjesma 3
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{\texorpdfstring{{\color{blue}3}\hspace{7.9pt}}{BAŠ JE FORA ŠTO TE VIDIM}}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor3}\hspace{\onedigitspacing}}{}PLANOVI MIRA}
 \includepdf[pages={1},noautoscale]{lilypond/hr/src/03_planove_mira.pdf}
 \end{minipage}
 \newpage
@@ -252,7 +261,7 @@ Bog je sa svojom Riječju  to sidro. O tome govore pjesme na ovoj pjesmarici. Ve
 %pjesma 4
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{\texorpdfstring{{\color{blue}4}\hspace{7.9pt}}{JEDNA KAP}}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor4}\hspace{\onedigitspacing}}{}JA I MOJ DOM}
 \includepdf[pages={1},noautoscale]{lilypond/hr/src/04_ja_i_moj_dom.pdf}
 \end{minipage}
 \newpage
@@ -288,23 +297,83 @@ Bog je sa svojom Riječju  to sidro. O tome govore pjesme na ovoj pjesmarici. Ve
 %Pokušaj uvrštavanja slike u sliku
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{\texorpdfstring{{\color{blue}5}\hspace{7.9pt}}{STAT', ČUT' I POSLUŠAT'}}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor5}\hspace{\onedigitspacing}}{}NIŠTA NE MOŽE NAS ODVOJITI}
 \includepdf[pages={1},noautoscale]{lilypond/hr/src/05_nista_ne_moze_nas_odvojiti.pdf}
 \end{minipage}
 
 \newpage
 
-\includepdf[pages={1},noautoscale, %
+\includepdf[pages={2},noautoscale, %
     picturecommand={\setlength\unitlength{1cm}%
-         \put(2,5){\includegraphics[scale=1]{images/mihovil/b2_ljubav}}}]%
-         {lilypond/hr/src/06_tvoja_rijec.pdf}
+         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/mihovil/b2_ljubav}}}]%
+         {lilypond/hr/src/05_nista_ne_moze_nas_odvojiti.pdf}
 
+%pjesma 6
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor6}\hspace{\onedigitspacing}}{}TVOJA RIJEČ}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/06_tvoja_rijec.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 7
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor7}\hspace{\onedigitspacing}}{}BLAGOSLIVLJAJ BOGA}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/07_blagoslivljaj_boga.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 8
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor8}\hspace{\onedigitspacing}}{}KLIČI BOGU ZEMLJO SVA}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/08_klici_bogu_zemljo_sva.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 9
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor9}\hspace{\onedigitspacing}}{}PUSTINJOM LUTAMO MI}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/09_pustinjom_lutamo_mi.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 10
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor10}\hspace{\twodigitspacing}}{}SVJETLO JE ZASJALO}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/10_svjetlo_je_zasjalo.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 11
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor11}\hspace{\twodigitspacing}}{}SA STABLA ŽIVOTA}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/11_sa_stabla_zivota.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 12
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor12}\hspace{\twodigitspacing}}{}SUPER TATA}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/12_super_tata.pdf}
+\end{minipage}
+\newpage
+
+%pjesma 13
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\doccolor13}\hspace{\twodigitspacing}}{}U BOGU MOGU}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/13_u_bogu_mogu.pdf}
+\end{minipage}
 
 %=========================================
-%\begin{comment}
-%Just some notes, not visible in pdf.
-%\end{comment}
-
+%   DISKOGRAFIJA
+%=========================================
 %zadnje tri strane - prema Frankovoj želji - fake rekonstrukcija pdfova sa slikama koje ne idu od  ruba do ruba
 \newpage
 
@@ -312,7 +381,7 @@ Bog je sa svojom Riječju  to sidro. O tome govore pjesme na ovoj pjesmarici. Ve
 
 \begin{center}
 \vspace{1cm}
-\includegraphics[width=1\linewidth]{images/cd}
+\includegraphics[width=\linewidth]{images/cd}
 
 \vspace{1cm}
 \textbf{Javite se ako ste zainteresirani da skupina Mjuzikids održi koncert kod vas,
@@ -324,6 +393,9 @@ wenn Sie unsere früheren CDs bzw. Liederbücher bestellen möchten.}
 
 \end{center}
 
+%=========================================
+%   SURADNICI I DRAGI PRIJATELJI
+%=========================================
 \newpage
 
 \section*{SURADNICI I DRAGI PRIJATELJI /}
@@ -333,6 +405,9 @@ wenn Sie unsere früheren CDs bzw. Liederbücher bestellen möchten.}
 \includegraphics[width=1\linewidth]{images/suradnici}\\
 \end{center}
 
+%=========================================
+%   PASTORALNI
+%=========================================
 \newpage
 \begin{center}
 \includegraphics[width=\linewidth]{images/pastorlani}\\
@@ -349,3 +424,6 @@ i dobar naš Bog, koji nam je poslao „pismo s neba„.}
 \end{center}
 
 \end{document}
+%#################################################################################
+%   END OF DOCUMENT
+%#################################################################################
