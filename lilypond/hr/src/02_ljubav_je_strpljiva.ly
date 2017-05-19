@@ -122,8 +122,8 @@ akordi = \chordmode {
   a1:m | g | d:m | c |
   f1 | f | g | g |
   %three
-  a1:m | g |
-  c1 | f | a:m | a:m |
+  a2:m a4:m g4 | g1 |
+  c1 | f | a:m | f |
   c1 | g |
   \set chordChanges = ##f
   g | c |

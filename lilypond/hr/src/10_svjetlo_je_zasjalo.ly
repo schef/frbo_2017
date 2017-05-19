@@ -85,11 +85,11 @@ i vo -- di  nas kroz ži -- vot dok svu -- gdje vla -- da ta -- ma
 
 akordi = \chordmode {
 f2 f:maj7 | b/f f | f c/e | d:m7 b | f f:maj7 |
-b/f f | d:m c | f1 |
+b/f f | d:m c | f4 b/f c2/f |
 \set chordChanges = ##f
 f2 c/e |
 \set chordChanges = ##t
-g:m d:m | f/a c | g:m d:m | f/a b | c d:m | a:m7 d:m | c f |
+g:m d:m | f/a c | g:m d:m | f/a b | c d:m | g:m7 d:m | c f |
 
 f2 c/e | f/a b | f d:m | g:m a:7 |
 f2 c/e | f/a b | f d:m | g:m a:7 |

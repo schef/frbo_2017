@@ -4,8 +4,8 @@
 \header {
   title = "U BOGU MOGU"
   titlex = "Sidro"
-  composer = "Dražen Radman"
-  style = "Frank Bosch"
+  style = "Dražen Radman"
+  composer = "Frank Bosch"
   broj = "13"
   tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst: Dražen Radman; Glazba: Frank Bosch } }
 }

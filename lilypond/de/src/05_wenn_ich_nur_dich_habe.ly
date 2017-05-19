@@ -67,20 +67,21 @@ note = \relative c' {
   r1 |
   
   \markMoj
-  gis1 |
-  r2 gis8 h4. |
-  h4 a a gis8 a\( |
+  \key g \major
+  g1 |
+  r2 g8 h4. |
+  h4 a a g8 a\( |
   a2\) e4 fis |
-  gis4 gis2 gis4 |
-  cis4 h a a ~ |
-  a4 gis2. |
-  r2 gis8 a4. |
+  g4 g2 g4 |
+  c4 h a a ~ |
+  a4 g2. |
+  r2 g8 a4. |
   h2 h4 h8 h ~ |
-  h4. a8 ~ a gis4 a8 ~ |
+  h4. a8 ~ a g4 a8 ~ |
   a1 |
   r2 e8 fis4. |
-  gis4 gis2 gis4 |
-  cis4 h a a ~ |
+  g4 g2 g4 |
+  c4 h a a ~ |
   a1 |
   r1 |
   \bar "|."

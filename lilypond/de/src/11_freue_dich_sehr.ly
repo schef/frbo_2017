@@ -118,7 +118,7 @@ akordi = \chordmode {
   a1:m | a:m | a:m | d1 | \set chordChanges = ##f d |
   \set chordChanges = ##t
   c1 | d | e:m | h:m | a:m | d |
-  g1 | g | c | d | e:m | h:m |
+  g1:maj7 | g | c | d | e:m | h:m |
   a1:m | d | e:m | e:m |
 }
 

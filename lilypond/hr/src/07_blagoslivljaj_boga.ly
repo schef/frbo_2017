@@ -96,7 +96,7 @@ akordi = \chordmode {
 g2. | e:m | g:maj7 | e:m | g4. d | e:m g/h | a2.:m7 | d |
 g2. | e:m | g:maj7 | e:m | g4. d | e:m g/h | a:m7 d | g2. |
 a2.:m | d:9 | g | e:m | c | d | g4. d/fis | e2.:m | a:m |
-d2. | g | e:m | c | d | g4. d/fis | e2.:m | a:m | d | g4. d/fis | e2.:m | a:m | a:m | d | d |
+d2. | g | e:m | c | d | g4. d/fis | e2.:m | a:m | d | g4. d/fis | e2.:m | a:m | a:m | d:sus4 | d |
 }
 
 \score {

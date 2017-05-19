@@ -66,7 +66,7 @@ tekst = \lyricmode {
   Lasst uns nicht eh -- er ruh‘n,
   bis je -- der Mensch be -- kennt,
   dass Je -- sus der Schöp -- fer, Er -- lö -- ser
-  und Re -- tter und Herr a -- ller He -- rren ist. __ 	
+  und Ret -- ter und Herr al -- ler Her -- ren ist. __ 	
 }
 
 tekstDva = \lyricmode {
@@ -82,7 +82,7 @@ tekstDva = \lyricmode {
 
 akordi = \chordmode {
   d2. | a4. h:m | g2. | a |
-  d2. | a4. h:m | g2. | a4. d |
+  d2. | a4. h:m | g4. d4. | a4. d |
   c2. | g | d | d | c | g |
   a2. | a | h:m | fis:m | h:m | fis:m |
   g2. | g | g | a | a |
