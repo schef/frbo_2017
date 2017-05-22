@@ -1,14 +1,15 @@
 \version "2.19.49"
 
+\include "s02_frbo.ily"
+
 \header {
   title = "PLANOVI MIRA"
   titlex = "Sidro"
   composer = "Frank Bosch"
   style = "Jeremija 29,11"
   broj = "3"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Frank Bosch | Jeremia 29,11 } }
 }
-
-\include "s02_frbo.ily"
 
 \paper {
   \aFourL

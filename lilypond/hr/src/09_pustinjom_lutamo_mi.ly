@@ -1,6 +1,7 @@
 \version "2.19.49"
 
 %\language "deutsch"
+\include "s02_frbo.ily"
 
 \header {
   title = "PUSTINJOM LUTAMO MI"
@@ -8,9 +9,8 @@
   composer = "Frank Bosch"
   style = "Sandra Markov"
   broj = "9"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst: Sandra Markov; Glazba: Frank Bosch } }
 }
-
-\include "s02_frbo.ily"
 
 \paper {
  \aFourL

@@ -2,15 +2,16 @@
 
 %\language "deutsch"
 
+\include "s02_frbo.ily"
+
 \header {
   title = "TVOJA RIJEČ"
   titlex = "Sidro"
   composer = "Frank Bosch"
   style = "Psalam  119,9.105"
   broj = "6"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Frank Bosch | Psalm 119,9.105 } }
 }
-
-\include "s02_frbo.ily"
 
 \paper {
   \aFourL

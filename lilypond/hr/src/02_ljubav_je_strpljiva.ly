@@ -1,14 +1,15 @@
 \version "2.19.49"
 
+\include "s02_frbo.ily"
+
 \header {
-  title = "LJUBAV JE"
+  title = "LJUBAV JE STRPLJIVA"
   titlex = "Sidro"
   composer = "Frank Bosch"
   style = "1. Korinćanima 13,4-5.13"
   broj = "2"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Frank Bosch | 1. Korinther 13,4-5.13 } }
 }
-
-\include "s02_frbo.ily"
 
 \paper {
   \aFourL

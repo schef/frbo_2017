@@ -1,6 +1,7 @@
 \version "2.19.49"
 
 %\language "deutsch"
+\include "s02_frbo.ily"
 
 \header {
   title = "SVJETLO JE ZASJALO"
@@ -8,9 +9,8 @@
   composer = "Frank Bosch"
   style = "Izaija 9,1.5; 7,14"
   broj = "10"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Frank Bosch | Jesaja 9,1.5; 7,14} }
 }
-
-\include "s02_frbo.ily"
 
 \paper {
  \aFourL

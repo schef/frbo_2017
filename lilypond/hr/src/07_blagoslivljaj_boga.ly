@@ -2,15 +2,16 @@
 
 %\language "deutsch"
 
+\include "s02_frbo.ily"
+
 \header {
   title = "BLAGOSLIVLJAJ BOGA"
   titlex = "Sidro"
   composer = "Frank Bosch"
   style = "Psalam 103,1-5"
   broj = "7"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Frank Bosch | Psalm 103,1-5} }
 }
-
-\include "s02_frbo.ily"
 
 \paper {
  \aFourL

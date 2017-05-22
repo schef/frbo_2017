@@ -1,6 +1,7 @@
 \version "2.19.49"
 
 %\language "deutsch"
+\include "s02_frbo.ily"
 
 \header {
   title = "KLIČI BOGU ZEMLJO SVA"
@@ -8,9 +9,8 @@
   composer = "Frank Bosch"
   style = "Psalam 100"
   broj = "8"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Frank Bosch | Psalm 100 } }
 }
-
-\include "s02_frbo.ily"
 
 \paper {
  \aFourL

@@ -1,20 +1,21 @@
 \version "2.19.49"
 
+\include "s02_frbo.ily"
+
 \header {
   title = "SIDRO MOJE DUŠE"
   titlex = "Sidro"
   composer = "Frank Bosch"
   style = "Hebrejima 6,19"
   broj = "1"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Frank Bosch | Hebrbäer 6,19 } }
 }
-
-\include "s02_frbo.ily"
 
 \paper {
   \aFourL
   %min-systems-per-page = #7
   %annotate-spacing = ##t
-  system-system-spacing.padding = #3.2 
+  system-system-spacing.padding = #3.2
 }
 
 note = \relative c' {
