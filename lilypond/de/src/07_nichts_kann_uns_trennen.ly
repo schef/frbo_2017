@@ -1,6 +1,7 @@
 \version "2.19.49"
 
 %\language "deutsch"
+\include "s02_frbo.ily"
 
 \header {
   title = "NICHTS KANN UNS TRENNEN"
@@ -8,9 +9,9 @@
   composer = "Frank Bosch"
   style = "Römer 8,35.37–39"
   broj = "7"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Text und Musik: Frank Bosch | Rimljanima 8,35.37–39 } }
 }
 
-\include "s02_frbo.ily"
 \include "de_footer.ily"
 
 \paper {

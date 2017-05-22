@@ -1,6 +1,7 @@
 \version "2.19.49"
 
 %\language "deutsch"
+\include "s02_frbo.ily"
 
 \header {
   title = "LICHT VERTREIBT DIE DUNKELHEIT"
@@ -8,9 +9,9 @@
   composer = "Frank Bosch"
   style = "Jesaja 9,17.14"
   broj = "3"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Text und Musik: Frank Bosch | Izaija 9,17.14 } }
 }
 
-\include "s02_frbo.ily"
 \include "de_footer.ily"
 
 \paper {

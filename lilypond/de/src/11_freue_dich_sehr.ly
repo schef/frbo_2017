@@ -1,14 +1,16 @@
 \version "2.19.49"
 
+\include "s02_frbo.ily"
+
 \header {
   title = "FREUE DICH SEHR"
   titlex = "Anker"
   composer = "Frank Bosch"
   style = "Sacharja 9,9"
   broj = "11"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Text und Musik: Frank Bosch | Zaharija 9,9 } }
 }
 
-\include "s02_frbo.ily"
 \include "de_footer.ily"
 
 \paper {

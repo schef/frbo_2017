@@ -1,4 +1,5 @@
 \version "2.19.49"
+\include "s02_frbo.ily"
 
 \header {
   title = "EIN HAUPTGEWINN"
@@ -6,9 +7,9 @@
   composer = "Frank Bosch"
   style = "Psalm 139,14"
   broj = "10"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Text und Musik: Frank Bosch | Psalam 139,14 } }
 }
 
-\include "s02_frbo.ily"
 \include "de_footer.ily"
 
 \paper {

@@ -8,6 +8,7 @@
   composer = "Frank Bosch"
   style = "Jeremia 29,11"
   broj = "1"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Text und Musik: Frank Bosch | Jeremija 29,11 } }
 }
 
 \include "de_footer.ily"

@@ -1,14 +1,16 @@
 \version "2.19.49"
 
+\include "s02_frbo.ily"
+
 \header {
   title = "DENNOCH BLEIBE ICH STETS AN DIR"
   titlex = "Anker"
   composer = "Frank Bosch"
   style = "Psalm 73,23–26"
   broj = "5"
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Text und Musik: Frank Bosch | Psalam 73,23–26 } }
 }
 
-\include "s02_frbo.ily"
 \include "de_footer.ily"
 
 \paper {
