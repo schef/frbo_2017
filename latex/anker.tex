@@ -1,60 +1,43 @@
-%
-% Body text font is Palatino!
-%
-
 %\documentclass[a4paper,pagesize,10pt,bibtotoc,pointlessnumbers,
 %normalheadings,DIV=9]{scrbook}
-\documentclass[a4paper,twoside]{article}
-
+\documentclass[a4paper,twoside, svgnames]{article}
 % twoside, openright
 %\KOMAoptions{DIV=last}
 
 %\usepackage{trajan}
  
 %\usepackage[ngerman]{babel}
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
-%\usepackage[babel,german=guillemets]{csquotes}
 
-%\usepackage[sc]{mathpazo}
-%\linespread{1.05} 
-
-%\usepackage{verbatim} % for comments
-%\usepackage{listings} % for comments
-
-%\setlength{\parindent}{10pt}
-%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
-%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
-
-%\usepackage{blindtext}
-%\newcommand{\q}[1]{>>\textit{#1}<<}
-
-%====paketi koje sam dodal================
-
+%=========================================
+%   INCLUDE CUSTOM PAKETA
+%=========================================
 \usepackage{fontspec}
  
 % JohnSansTextPro
 \setromanfont[
-BoldFont=JohnSansTextBold.ttf,
-ItalicFont=JohnSansTextItalic.ttf,
-BoldItalicFont=JohnSansTextBoldItalic.ttf
+BoldFont=fonts/JohnSansTextBold.ttf,
+ItalicFont=fonts/JohnSansTextItalic.ttf,
+BoldItalicFont=fonts/JohnSansTextBoldItalic.ttf
 ]{JohnSansText.ttf}
 
 % JohnSansMediumPro
 \setsansfont[
-BoldFont=JohnSansMediumProBold.ttf,
-ItalicFont=JohnSansMediumProItalic.ttf,
-BoldItalicFont=JohnSansMediumProBoldItalic.ttf
+BoldFont=fonts/JohnSansMediumProBold.ttf,
+ItalicFont=fonts/JohnSansMediumProItalic.ttf,
+BoldItalicFont=fonts/JohnSansMediumProBoldItalic.ttf
 ]{JohnSansMediumPro.ttf}
 
 % JohnSansWhitePro
 \setmonofont[Scale=1,
-BoldFont=JohnSansWhiteBold.ttf,
-ItalicFont=JohnSansWhiteItalic.ttf,
-BoldItalicFont=JohnSansWhiteBoldItalic.ttf
+BoldFont=fonts/JohnSansWhiteBold.ttf,
+ItalicFont=fonts/JohnSansWhiteItalic.ttf,
+BoldItalicFont=fonts/JohnSansWhiteBoldItalic.ttf
 ]{JohnSansWhite.ttf}
 
+\usepackage{setspace}
 \usepackage{pdfpages}
 \usepackage{xcolor}
 \usepackage{fancyhdr}
@@ -62,7 +45,7 @@ BoldItalicFont=JohnSansWhiteBoldItalic.ttf
 
 \fancyhead{}
 \fancyfoot{}
-\fancyfoot[RE,LO]{\ttfamily\thepage}
+\fancyfoot[RE,LO]{\rmfamily\thepage}
 \renewcommand{\headrulewidth}{0pt} \renewcommand{\footrulewidth}{0pt} 
 \includepdfset{pagecommand=\thispagestyle{fancy}}
 %\setlength{\footrulewidth}{-10mm}
@@ -73,9 +56,9 @@ BoldItalicFont=JohnSansWhiteBoldItalic.ttf
 %\fancyfootoffset[L]{15.5mm}
 
 %parametri za brojeve str SA geometry paketa
-\setlength{\footskip}{-37.8mm}
-\fancyfootoffset[R]{11.5mm}
-\fancyfootoffset[L]{11.5mm}
+%\setlength{\footskip}{-38mm}
+\fancyfootoffset[R]{4mm}
+\fancyfootoffset[L]{4mm}
 
 %\usepackage{hyperref}
 %\hypersetup{
@@ -92,158 +75,472 @@ BoldItalicFont=JohnSansWhiteBoldItalic.ttf
 
 %\usepackage{titlesec}
 %\usepackage{geometry}
-\usepackage[hmarginratio=1:1]{geometry}
+%\usepackage[hmarginratio=1:1]{geometry}
+\usepackage[footskip=34pt, hmarginratio=1:1, left=20mm, bottom=24mm, top=31.4mm]{geometry}
+\usepackage{graphicx}
+
+%\multicolumn paket za tekst
+\usepackage{multicol}
+\usepackage{wrapfig}
+\setlength{\columnsep}{1cm}
+\usepackage{ragged2e}
+\usepackage{caption}
+
+
+%za mijenjanje TOCa
+\usepackage[]{tocloft}
+
+%za namjestanje margina po stranici
+\usepackage{changepage}
+
 %=========================================
+%   CUSTOM VARIABLES
+%=========================================
+\newcommand{\doccolor}{\color{sidro}}
+\newcommand{\twodigitspacing}{5pt}
+\newcommand{\onedigitspacing}{11.8pt}
+\newcommand{\impresspac}{7pt}
+\newcommand{\rednifont}{\sffamily}
+\definecolor{sidro}{RGB}{54,149,163}
+\definecolor{anker}{RGB}{226,45,98}
 
-\title{Pjesmarica prema albumu: Na Putu (2014)}   
-\author{Frank Bosch} 
-\date{\today} 
+%=========================================
+%   TITLE PAGE CUSTOMIZATION
+%=========================================
+\newcommand*{\titleTH}{\begingroup
+\vspace*{5cm}
+\begin{center}
+{{\fontsize{50}{60}\selectfont
+\textsf{\textcolor{anker}{ANKER} \textcolor{sidro}{SIDRO}}}}\\
+\vspace*{0.3cm}
+{\fontsize{70}{80}\selectfont
+\itshape\textrm{Liederbuch}}
+\vfill % Whitespace between the title block and the publisher
+\includegraphics[width=0.2\linewidth]{images/mjuzikids_logo}\\
+\vspace*{0.5cm}
+{Zagreb, 2017.}\par % Publisher and logo
+%\vspace*{3\baselineskip} % Whitespace at the bottom of the page
+\end{center}
+\endgroup}
 
+%#################################################################################
+%   BEGINING OF DOCUMENT
+%#################################################################################
+%=========================================
+%   TITLE PAGE
+%=========================================
 \begin{document}
-
-%=========================================
-\begin{titlepage}
-		\centering{
-			{\fontsize{60}{60}\selectfont 
-			Liederbuch \vspace{2mm} \par 
-			\fontsize{30}{30}\selectfont
-			\ttfamily\textit{Unterwegs}}
-		}\\
-			
-		\vspace{168mm}
-		\ttfamily\centering{\Large{Frank Bosch}}\\
-		\vspace{\fill}
-		\ttfamily\centering \large{2014}
-\end{titlepage}
-
-%=========================================
-\newpage{}
 \thispagestyle {empty}
+\titleTH
 
-\vspace*{2cm}
+%=========================================
+%   IMPRESSUM
+%=========================================
+\newpage
+%\centering
+\thispagestyle {empty}
+\begin{center}
+\vspace*{\fill}
+\begin{onehalfspacing}
+\textbf{\textsf{Impressum}}\\
+\vspace{10pt}
+Naslov: Sidro Anker Pjesmarica\\
+\vspace{\impresspac}
+Izdavač: Udruga Mjuzikids\\
+\vspace{\impresspac}
+Kontakt: www.mjuzikids.com\\
+\vspace{\impresspac}
+Zapis nota: Stjepan i Benjamin Horvat | Lilypond 2.19.59 (http://lilypond.org)\\
+\vspace{\impresspac}
+Design i priprema: Filip i Benjamin Horvat | LaTeX (http://latex-project.org) \\
+\vspace{\impresspac}
+Slike: Susanne Stoehr, Mihovil Dorotić i Kornelija Turić Dorotić;\\
+Copyright by Sussane Stoehr, Mihovil Dorotić i Kornelija Turić Dorotić\\
+\vspace{\impresspac}
+Tekst i glazba: Frank Bosch\\
+\vspace{\impresspac}
+Licenca: Creative Commons—Attribution-ShareAlike 4.0\\
+\vspace{\impresspac}
+Udruga “Mjuzikids” Grigora Viteza 2, 10090 Zagreb, Hrvatska\\
+\vspace{\impresspac}
+\textit{Svi dijelovi ovog rada su pod zaštitom autorskih prava.\\
+Svaka druga uporaba zahtijeva izričito dopuštenje izdavača.}\\
+\vspace{\impresspac}
+\vspace{\impresspac}
 
+\fbox{\begin{minipage}{9cm}
+\begin{justify}
+CIP zapis dostupan u računalnome katalogu
+Nacionalne i sveučilišne knjižnice u Zagrebu
+pod brojem 886683.\\
+Bosch, Frank\\
+Sidro Anker Pjesmarica / Frank
+Bosch; [slike Susanne Stoehr, Mihovil Dorotić i Kornelija Turić Dorotić]; Zagreb:
+Udruga Mjuzikids, 2017. - 68 str. : ilustr.; 29,7
+cm.\\
+ISMN 979-0-9013650-1-8\\
+000886683
+\end{justify}
+\end{minipage}}
+
+\end{onehalfspacing}
+\end{center}
+
+%=========================================
+%   TOC
+%=========================================
+\newpage
+\begin{adjustwidth*}{2cm}{2cm}
+\renewcommand{\cftsecfont}{\rmfamily}
+\renewcommand{\cftsecpagefont}{\sffamily}
+\renewcommand{\cfttoctitlefont}{\rmfamily\fontsize{50}{60}\selectfont}
+\renewcommand{\contentsname}{
+    {\rmfamily\hfill\doccolor Kazalo \hfill}
+    
+    \vspace*{0.5cm}
+    
+    {\Huge\hfill Pjesmarica \textit{Sidro} -- CD1 \hfill}
+}
+\renewcommand{\cftaftertoctitle}{\vspace*{3cm}}
+\vspace*{1cm}
+{\large{\tableofcontents}}
+\thispagestyle {empty}
+\end{adjustwidth*}
+
+
+%=========================================
+%   O PROJEKTU
+%=========================================
+%\test za multicolumn tekst
+\newpage
+\begin{multicols}{2}
+[
+\section*{O PROJEKTU}
+%All human things are subject to decay. And when fate summons, Monarchs must obey.
+]
+    \begin{onehalfspacing}
+        \begin{justify}
+\textbf{SIDRO} / Wer jemals an der kroatischen Küste eine richtige Bora miterlebt hat, diese plötzlich aufkommenden Sturmböen, versteht besonders gut, wie wichtig ein fester, schwerer Anker
+für die Schiffe ist. Die Bora wirbelt alles durcheinander, was nicht festgemacht ist.
+Manchmal empfinden wir schwere Ereignisse in unserem Leben wie eine Bora. Noch öfter
+sind wir einfach hektisch, rastlos und getrieben in dieser schnelllebigen Zeit.
+Wo ist der Anker, der uns festhält? Gott mit seinem Wort ist dieser Anker. Davon erzählen die Lieder dieses Liederbuchs. Fast alle Lieder
+sind vertonte Bibelverse mit wunderschönen Melodien.
+Hören sie auch die gleichnamige CD.
+
+%Frank i Angelika
+%\begin{wrapfigure}{L}{1\linewidth}
+\begin{center}
+\includegraphics[width=\linewidth]{images/IMG_1216}
+\captionof*{figure}{Frank i Angelika Bosch}
+%\end{wrapfigure}
+\end{center}
+\textbf{Susanne Stoehr} Die Künstlerin Susanne Stoehr ist Mitarbeiterin der DMG in Italien. Sie schreibt: “Während einer
+längeren Krankheitszeit beschäftigte ich mich intensiv mit Gottes Wort. Im Versuch, das zu begreif-
+en, was ich zu verstehen meinte, malte ich meine Eindrücke in Farben und schrieb sie in Worten
+auf. Seit mehr als 10 Jahren entstehen immer neue Bilder und Texte. Sie sind ein Spiegel dessen,
+was ich um mich, vor allem im Beobachten der Schöpfung, entdecke. Ich erlebe immer wieder, dass
+Menschen sich in meinen Bildern und Texten tief innen wiederfinden, und berührt werden.”
+
+\textit{Susanne Stoehr, Via Matteotti 6, 20846 Macerio/MB, Italia, E-mail: susanne.stoehr@gmail.com}
+
+%Sidro
+\begin{center}
+\includegraphics[width=\linewidth]{images/mihovil/a1_sidro}
+\captionof*{figure}{Sidro, Mihovil Dorotić}
+\end{center}
+
+\vfill
+
+%Mihovil Dorotić
+%\begin{wrapfigure}{l}{1\linewidth}
+\begin{center}
+\includegraphics[width=\linewidth]{images/CAM04603}
+\captionof*{figure}{Mihovil Dorotić, akademski slikar}
+\end{center}
+
+%\end{wrapfigure}
+
+
+        \end{justify}
+     \end{onehalfspacing}
+\end{multicols}
+
+%=========================================
+%   PJESME
+%=========================================
+%pjesma 1
+\newpage
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor1.}\hspace{\onedigitspacing}}{}SIDRO MOJE DUŠE \ttfamily(Heb 6,19)}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/01_sidro_moje_duse.pdf}
+\end{minipage}
+
+\newpage
+\begin{center}
+\includegraphics[width=0.9\linewidth]{images/mihovil/a1_sidro}
+\end{center}
+
+%pjesma 2
+\newpage
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor2.}\hspace{\onedigitspacing}}{}LJUBAV JE STRPLJIVA \ttfamily(1. Kor 13,4-5.13)}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/02_ljubav_je_strpljiva.pdf}
+\end{minipage}
+
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/mihovil/b2_ljubav}\\
+\vspace*{1cm}
+\includegraphics[width=\linewidth]{images/mihovil/pejza_10}
+\end{center}
+
+%pjesma 3
+\newpage
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor3.}\hspace{\onedigitspacing}}{}PLANOVI MIRA \ttfamily(Jr 29,11)}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/03_planove_mira.pdf}
+\end{minipage}
+
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/mihovil/c3_planovemira}
+
+\vspace*{1mm}
 \begin{center}
 
-	\Large{\parbox{10cm}{
-		\begin{raggedright}
-		{\Large 
-			\textit{Do what you think is interesting, 
-			do something that you think is fun and worthwhile, 
-			because otherwise you won’t do it well anyway.}
+	\Large{\parbox{\linewidth}{
+		\begin{center}
+		{\Large
+		\texttt{
+			\textit{"'Jer ja znam svoje naume koje s vama namjeravam' – riječ je Jahvina – 'naume mira, a ne nesreće: da vam dadnem budućnost i nadu.'"}
+			}
 		}
-	
-		\vspace{.5cm}\hfill{---Frank Boš}
-		\end{raggedright}
+		\end{center}
+		\begin{center}
+		{\Large
+			\texttt{{\textemdash Jeremija 29,11}}
+		}
+		\end{center}
 	}
 }
 \end{center}
 
-\newpage
+\end{center}
 
-
-%=========================================
-%\blinddocument
-\renewcommand\contentsname{Inhalt}
-\tableofcontents
-\newpage
-%\newgeometry{textwidth=16cm,textheight=28cm,voffset=-2cm,bottom=0cm}
-%\section{konjina}
-
-%pjesma 1
-\phantomsection
-\begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{{\color{red}1}\hspace{7.9pt} DIE GÜTE GOTTES}
-\includepdf[pages={1},noautoscale]{unterwegs/die_gute_gottes.pdf}
-\end{minipage}
-\newpage
-
-%pjesma 2
-\phantomsection
-\begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{{\color{red}2}\hspace{7.9pt} ICH LASS DICH NICHT LOS}
-\includepdf[pages={1},noautoscale]{unterwegs/ich_lass_dich_nicht_los.pdf}
-\end{minipage}
-\newpage
-
-%pjesma 3
-\phantomsection
-\begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{{\color{red}3}\hspace{7.9pt} GOTT DU BIST MEIN GOTT}
-\includepdf[pages={1},noautoscale]{unterwegs/gott_du_bist_mein_gott.pdf}
-\end{minipage}
-%\newpage
-\includepdf[pages={2},noautoscale]{unterwegs/gott_du_bist_mein_gott.pdf}
 
 %pjesma 4
-\phantomsection
-\begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{{\color{red}4}\hspace{7.9pt} ALL EURE SORGE WERFT AUF DEN HERRN}
-\includepdf[pages={1},noautoscale]{unterwegs/all_eure_sorge_werft_auf_den_herrn.pdf}
-\end{minipage}
 \newpage
-%slikica
-%\newpage
+\phantomsection
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor4.}\hspace{\onedigitspacing}}{}JA I MOJ DOM \ttfamily(Jš 24,15}
+\includepdf[pages={1},noautoscale,  %
+    picturecommand={\setlength\unitlength{1cm}%
+         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/mihovil/d4_jaimojdom}}}]%
+         {lilypond/hr/src/04_ja_i_moj_dom.pdf}
 
 %pjesma 5
+%Pokušaj uvrštavanja slike u sliku
+\newpage
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{{\color{red}5}\hspace{7.9pt} LASST DIE KINDER ZU MIR KOMMEN}
-\includepdf[pages={1},noautoscale]{unterwegs/lasst_die_kinder_zu_mir_kommen.pdf}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor5.}\hspace{\onedigitspacing}}{}NIŠTA NE MOŽE NAS ODVOJITI \ttfamily(Rim 8,35.37-39)}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/05_nista_ne_moze_nas_odvojiti.pdf}
 \end{minipage}
+
 \newpage
-%\includepdf[pages={2},noautoscale]{na_putu/stat_cut_i_poslusat.pdf}
+
+\includepdf[pages={2},noautoscale, %
+    picturecommand={\setlength\unitlength{1cm}%
+         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/mihovil/e5_nistanemoze}}}]%
+         {lilypond/hr/src/05_nista_ne_moze_nas_odvojiti.pdf}
 
 %pjesma 6
+\newpage
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{{\color{red}6}\hspace{7.9pt} EINFACH SUPER DICH ZU SEHEN}
-\includepdf[pages={1},noautoscale]{unterwegs/einfach_super_dich_zu_sehen.pdf}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor6.}\hspace{\onedigitspacing}}{}TVOJA RIJEČ \ttfamily(Ps 119,9.105)}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/06_tvoja_rijec.pdf}
 \end{minipage}
+
 \newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/mihovil/pejza_13}
+\end{center}
 
 %pjesma 7
+\newpage
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{{\color{red}7}\hspace{7.9pt} FÜRCHTE DICH NICHT}
-\includepdf[pages={1},noautoscale]{unterwegs/furchte_dich_nicht.pdf}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor7.}\hspace{\onedigitspacing}}{}BLAGOSLIVLJAJ BOGA \ttfamily(Ps 103,1-5)}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/07_blagoslivljaj_boga.pdf}
 \end{minipage}
+
 \newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/mihovil/g7_blagoslivljajboga}\\
+\vspace*{1cm}
+\includegraphics[width=\linewidth]{images/mihovil/f6_tvojarijec}
+\end{center}
 
 %pjesma 8
+\newpage
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{{\color{red}8}\hspace{7.9pt} DEINE GNADE}
-\includepdf[pages={1},noautoscale]{unterwegs/deine_gnade.pdf}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor8.}\hspace{\onedigitspacing}}{}KLIČI BOGU ZEMLJO SVA \ttfamily(Ps 100)}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/08_klici_bogu_zemljo_sva.pdf}
 \end{minipage}
+
 \newpage
-%slikica
-%\newpage
+\begin{center}
+\includegraphics[width=0.9\linewidth]{images/mihovil/h8_klicibogu}
+\end{center}
 
 %pjesma 9
+\newpage
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{{\color{red}9}\hspace{7.9pt} DER HERR BEHÜTE DICH}
-\includepdf[pages={1},noautoscale]{unterwegs/der_herr_behute_dich.pdf}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor9.}\hspace{\onedigitspacing}}{}PUSTINJOM LUTAMO MI}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/09_pustinjom_lutamo_mi.pdf}
 \end{minipage}
+
 \newpage
-%\includepdf[pages={2},noautoscale]{na_putu/kao_jonatan.pdf}
+\begin{center}
+\includegraphics[width=\linewidth]{images/mihovil/i9_pustinjomlutamo}
+\end{center}
+
+\vspace*{1mm}
+\begin{center}
+
+	\Large{\parbox{\linewidth}{
+		\begin{center}
+		{\Large
+		\texttt{
+			\textit{"Narod koji je u tmini hodio svjetlost vidje veliku;
+one što mrklu zemlju obitavahu
+svjetlost jarka obasja."}
+			}
+		}
+		\end{center}
+		\begin{center}
+		{\Large
+			\texttt{{\textemdash Izaija 9,1}}
+		}
+		\end{center}
+	}
+}
+\end{center}
+
+
+%pjesme za djeca spava
+\addtocontents{toc}{\cftpagenumbersoff{section}}
+\addcontentsline{toc}{section}{\texorpdfstring{\ttfamily\hspace{7.7mm}}{}PJESME ZA DJECU}
+\addtocontents{toc}{\cftpagenumberson{section}} % to restore the showing of page numbers
 
 %pjesma 10
+\newpage
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{{\color{red}10}\hspace{2pt} MEIN HAUS SOLL EIN BETHAUS SEIN}
-\includepdf[pages={1},noautoscale]{unterwegs/mein_haus.pdf}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor10.}\hspace{\twodigitspacing}}{}SVJETLO JE ZASJALO \ttfamily(Iz 9,1.5; 7,14)}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/10_svjetlo_je_zasjalo.pdf}
 \end{minipage}
-\includepdf[pages={2},noautoscale]{unterwegs/mein_haus.pdf}
-%\newpage
-%slikica
-%\newpage
 
+\newpage
+\begin{center}
+\includegraphics[width=0.9\linewidth]{images/mihovil/j10_svjetlojezasjalo}
+\end{center}
+
+
+%pjesma 11
+\newpage
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor11.}\hspace{\twodigitspacing}}{}SA STABLA ŽIVOTA}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/11_sa_stabla_zivota.pdf}
+\end{minipage}
+
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/mihovil/k11_stablazivota}
+\end{center}
+
+%pjesma 12
+\newpage
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor12.}\hspace{\twodigitspacing}}{}SUPER TATA \ttfamily(Rim 8,15)}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/12_super_tata.pdf}
+\end{minipage}
+
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/mihovil/l12_supertata}\\
+\vspace*{1cm}
+\includegraphics[width=\linewidth]{images/mihovil/m13_ubogumogu}
+\end{center}
+
+%pjesma 13
+\newpage
+\phantomsection
+\begin{minipage}[b]{0.5\linewidth}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor13.}\hspace{\twodigitspacing}}{}U BOGU MOGU}
+\includepdf[pages={1},noautoscale]{lilypond/hr/src/13_u_bogu_mogu.pdf}
+\end{minipage}
 
 %=========================================
-%\begin{comment}
-%Just some notes, not visible in pdf.
-%\end{comment}
+%   DISKOGRAFIJA
+%=========================================
+%zadnje tri strane - prema Frankovoj želji - fake rekonstrukcija pdfova sa slikama koje ne idu od  ruba do ruba
+\newpage
 
+\section*{MJUZIKIDS DISKOGRAFIJA / MJUZIKIDS DISKOGRAPHIE}
+
+\begin{center}
+\vspace{1cm}
+\includegraphics[width=\linewidth]{images/cd}
+
+\vspace{1cm}
+Javite se ako ste zainteresirani da skupina Mjuzikids održi koncert kod vas,
+ako želite naručiti pjesmarice ili neke od naših prijašnjih CDa.\\
+\vspace{1cm}
+Melden Sie sich, wenn Sie Interesse an einem Auftritt von Frank Bosch haben oder
+wenn Sie unsere früheren CDs bzw. Liederbücher bestellen möchten.
+\vfill
+
+\end{center}
+
+%=========================================
+%   SURADNICI I DRAGI PRIJATELJI
+%=========================================
+\newpage
+
+\section*{SURADNICI I DRAGI PRIJATELJI /\\ UNSERE MITARBEITER UND LIEBE FREUNDE}
+\begin{center}
+\vspace{1cm}
+\includegraphics[width=1\linewidth]{images/suradnici}\\
+\end{center}
+
+%=========================================
+%   PASTORALNI
+%=========================================
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/pastorlani}\\
+
+\vfill
+
+\textbf{Mjuzikids} je kršćanska interkonfesionalna udruga.
+Volimo pjevati, plesati i glumiti i na taj način pokazivati koliko je velik
+i dobar naš Bog, koji nam je poslao „pismo s neba„.
+
+\vfill
+\includegraphics[width=\linewidth]{images/klauni}\\
+
+\end{center}
 
 \end{document}
+%#################################################################################
+%   END OF DOCUMENT
+%#################################################################################
