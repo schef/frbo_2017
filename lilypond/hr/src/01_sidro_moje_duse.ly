@@ -8,7 +8,7 @@
   composer = "Frank Bosch"
   style = "Hebrejima 6,19"
   broj = "1"
-  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Frank Bosch | Hebrbäer 6,19 } }
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Frank Bosch | Hebräer 6,19 } }
 }
 
 \paper {

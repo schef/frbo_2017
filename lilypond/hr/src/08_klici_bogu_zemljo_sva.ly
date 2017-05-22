@@ -82,9 +82,9 @@ Pred li -- ce mu do -- đi -- te,  do -- đi -- te,
 "s ra" -- do -- snim kli -- ca -- njem.
 
 Znaj -- te da je Go -- spod Bog, oh, __ znaj -- te da je Go -- spod Bog.
-On nas stvo -- ri hej  hej hej hej
-Mi smo nje -- go -- vi hej hej hej hej
-Nje -- gov na -- rod smo	hej hej hej hej
+On nas stvo -- ri. Hej hej! Hej hej!
+Mi smo nje -- go -- vi. Hej hej! Hej hej!
+Nje -- gov na -- rod smo. Hej hej! Hej hej!
 i o -- vce pa -- še nje -- go -- ve.
 
 U -- đi -- te "s hva" -- la -- ma, na vra -- ta nje -- go -- va,
