@@ -8,7 +8,7 @@
   composer = "Frank Bosch"
   style = "Dražen Radman"
   broj = "11"
-  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Frank Bosch | Himna za kamp Fokus 2015. } }
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst: Dražen Radman; Glazba: Frank Bosch | Himna za kamp Fokus 2015. } }
 }
 
 \paper {
