@@ -14,6 +14,9 @@
 
 \paper {
  \aFourL
+  %system-system-spacing.padding = #2
+  %score-markup-spacing.padding = #2
+  page-count = #1
 }
 
 note = \relative c'' {

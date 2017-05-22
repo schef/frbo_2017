@@ -12,7 +12,9 @@
 
 \paper {
   \aFourL
-  min-systems-per-page = #7
+  %min-systems-per-page = #7
+  %annotate-spacing = ##t
+  system-system-spacing.padding = #3.2 
 }
 
 note = \relative c' {
@@ -47,7 +49,7 @@ note = \relative c' {
   
   %three
   \markMoj
-  \once \override Score.RehearsalMark.X-offset = 3.4
+  %\once \override Score.RehearsalMark.X-offset = 3.4
   d'4.( c8) c2 |
   e8( d f4) e4.\(e8\) |
   f4 f e d8( c) |
@@ -57,7 +59,7 @@ note = \relative c' {
   
   %four
   \markMoj
-  \once \override Score.RehearsalMark.X-offset = 3.3
+  %\once \override Score.RehearsalMark.X-offset = 3.3
   a8 e d( c~c4.) c8 |
   c8\( d\) e4 d4. e16 g |
   a8 e d( c~c4.) c8 |

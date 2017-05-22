@@ -13,7 +13,9 @@
 
 \paper {
   \aFourL
-  score-markup-spacing.padding = #6
+  score-markup-spacing.padding = #5
+    system-system-spacing.padding = #2.5
+
   last-bottom-spacing.padding = #0
   page-count = #1
 }

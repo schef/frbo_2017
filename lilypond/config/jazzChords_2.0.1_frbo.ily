@@ -108,7 +108,7 @@ markup))
               (make-hspace-markup 0)
               (markup #:fontsize -2 (make-raise-markup 0.4
                 (make-text-markup
-								(markup #:line (#:override (cons 'font-name "Lilypond JohnSans Medium Pro") #:hspace 0 #:translate (cons 0.1 -0.65) (#:epsfile 0 1 "snizilica.eps")))
+								(markup #:line (#:override (cons 'font-name "Lilypond JohnSans Medium Pro") #:hspace 0 #:translate (cons 0.1 -0.65) (#:epsfile 0 0.92 "snizilica.eps")))
 								)))
             ))
           ;; or handle adding the sharp symbol
@@ -132,7 +132,7 @@ jazzChords =
   \set chordRootNamer = #(chord-name->semi-german-markup #f)
   %\set chordNoteNamer = #note-name->uppercase-semigerman-markup
   %\set chordNoteNamer = #note-name->german-markup
-  \override ChordName #'font-size = 2
+  \override ChordName #'font-size = 1.5
   \override ChordName #'font-name = "Lilypond JohnSans Medium Pro"
   \set chordChanges = ##t
 }

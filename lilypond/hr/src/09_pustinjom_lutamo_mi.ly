@@ -14,6 +14,9 @@
 
 \paper {
  \aFourL
+ page-count = #1
+ score-markup-spacing.padding = #4
+ system-system-spacing.padding = #2.5
 }
 
 note = \relative c' {
@@ -33,9 +36,10 @@ note = \relative c' {
   d4 d e f8 f ~ |
   f2. r4 |
   f4 f g a8 a ~ |
-  a2. r4 |
+  a2. r4 | \break
   
   \markMoj
+  \once \override Score.RehearsalMark.Y-offset = #3.8
   \bar ":|."
   \repeat volta 2 {
   d4.( c8) c( b a g) |

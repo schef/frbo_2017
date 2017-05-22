@@ -14,7 +14,9 @@
 \paper {
   \aFourL
   score-markup-spacing.padding = #0
-  last-bottom-spacing.padding = #0
+  %last-bottom-spacing.padding = #0
+  system-system-spacing.padding = #2
+
 }
 
 note = \relative c' {

@@ -15,8 +15,9 @@
 
 \paper {
   \aFourL
-  system-system-spacing.padding = #2.5
+  %system-system-spacing.padding = #2.5
   %annotate-spacing = ##t
+  page-count = #1
 }
 
 note = \relative c' {
@@ -35,10 +36,11 @@ note = \relative c' {
   f4 f e e8 e |
   f8( e) d c ~ c2 |
   f4 f8( g) g4 a ~ |
-  a8 a16( g f2.) |
+  a8 a16( g f2.) | \break
   \bar "||"
   
   \markMoj
+  \once \override Score.RehearsalMark.Y-offset = #3.7
   f4. f8 e4 c |
   g'4. g8 f4. c8 |
   a'4 a g4. c,8 |
@@ -46,11 +48,11 @@ note = \relative c' {
   r8 c8 c d d4. c8 |
   c8( b) b( a) a2 |
   b4 b a g8( f) |
-  g2 a2 |
+  g2 a2 | \break
   \bar "||"
   
   \markMoj
-  %\once \override Score.RehearsalMark.Y-offset = #4 
+  \once \override Score.RehearsalMark.Y-offset = #4 
   f8 c c f g c,16 c ~ c4 |
   a'8 b a16 g8. f4. f8 |
   a8 b a g g16 f8. r8 f8 |

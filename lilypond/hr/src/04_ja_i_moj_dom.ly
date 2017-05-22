@@ -12,6 +12,7 @@
 
 \paper {
  \aFourL
+ %annotate-spacing = ##t
 }
 
 note = \relative c' {

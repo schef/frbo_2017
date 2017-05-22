@@ -10,7 +10,6 @@ myStaffSize = #22
 \paper {
   #(define fonts (make-pango-font-tree "JohnSans Text Pro" "Lilypond JohnSans White Pro" "Lilypond JohnSans Medium Pro" (/ myStaffSize 22)))
   markup-system-spacing.padding = #7
-  %system-system-spacing.padding = #10
   indent = 0
   left-margin = 20\mm
   right-margin = 20\mm
@@ -30,14 +29,15 @@ myStaffSize = #22
   %markup-markup-spacing.minimum-distance = #0
   %markup-markup-spacing.basic-distance = #0
 
-  system-system-spacing.padding = #2
-  %system-system-spacing.minimum-distance = #1
+  system-system-spacing.padding = #3
+  %system-system-spacing.minimum-distance = #20
+  %system-system-spacing.basic-distance = #25
   system-system-spacing.stretchability = #0
   score-system-spacing.stretchability = #5
   print-page-number = ##f
   last-bottom-spacing.minimum-distance = #0
   score-markup-spacing.stretchability = #0
-  %score-markup-spacing.padding = #5
+  score-markup-spacing.padding = #5
 
   %first-page-number = #16
   %print-first-page-number = ##t

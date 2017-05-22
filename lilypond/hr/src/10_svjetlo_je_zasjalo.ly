@@ -15,7 +15,7 @@
 \paper {
  \aFourL
  min-systems-per-page = #6
-  system-system-spacing.padding = #2.2 
+ %system-system-spacing.padding = #2.2 
 
 }
 

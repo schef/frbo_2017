@@ -12,6 +12,7 @@
 
 \paper {
   \aFourL
+   system-system-spacing.padding = #2.2
 }
 
 note = \relative c'' {
