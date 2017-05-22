@@ -45,7 +45,7 @@ BoldItalicFont=fonts/JohnSansWhiteBoldItalic.ttf
 
 \fancyhead{}
 \fancyfoot{}
-\fancyfoot[RE,LO]{\rmfamily\thepage}
+\fancyfoot[RO,LE]{\rmfamily\thepage}
 \renewcommand{\headrulewidth}{0pt} \renewcommand{\footrulewidth}{0pt} 
 \includepdfset{pagecommand=\thispagestyle{fancy}}
 %\setlength{\footrulewidth}{-10mm}
@@ -78,6 +78,17 @@ BoldItalicFont=fonts/JohnSansWhiteBoldItalic.ttf
 %\usepackage[hmarginratio=1:1]{geometry}
 \usepackage[footskip=34pt, hmarginratio=1:1, left=20mm, bottom=24mm, top=31.4mm]{geometry}
 \usepackage{graphicx}
+
+\usepackage[
+  % set width and height to a4 width and height + 6mm
+  width=21.6truecm, height=30.3truecm,
+  % use any combination of these options to add different cut markings
+  cam, axes, frame, cross,
+  % set the type of TeX renderer you use
+  pdftex,
+  % center the contents
+  center
+]{crop}
 
 %\multicolumn paket za tekst
 \usepackage{multicol}
@@ -263,6 +274,25 @@ Bog je sa svojom Riječju to sidro. O tome govore pjesme na ovoj pjesmarici. Ve�
 \end{multicols}
 
 %=========================================
+%   PASTORALNI
+%=========================================
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/pastorlani}\\
+
+\vfill
+
+\textbf{Mjuzikids} je kršćanska interkonfesionalna udruga.
+Volimo pjevati, plesati i glumiti i na taj način pokazivati koliko je velik
+i dobar naš Bog, koji nam je poslao „pismo s neba„.
+
+\vfill
+\includegraphics[width=\linewidth]{images/klauni}\\
+
+\end{center}
+
+
+%=========================================
 %   PJESME
 %=========================================
 %pjesma 1
@@ -301,31 +331,31 @@ Bog je sa svojom Riječju to sidro. O tome govore pjesme na ovoj pjesmarici. Ve�
 \includepdf[pages={1},noautoscale]{lilypond/hr/src/03_planove_mira.pdf}
 \end{minipage}
 
-\newpage
-\begin{center}
-\includegraphics[width=\linewidth]{images/mihovil/c3_planovemira}
+% \newpage
+% \begin{center}
+% \includegraphics[width=\linewidth]{images/mihovil/c3_planovemira}
 
-\vspace*{1mm}
-\begin{center}
+% \vspace*{1mm}
+% \begin{center}
 
-	\Large{\parbox{\linewidth}{
-		\begin{center}
-		{\Large
-		\texttt{
-			\textit{"'Jer ja znam svoje naume koje s vama namjeravam' – riječ je Jahvina – 'naume mira, a ne nesreće: da vam dadnem budućnost i nadu.'"}
-			}
-		}
-		\end{center}
-		\begin{center}
-		{\Large
-			\texttt{{\textemdash Jeremija 29,11}}
-		}
-		\end{center}
-	}
-}
-\end{center}
+% 	\Large{\parbox{\linewidth}{
+% 		\begin{center}
+% 		{\Large
+% 		\texttt{
+% 			\textit{"'Jer ja znam svoje naume koje s vama namjeravam' – riječ je Jahvina – 'naume mira, a ne nesreće: da vam dadnem budućnost i nadu.'"}
+% 			}
+% 		}
+% 		\end{center}
+% 		\begin{center}
+% 		{\Large
+% 			\texttt{{\textemdash Jeremija 29,11}}
+% 		}
+% 		\end{center}
+% 	}
+% }
+% \end{center}
 
-\end{center}
+% \end{center}
 
 
 %pjesma 4
@@ -334,8 +364,18 @@ Bog je sa svojom Riječju to sidro. O tome govore pjesme na ovoj pjesmarici. Ve�
 \addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor4.}\hspace{\onedigitspacing}}{}JA I MOJ DOM \ttfamily(Jš 24,15)}
 \includepdf[pages={1},noautoscale,  %
     picturecommand={\setlength\unitlength{1cm}%
-         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/mihovil/d4_jaimojdom}}}]%
+         \put(2,4){\includegraphics[width=\linewidth,scale=1]{images/mihovil/d4_jaimojdom}}}]%
          {lilypond/hr/src/04_ja_i_moj_dom.pdf}
+         
+% \newpage
+% \thispagestyle{empty}%
+% \vspace*{10.5cm}
+% \begin{center}
+% Ova je stranica namjerno ostavljena prazna.\\
+% Diese Seite wurde mit Absicht leer gelassen.
+% \end{center}
+
+\vfill
 
 %pjesma 5
 %Pokušaj uvrštavanja slike u sliku
@@ -485,6 +525,17 @@ svjetlost jarka obasja."}
 \includepdf[pages={1},noautoscale]{lilypond/hr/src/13_u_bogu_mogu.pdf}
 \end{minipage}
 
+
+% \newpage
+% \thispagestyle{empty}%
+% \vspace*{10.5cm}
+% \begin{center}
+% Ova je stranica namjerno ostavljena prazna.\\
+% Diese Seite wurde mit Absicht leer gelassen.
+% \end{center}
+
+\vfill
+
 %=========================================
 %   DISKOGRAFIJA
 %=========================================
@@ -504,6 +555,8 @@ ako želite naručiti pjesmarice ili neke od naših prijašnjih CDa.\\
 Melden Sie sich, wenn Sie Interesse an einem Auftritt von Frank Bosch haben oder
 wenn Sie unsere früheren CDs bzw. Liederbücher bestellen möchten.
 \vfill
+\includegraphics[width=0.5\linewidth]{images/Sidro_cd}
+\vfill
 
 \end{center}
 
@@ -518,23 +571,7 @@ wenn Sie unsere früheren CDs bzw. Liederbücher bestellen möchten.
 \includegraphics[width=1\linewidth]{images/suradnici}\\
 \end{center}
 
-%=========================================
-%   PASTORALNI
-%=========================================
-\newpage
-\begin{center}
-\includegraphics[width=\linewidth]{images/pastorlani}\\
 
-\vfill
-
-\textbf{Mjuzikids} je kršćanska interkonfesionalna udruga.
-Volimo pjevati, plesati i glumiti i na taj način pokazivati koliko je velik
-i dobar naš Bog, koji nam je poslao „pismo s neba„.
-
-\vfill
-\includegraphics[width=\linewidth]{images/klauni}\\
-
-\end{center}
 
 \end{document}
 %#################################################################################

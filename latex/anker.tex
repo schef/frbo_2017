@@ -45,7 +45,7 @@ BoldItalicFont=fonts/JohnSansWhiteBoldItalic.ttf
 
 \fancyhead{}
 \fancyfoot{}
-\fancyfoot[RE,LO]{\rmfamily\thepage}
+\fancyfoot[RO,LE]{\rmfamily\thepage}
 \renewcommand{\headrulewidth}{0pt} \renewcommand{\footrulewidth}{0pt} 
 \includepdfset{pagecommand=\thispagestyle{fancy}}
 %\setlength{\footrulewidth}{-10mm}
@@ -78,6 +78,17 @@ BoldItalicFont=fonts/JohnSansWhiteBoldItalic.ttf
 %\usepackage[hmarginratio=1:1]{geometry}
 \usepackage[footskip=34pt, hmarginratio=1:1, left=20mm, bottom=24mm, top=31.4mm]{geometry}
 \usepackage{graphicx}
+
+\usepackage[
+  % set width and height to a4 width and height + 6mm
+  width=21.6truecm, height=30.3truecm,
+  % use any combination of these options to add different cut markings
+  cam, axes, frame, cross,
+  % set the type of TeX renderer you use
+  pdftex,
+  % center the contents
+  center
+]{crop}
 
 %\multicolumn paket za tekst
 \usepackage{multicol}
@@ -156,10 +167,10 @@ Design von Bucheinband: Nolda Studio\\
 \vspace{\impresspac}
 Gestaltung: Filip und Benjamin Horvat | LaTeX (http://latex-project.org) \\
 \vspace{\impresspac}
-Korektur: Heidi Klarić, Andrea Horvat, Nela Williams und Senka Sestak Peterlin\\
+Korrektur: Heidi Klarić, Andrea Horvat, Nela Williams und Senka Šestak Peterlin\\
 \vspace{\impresspac}
 Bilder: Susanne Stoehr, Mihovil Dorotić und Kornelija Turić Dorotić;\\
-Copyright by Sussane Stoehr, Mihovil Dorotić und Kornelija Turić Dorotić\\
+Copyright by Susanne Stoehr, Mihovil Dorotić und Kornelija Turić Dorotić\\
 \vspace{\impresspac}
 Text und Musik: Frank Bosch\\
 \vspace{\impresspac}
@@ -258,10 +269,7 @@ Menschen sich in meinen Bildern und Texten tief innen wiederfinden, und berührt
 %=========================================
 \newpage
 \begin{multicols}{2}
-[
-\section*{ÜBER DAS PROJEKT}
-%All human things are subject to decay. And when fate summons, Monarchs must obey.
-]
+
     \begin{onehalfspacing}
         \begin{justify}
 Die Lieder meiner CD’s werden von Chören, Kindergruppen und Gemeinden gesungen. Ich ver-
@@ -275,8 +283,8 @@ wir so fröhlich miteinander singen.“ - „Ich freue mich so, wenn ich bei eur
 %Frank i Angelika
 %\begin{wrapfigure}{L}{1\linewidth}
 \begin{center}
-\includegraphics[width=\linewidth]{images/IMG_1216}
-\captionof*{figure}{Frank und Angelika Bosch}
+\includegraphics[width=\linewidth]{images/karmen}
+\captionof*{figure}{Karmen Horvat}
 %\end{wrapfigure}
 \end{center}
 Ich arbeite hier mit ganz tollen Leuten zusammen, von denen ich so viel lerne,
@@ -285,7 +293,7 @@ de geworden. Es sind zu viele, um sie alle aufzuzählen, aber Karmen Horvat
 und ihre Jungs von Octoberlight, Tomislav Tuškan mit Familie, sowie Mario
 Colic mit Familie und
 meine Clownkollegen
-Rujana, Toncek und
+Rujana, Tonček und
 Daniel möchte ich
 doch nennen.
 Besonders gerne singe
@@ -302,36 +310,31 @@ darauf schwanger. Dann schmeißen sie die
 Schule. Wir möchten die Kinder und ihre
 Familien für ein Leben mit Jesus begeistern,
 unter anderem durch das Singen dieser Lieder
-Auf diesem Brunnen im Romadorf steht: “Jesus lebt”. Wenn sich ein Roma für Jesus entscheidet,
+Wenn sich ein Roma für Jesus entscheidet,
 dann erkennen nicht nur wir es – dann verändert sich sein Leben – und das ist offensichtlich für das
 ganze Dorf.\\
+\textit{}
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/cigo}
+\captionof*{figure}{Auf diesem Brunnen im Romadorf steht: “Jesus lebt”.}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\linewidth]{images/dorucakzazene}
+\captionof*{figure}{Meine Frau Angelika ist Koordinatorin der Frauen-
+frühstücksarbeit in Kroatien.
+www.dorucak-za-zene.com}
+\end{center}
 
 Unter www.mjuzikids.de gibt es weitere Informa-
 tionen zu unserer Arbeit.
-Meine Frau Angelika ist Koordinatorin der Frauen-
-frühstücksarbeit in Kroatien.
-www.dorucak-za-zene.com
-Wir leben mit unseren 3 Kindern seit Februar 2000
-in Zagreb und sind durch
-DMG interpersonal e.V.
-entsandt
-www.DMGint.de
-
-\textit{}
-
-%Sidro
-\begin{center}
-\includegraphics[width=\linewidth]{images/cigo}
-\captionof*{figure}{Die Bilder in diesem Liederbuch stammen von den Künstlern Susanne Stoehr und Mihovil Dorotić}
-\end{center}
 
 \vfill
 
-%Mihovil Dorotić
-%\begin{wrapfigure}{l}{1\linewidth}
 \begin{center}
-\includegraphics[width=\linewidth]{images/DMG_2014}
-\captionof*{figure}{Susanne Stoehr, Via Matteotti 6, 20846 Macerio/MB, Italia, E-mail: susanne.stoehr@gmail.com}
+\includegraphics[width=0.5\linewidth]{images/DMG_2014}
+\captionof*{figure}{Wir leben mit unseren 3 Kindern seit Februar 2000 in Zagreb und sind durch DMG interpersonal e.V. entsandt | www.DMGint.de}
 \end{center}
 
 %\end{wrapfigure}
@@ -343,6 +346,14 @@ www.DMGint.de
 %=========================================
 %   PASTORALNI
 %=========================================
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/suradnici}\\
+
+\vfill
+
+\end{center}
+
 \newpage
 \begin{center}
 Unsere Arbeit in Kroatien ist möglich dank vieler kleinerer und größerer Spenden. Jeder noch so
@@ -384,7 +395,7 @@ mjuzikids@gmail.com
 
 \newpage
 \begin{center}
-\includegraphics[width=\linewidth]{images/susanne/a1_gedankendesfriedens}
+\includegraphics[width=\linewidth]{images/susanne/b2_derherristmeinlicht}
 \end{center}
 
 %pjesma 2
@@ -399,15 +410,8 @@ mjuzikids@gmail.com
 
 \includepdf[pages={2},noautoscale, %
     picturecommand={\setlength\unitlength{1cm}%
-         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/susanne/e5_wennichdichnurhabe}}}]%
+         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/susanne/Lichtvertreibtdiedunkelheit}}}]%
          {lilypond/de/src/02_der_herr_ist_mein_licht.pdf}
-
-\newpage
-\begin{center}
-\includegraphics[width=\linewidth]{images/susanne/b2_derherristmeinlicht}\\
-\vspace*{1cm}
-\includegraphics[width=\linewidth]{images/susanne/lagoconmontitramonto}
-\end{center}
 
 
 %pjesma 3
@@ -422,26 +426,6 @@ mjuzikids@gmail.com
 \begin{center}
 \includegraphics[width=\linewidth]{images/susanne/c3_lichtvertreibtdiedunkelheit}
 
-\vspace*{1mm}
-\begin{center}
-
-	\Large{\parbox{\linewidth}{
-		\begin{center}
-		{\Large
-		\texttt{
-			\textit{"Denn ich weiß wohl, was ich für Gedanken über euch habe, spricht der HERR: Gedanken des Friedens und nicht des Leidens, daß ich euch gebe das Ende, des ihr wartet."}
-			}
-		}
-		\end{center}
-		\begin{center}
-		{\Large
-			\texttt{{\textemdash Jeremia 29,11}}
-		}
-		\end{center}
-	}
-}
-\end{center}
-
 \end{center}
 
 
@@ -449,10 +433,13 @@ mjuzikids@gmail.com
 \newpage
 \phantomsection
 \addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor4.}\hspace{\onedigitspacing}}{}ICH ABER UND MEIN HAUS \ttfamily(Jos 24,15}
-\includepdf[pages={1},noautoscale,  %
-    picturecommand={\setlength\unitlength{1cm}%
-         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/susanne/d4_ichundmeinhaus}}}]%
+\includepdf[pages={1},noautoscale,]
          {lilypond/de/src/04_ich_und_mein_haus.pdf}
+
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/susanne/d4_ichundmeinhaus}
+\end{center}
 
 %pjesma 5
 %Pokušaj uvrštavanja slike u sliku
@@ -464,11 +451,11 @@ mjuzikids@gmail.com
 \end{minipage}
 
 \newpage
-
-\includepdf[pages={2},noautoscale, %
+\includepdf[pages={2},noautoscale,  %
     picturecommand={\setlength\unitlength{1cm}%
-         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/susanne/e5_wennichdichnurhabe}}}]%
+         \put(3.18,2.7){\includegraphics[width=0.86\linewidth,scale=1]{images/susanne/e5_wennichdichnurhabe}}}]%
          {lilypond/de/src/05_wenn_ich_nur_dich_habe.pdf}
+
 
 %pjesma 6
 \newpage
@@ -481,6 +468,8 @@ mjuzikids@gmail.com
 \newpage
 \begin{center}
 \includegraphics[width=\linewidth]{images/susanne/f6_ankermeinerseele}
+\vfill
+\includegraphics[width=\linewidth]{images/susanne/lagoconmontitramonto}
 \end{center}
 
 %pjesma 7
@@ -493,17 +482,11 @@ mjuzikids@gmail.com
 
 \newpage
 
-\includepdf[pages={2},noautoscale, %
+\includepdf[pages={2},noautoscale,  %
     picturecommand={\setlength\unitlength{1cm}%
-         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/susanne/e5_wennichdichnurhabe}}}]%
+         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/susanne/g7_nichtskannunstrennen}}}]%
          {lilypond/de/src/07_nichts_kann_uns_trennen.pdf}
 
-\newpage
-\begin{center}
-\includegraphics[width=\linewidth]{images/susanne/g7_nichtskannunstrennen}\\
-\vspace*{1cm}
-\includegraphics[width=0.9\linewidth]{images/susanne/h8_allesaaufdenkopfgestellt2}
-\end{center}
 
 %pjesma 8
 \newpage
@@ -515,7 +498,7 @@ mjuzikids@gmail.com
 
 \newpage
 \begin{center}
-\includegraphics[width=0.9\linewidth]{images/susanne/h8_allesaufdenkopfgestellt}
+\includegraphics[width=0.95\linewidth]{images/susanne/h8_allesaufdenkopfgestellt}
 \end{center}
 
 %pjesme za djeca spava
@@ -536,28 +519,6 @@ mjuzikids@gmail.com
 \includegraphics[width=\linewidth]{images/susanne/i9_superpapa}
 \end{center}
 
-\vspace*{1mm}
-\begin{center}
-
-	\Large{\parbox{\linewidth}{
-		\begin{center}
-		{\Large
-		\texttt{
-			\textit{"Narod koji je u tmini hodio svjetlost vidje veliku;
-one što mrklu zemlju obitavahu
-svjetlost jarka obasja."}
-			}
-		}
-		\end{center}
-		\begin{center}
-		{\Large
-			\texttt{{\textemdash Izaija 9,1}}
-		}
-		\end{center}
-	}
-}
-\end{center}
-
 %pjesma 10
 \newpage
 \phantomsection
@@ -568,7 +529,29 @@ svjetlost jarka obasja."}
 
 \newpage
 \begin{center}
-\includegraphics[width=0.9\linewidth]{images/susanne/j10_lobtdenherrnmitallerkraft}
+\includegraphics[width=\linewidth]{images/susanne/j10_lobtdenherrnmitallerkraft}\\
+
+\vspace*{1mm}
+\begin{center}
+
+	\Large{\parbox{\linewidth}{
+		\begin{center}
+		{\Large
+		\texttt{
+			\textit{ Ich danke dir dafür,
+        dass ich wunderbar gemacht bin; wunderbar sind deine Werke; das erkennt meine Seele. }
+			}
+		}
+		\end{center}
+		\begin{center}
+		{\Large
+			\texttt{{\textemdash Psalm 139,1}}
+		}
+		\end{center}
+	}
+}
+\end{center}
+
 \end{center}
 
 
@@ -584,14 +567,8 @@ svjetlost jarka obasja."}
 
 \includepdf[pages={2},noautoscale, %
     picturecommand={\setlength\unitlength{1cm}%
-         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/susanne/e5_wennichdichnurhabe}}}]%
+         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/susanne/k11_freuedichsehr}}}]%
          {lilypond/de/src/11_freue_dich_sehr.pdf}
-
-
-\newpage
-\begin{center}
-\includegraphics[width=\linewidth]{images/susanne/k11_freudichsehr}
-\end{center}
 
 %pjesma 12
 \newpage
@@ -603,9 +580,9 @@ svjetlost jarka obasja."}
 
 \newpage
 \begin{center}
-\includegraphics[width=\linewidth]{images/susanne/l12_singtdemherrn}\\
-\vspace*{1cm}
-\includegraphics[width=\linewidth]{images/susanne/Lichtvertreibtdiedunkelheit}
+\includegraphics[width=0.95\linewidth]{images/susanne/l12_singtdemherrn}\\
+\vfill
+\includegraphics[width=0.95\linewidth]{images/susanne/a1_gedankendesfriedens}
 \end{center}
 
 \end{document}
