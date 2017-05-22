@@ -97,7 +97,7 @@ tekst = \lyricmode {
   der HERR ist mei -- nes Le -- bens Kraft; 
   vor wem soll -- te mir grau‘n?
 
-  Denn er deckt mich in sei -- ner Hü -- tte
+  Denn er deckt mich in sei -- ner Hüt -- te
   in schwe -- rer Zeit, __ 
   er birgt mich im Schutz sei -- nes Zel -- tes 
   und er -- höht mich __
@@ -106,7 +106,7 @@ tekst = \lyricmode {
   auf ei -- nen Fel-
   Der
 
-  Ei -- nes bi -- tte ich vom HERRN, __ das hä -- tte ich __ so __ gern: __ 
+  Ei -- nes bit -- te ich vom HERRN, __ das hät -- te ich __ so __ gern: __ 
   dass ich im Hau -- se des HERRN blei -- ben kö -- nne
   mein Le -- ben lang, __ mein Le -- ben lang. __
 }
@@ -121,7 +121,7 @@ tekst = \lyricmode {
 
 akordi = \chordmode {
   \skip8
-  e1 | a | h/e | a | e |
+  e1 | a/e | h/e | a | e |
   a1 | h | h | e | a |
   h1/e | a | e | a2 h | e1 | e |
   cis1:m | a | e | h | cis:m | a | e | h |

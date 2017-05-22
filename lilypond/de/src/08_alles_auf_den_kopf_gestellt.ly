@@ -121,7 +121,7 @@ akordi = \chordmode {
   a1 | h:m | a | d | g |
   d2 a | d1 | g | a:7/g | d |
   h1:m | g | a | d | h:m | g | a:7/g |
-  d1 | h:m | g | a | d | d |
+  d2 d4. h8:m | h1:m | g | a | d | d |
 
 }
 

@@ -106,11 +106,11 @@ akordi = \chordmode {
   \break
   %one
   c4 c/e f g |
-  f2 g |
+  c2 g |
   c4 c/e f g |
   a2:m g4:sus4 g |
   c4 c/e f g |
-  f2 g |
+  c2 g |
   c4 c/e f g |
   a2:m g4:sus4 g4 |
   %two

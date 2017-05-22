@@ -96,7 +96,7 @@ tekst = \lyricmode {
 tekstDva = \lyricmode {
   \repeat unfold 46 {\skip 8}
   \set stanza = "2."
-  Des -- halb, schlag doch ein __ und schü -- ttle dei -- nen Kopf. __ "" ""
+  Des -- halb, schlag doch ein __ und schüt -- tle dei -- nen Kopf. __ "" ""
   Schlag doch ein __ und lob mit mir den HERRN!
 }
 
@@ -115,7 +115,7 @@ akordi = \chordmode {
   e1 | e | gis:m | cis:m | a | h | gis:m |
   cis1:m | a | h |
 
-  e1 | a | h | e |
+  e2 e4. a8 | a1 | h | e |
   cis1:m | a | h | h |
   cis1:m | a2 h | e1 | e |
 }

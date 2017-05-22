@@ -6,7 +6,7 @@
   title = "PUSTINJOM LUTAMO MI"
   titlex = "Sidro"
   composer = "Frank Bosch"
-  style = ""
+  style = "Sandra Markov"
   broj = "9"
 }
 

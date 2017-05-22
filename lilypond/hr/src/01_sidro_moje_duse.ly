@@ -104,15 +104,15 @@ akordi = \chordmode {
   a2:m f |
   c2/e g/h |
   a2:m f |
-  d4:m f g2 |
+  d2:m g2 |
   \break
   %one
   c4 c/e f g |
-  f2 g |
+  a2:m g |
   c4 c/e f g |
   a2:m g4:sus4 g |
   c4 c/e f g |
-  f2 g |
+  a2:m g |
   c4 c/e f g |
   a2:m g4.:sus4 g8 |
   %two

@@ -87,11 +87,11 @@ der ist sein Kind auf e -- wig, weil er ihm ver --  traut. __
 akordi = \chordmode {
   \skip4
   f2 f:maj7 | b/f f | f c/e | d:m7 b | f f:maj7 |
-  b/f f | d:m c | f1 |
+  b/f f | d:m c | f2 b/f |
   \set chordChanges = ##f
   f2 c/e |
   \set chordChanges = ##t
-  g:m d:m | f/a c | g:m d:m | f/a b | c d:m | a:m7 d:m | c f |
+  g:m d:m | f/a c4:sus4 c4 | g2:m d:m | f/a b | c d:m | g d:m | c f |
 
   f2 c/e | f/a b | f d:m | g:m a:7 |
   f2 c/e | f/a b | f d:m | g:m a:7 |
