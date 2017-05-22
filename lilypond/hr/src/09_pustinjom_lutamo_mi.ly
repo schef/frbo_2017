@@ -109,7 +109,7 @@ b2 c | f d:m | b c | b4 c f2 | b4 c f2 |
 
 \score {
   <<
-    \new ChordNames { \jazzChords \akordi }
+    \new ChordNames { \semiGermanChords \jazzChords \akordi }
     \new Staff { \note }
     \addlyrics { \tekst }
     \addlyrics { \tekstDva }

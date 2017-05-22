@@ -111,7 +111,7 @@ akordi = \chordmode {
 
 \score {
   <<
-    \new ChordNames { \jazzChords \akordi }
+    \new ChordNames { \semiGermanChords \jazzChords \akordi }
     \new Staff { \note }
     \addlyrics { \tekst }
     \addlyrics { \tekstDva }

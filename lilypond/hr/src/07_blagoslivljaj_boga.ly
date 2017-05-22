@@ -101,7 +101,7 @@ d2. | g | e:m | c | d | g4. d/fis | e2.:m | a:m | d | g4. d/fis | e2.:m | a:m | 
 
 \score {
   <<
-    \new ChordNames { \jazzChords \akordi }
+    \new ChordNames { \semiGermanChords \jazzChords \akordi }
     \new Staff { \note }
     \addlyrics { \tekst }
     %\addlyrics { \tekstDva }

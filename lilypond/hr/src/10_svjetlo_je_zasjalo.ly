@@ -97,7 +97,7 @@ f2 c/e | f/a b | f d:m | g:m a:7 |
 
 \score {
   <<
-    \new ChordNames { \jazzChords \akordi }
+    \new ChordNames { \semiGermanChords \jazzChords \akordi }
     \new Staff { \note }
     \addlyrics { \tekst }
     %\addlyrics { \tekstDva }
