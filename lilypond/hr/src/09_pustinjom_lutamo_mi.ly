@@ -66,35 +66,35 @@ note = \relative c' {
 
 tekst = \lyricmode {
 \set stanza = "1."
-Pu -- sti -- njom lu -- ta -- mo mi __
+Pu -- sti -- njom lu -- ta -- mo mi, __
 bez na -- de, _ vje -- re, _ iz -- gu -- blje -- ni, __
-ni -- smo slu -- ti -- li __
+ni -- smo slu -- ti -- li, __
 I -- sus do -- la -- zi. __
 
-Ha -- le -- lu -- ja, sla -- va, Go -- spo -- du hva -- la
-kralj ro -- di se u ja -- sla -- ma
+Ha -- le -- lu -- ja, sla -- va, Go -- spo -- du hva -- la,
+kralj ro -- di se u ja -- sla -- ma.
 I -- sus me -- si -- ja.
-ha -- le -- lu -- ja, sla -- va Go -- spo -- du hva -- la
-an -- đe -- li kli -- ču sa ne -- be -- sa:	
+Ha -- le -- lu -- ja, sla -- va Go -- spo -- du, hva -- la,
+an -- đe -- li kli -- ču. Sa ne -- be -- sa:	
 „a __ na ze -- mlji mir svim lju -- di -- ma.“
 To
 lju -- di -- ma. __
 }
 
 tekstDva = \lyricmode {
-Bog nam se smi -- lo -- va -- o __ ""  an -- đe -- la Ma -- ri -- ji po -- _ sla -- o __
-re -- če: „ra -- duj se, __ Go -- spod "s to" -- bom je.“ __
+Bog nam se smi -- lo -- va -- o, __ ""  an -- đe -- la Ma -- ri -- ji po -- _ sla -- o. __
+Re -- če: „ra -- duj se, __ Go -- spod "s to" -- bom je.“ __
 }
 
 tekstTri = \lyricmode {
   \set stanza = "2."
-dije -- te što o -- _ dma -- ra __ na kri -- lu __ _ Ma -- ri -- je po -- _ či -- va __
-zna li on da je __ naš i -- zba -- vi -- telj? __
+Dije -- te što o -- _ dma -- ra, __ na kri -- lu __ _ Ma -- ri -- je po -- _ či -- va. __
+Zna li on da je __ naš i -- zba -- vi -- telj? __
 }
 
 tekstCetiri = \lyricmode {
-Znaj, o -- bis -- ti --  nju -- ju se __ "" sva pro -- ro -- čan -- stva  što Bog za -- pi -- še: __
-„za sve grje -- šni -- ke __ I -- sus ro -- di se“ __
+Znaj, o -- bis -- ti --  nju -- ju se __ "" sva pro -- ro -- čan -- stva,  što Bog za -- pi -- še: __
+„za sve grje -- šni -- ke, __ I -- sus ro -- di se“ __
 }
 
 akordi = \chordmode {

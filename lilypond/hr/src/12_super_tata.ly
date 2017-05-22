@@ -54,50 +54,50 @@ note = \relative c'' {
 
 tekst = \lyricmode {
   \set stanza = "1."
-  Naj -- bo -- lji O -- tac cije -- lom sve -- mi -- ru __
-  U -- vijek je tu kad ja sam sam
-  U -- no -- si mir u mo -- me ne -- mi -- ru __
-  I taj svoj mir će da -- ti vam.
+  Naj -- bo -- lji O -- tac cije -- lom sve -- mi -- ru, __
+  u -- vijek je tu kad ja sam sam.
+  U -- no -- si mir u mo -- me ne -- mi -- ru, __
+  i taj svoj mir će da -- ti vam.
 
-  Su -- per, Su -- per Ta -- ta,
-  Na ze -- mlji i na ne -- bu ne -- ćeš na -- ći bo -- ljeg
-  Su -- per Ta -- ta!
+  Su -- per, su -- per Ta -- ta,
+  na ze -- mlji i na ne -- bu ne -- ćeš na -- ći bo -- ljeg,
+  su -- per, Ta -- ta!
   
   Na, na, na, na, na, na,
-  Su -- per Ta -- ta!
+  su -- per, Ta -- ta!
   Na, na, na, na, na, na,
-  Su -- per Ta -- ta!
+  su -- per, Ta -- ta!
   
   Ooo.
 }
 
 tekstDva = \lyricmode {
   \set stanza = "2."
-  Naj -- bo -- lji O -- tac cije -- lom sve -- mi -- ru __
-  On bri -- še su -- ze "s o" -- ka mog
-  Ka -- da ga tre -- bam, On je u -- vijek tu __
-  Že -- liš u -- po -- znat O -- ca tog?
+  Naj -- bo -- lji O -- tac cije -- lom sve -- mi -- ru, __
+  On bri -- še su -- ze "s o" -- ka mog.
+  Ka -- da ga tre -- bam, On je u -- vijek tu, __
+  že -- liš u -- po -- znat O -- ca tog?
   
-  Bog je su -- per Ta -- ta on  stva -- rno po -- zna me -- ne
-  I ra -- zu -- mije u -- vijek
-  Su -- per Ta -- ta!
+  Bog je su -- per Ta -- ta, On  stva -- rno po -- zna me -- ne
+  i ra -- zu -- mije u -- vijek,
+  su -- per, Ta -- ta!
 }
 
 tekstTri = \lyricmode {
   \set stanza = "3."
-  Naj -- bo -- lji O -- tac cije -- lom sve -- mi -- ru __
-  On i -- ma od -- go -- vor na sve
-  I svi se kla -- nja -- ju tom Vla -- da -- ru __
+  Naj -- bo -- lji O -- tac cije -- lom sve -- mi -- ru, __
+  On i -- ma od -- go -- vor na sve.
+  I svi se kla -- nja -- ju tom Vla -- da -- ru, __
   On bje -- še, jest i do -- ći će.
 
 }
 
 tekstCetiri = \lyricmode {
   \set stanza = "4."
-  Na -- ša -- o sam tog O -- ca naj -- bo -- ljeg
-  A na -- ći mo -- žeš ga i ti
-  Da, mo -- žeš nje -- ga na -- ći za -- u -- vijek
-  Tre -- baš se sa -- mo mo -- li -- ti.
+  Na -- ša -- o sam tog O -- ca naj -- bo -- ljeg,
+  a na -- ći mo -- žeš ga i ti.
+  Da, mo -- žeš Nje -- ga na -- ći za -- u -- vijek,
+  tre -- baš se sa -- mo mo -- li -- ti.
 }
 
 akordi = \chordmode {

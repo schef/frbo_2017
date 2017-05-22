@@ -62,20 +62,20 @@ note = \relative c' {
 }
 
 tekst = \lyricmode {
-Na -- rod ko -- ji je u ta -- mi ho -- di -- o svje -- tlo vi -- dje ve -- li -- ko __
-Nad o -- ni -- ma ko -- ji sta -- nu -- ju u ze -- mlji smr -- tne sje -- ne __
+Na -- rod ko -- ji je u ta -- mi ho -- di -- o, svje -- tlo vi -- dje ve -- li -- ko. __
+Nad o -- ni -- ma ko -- ji sta -- nu -- ju u ze -- mlji smr -- tne sje -- ne. __
    
 %Refr:
-Svje -- tlo je za -- sja -- lo
-jer dije -- te nam se ro -- di -- lo
-I -- me mu je E -- ma -- nu -- el
-Bog __ je "s na" -- ma
+Svje -- tlo je za -- sja -- lo,
+jer dije -- te nam se ro -- di -- lo.
+I -- me mu je E -- ma -- nu -- el,
+Bog __ je "s na" -- ma.
 
 %Bridge:
 Svje -- tlo je za -- sja -- lo, __ jer dije -- te nam se ro -- di -- lo.
 Dok cije -- lo čo -- vje -- ča -- nstvo je u ta -- mi ho -- di -- lo.
-I -- sus na -- še svje -- tlo __  za -- u -- vijek je "s na" -- ma __
-i vo -- di  nas kroz ži -- vot dok svu -- gdje vla -- da ta -- ma
+I -- sus na -- še svje -- tlo, __  za -- u -- vijek je "s na" -- ma __
+i vo -- di  nas kroz ži -- vot dok svu -- gdje vla -- da ta -- ma.
 }
 
 %tekstDva = \lyricmode {

@@ -88,12 +88,12 @@ note = \relative c' {
 tekst = \lyricmode {
   \set stanza = "1."
 Pi -- tam se: gdje do -- bro -- ta ra -- ste?
-gdje str -- _ plje -- nje i bla -- gost ni -- če?
+Gdje str -- _ plje -- nje i bla -- gost ni -- če?
 Plod taj mi svi tra -- ži -- mo za se. __ _
 Sr -- ce nam, ka -- da na -- đe -- mo, kli -- če!
 Na -- ša je du -- ša __ ta -- ko že -- dna
 tra -- ži gdje nje -- na je i -- "zvor–" -- vo -- da.
-Na -- ša je du -- ša __ ta -- ko __ gla -- dna
+Na -- ša je du -- ša __ ta -- ko __ gla -- dna,
 tre -- ba joj plod sa sta -- bla ži -- vo -- ta!      
 Na na na, na na na, sa sta -- bla ži -- vo -- ta!
 Na na na, na na na, sa sta -- bla ži -- vo -- ta!

@@ -66,14 +66,14 @@ note = \relative c' {
 
 tekst = \lyricmode {
   \set stanza = "1."
-  I -- ma da -- na kad sam tu -- žan, ljut __
+  I -- ma da -- na kad sam tu -- žan, ljut, __
   jer je ne -- tko ve -- ći i bo -- lji; __
-  "" jer ne -- prav -- da do -- đe mi na put; __
-  a sla -- bi su mi -- ši -- _ ći mo -- ji. __
+  "" jer ne -- prav -- da do -- đe mi na put. __
+  A sla -- bi su mi -- ši -- _ ći mo -- ji. __
 
   Za -- to ja u svom Bo -- gu mo -- gu __
   pri -- znat sla -- bost, tu -- gu, strah i grijeh! __
-  U mo -- ju tad on pra -- znu tor -- bu __
+  U mo -- ju tad On pra -- znu tor -- bu __
   sta -- vlja o -- prost, sna -- gu, po -- kret i riječ! __
 
   U Bo -- gu mo -- gu, u Bo -- gu mo -- gu, u Bo -- gu mo -- gu, u Bo -- gu mo -- gu.
