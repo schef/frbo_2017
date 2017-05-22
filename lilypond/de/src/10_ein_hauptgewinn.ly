@@ -80,7 +80,7 @@ note = \relative c' {
 
 tekst = \lyricmode {
   Ein Haupt -- ge -- winn bist du, __ ein Haupt -- ge -- winn auch ich. __
-  Wir sind Go -- ttes Jack -- pot, wir sind sein gro -- ßes Los. __
+  Wir sind Got -- tes Jack -- pot, wir sind sein gro -- ßes Los. __
   Er __ hat uns ge -- macht, __ voll Lie -- be aus -- ge -- dacht,
   so steht‘s in sei -- nem Wort, hey das ist fa -- mos! __
 

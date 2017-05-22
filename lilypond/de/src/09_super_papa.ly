@@ -62,8 +62,8 @@ tekst = \lyricmode {
   der merkt es gleich, wenn ich mal trau -- rig bin __
   und er weiß auch, was mir ge -- fällt.
 
-  Su -- per, su -- per Pa -- pa, im Hi -- mmel und auf Er -- den
-  gibt es kein -- en be -- ssern, su -- per Pa -- pa!
+  Su -- per, su -- per Pa -- pa, im Him -- mel und auf Er -- den
+  gibt es kein -- en bes -- sern, su -- per Pa -- pa!
   
   Na, na, na, na, na, na,
   Su -- per Pa -- pa!
@@ -78,17 +78,17 @@ tekstDva = \lyricmode {
   Der bes -- te Va -- ter, den es je -- mals gab, 
   der sorgt für sei -- ne Kin -- der gut. __
   Auch wenn sie durch so man -- che Kri -- se geh'n,
-  gibt er doch i -- mmer neu -- en Mut.
+  gibt er doch im -- mer neu -- en Mut.
   
-    Gott, mein su -- per Pa -- pa, liebt uns so un -- aus -- sprech -- lich
-  und bleibt i -- mmer bei uns, su -- per Pa -- pa!
+  Gott, mein su -- per Pa -- pa, liebt uns so un -- aus -- sprech -- lich
+  und bleibt im -- mer bei uns, su -- per Pa -- pa!
 }
 
 tekstTri = \lyricmode {
   \set stanza = "3."
   Der bes -- te Va -- ter, den es je -- mals gab, 
-  er schuf die Welt und o -- bend -- rein __
-  auch a -- lle Men -- schen, so -- gar dich und mich.
+  er schuf die Welt und o -- ben -- drein __
+  auch al -- le Men -- schen, so -- gar dich und mich.
   Ja, ich bin stolz, sein Kind zu sein.
 }
 
@@ -97,7 +97,7 @@ tekstCetiri = \lyricmode {
   Ich fand den bes -- ten Pa -- pa, den es __ gibt,
   und das ist wirk -- lich gar nicht schwer. __
   Komm, sprich mit ihm, __ er ist ganz nah bei dir, __
-  Und er mag dei -- ne Sti -- mme sehr.
+  und er mag dei -- ne Stim -- me sehr.
 }
 
 akordi = \chordmode {

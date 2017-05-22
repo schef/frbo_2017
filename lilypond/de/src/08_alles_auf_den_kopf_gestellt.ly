@@ -90,17 +90,17 @@ note = \relative c'' {
 
 tekst = \lyricmode {
   A -- lles auf den Kopf ge -- stellt, a -- lles auf den Kopf ge -- stellt. 
-  Es ist in Go -- ttes Kö -- nig -- reich nicht so, wie in die -- ser Welt.
-  Kin -- der ko -- mmen ganz groß raus. Stol -- ze ge -- hen dort leer aus,
-  denn in Go -- ttes neu -- er Welt ist a -- lles auf den Kopf ge -- stellt.
+  Es ist in Got -- tes Kö -- nig -- reich nicht so, wie in die -- ser Welt.
+  Kin -- der kom -- men ganz groß raus. Stol -- ze ge -- hen dort leer aus,
+  denn in Got -- tes neu -- er Welt ist al -- les auf den Kopf ge -- stellt.
 
   \set stanza = "1."
-  _ Wer hier meint, er wär‘ der Grö -- ßte __ und ‚ne gro -- ße Kla -- ppe hat,
+  _ Wer hier meint, er wär‘ der Grö -- ßte __ und ‚ne gro -- ße Klap -- pe hat,
   der ist viel -- leicht dort win -- zig klein.
   Wen man hier oft nicht be -- ach -- tet, __ weil er still und schüch -- tern ist,
   kann dort viel -- leicht ein Kö -- nig sein.
   
-  A -- lles auf den
+  Al -- les auf den
 }
 
 tekstDva = \lyricmode {
@@ -118,8 +118,8 @@ tekstDva = \lyricmode {
 
 akordi = \chordmode {
   \skip 8*4
-  d1 | a | h:m | a |
-  d1 | g | d | a | d |
+  d2 d4 a4 | a1 | h2.:m a4 | a1 |
+  d1 | g | d2. a4 | a1 | d |
   a1 | h:m | a | d | g |
   d2 a | d1 | g | a:7/g | d |
   h1:m | g | a | d | h:m | g | a:7/g |

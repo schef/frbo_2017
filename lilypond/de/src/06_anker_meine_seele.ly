@@ -3,10 +3,10 @@
 \include "s02_frbo.ily"
 
 \header {
-  title = "ANKER MEINE SEELE"
+  title = "ANKER MEINER SEELE"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Hebrbäer 6,19"
+  style = "Hebräer 6,19"
   broj = "6"
   tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Text und Musik: Frank Bosch | Hebrejima 6,19 } }
 }
@@ -74,11 +74,11 @@ tekst = \lyricmode {
   \repeat unfold 15 { \skip1 }
   \set stanza = "1."
   Herr Du bist der An -- ker, An -- ker mei -- ner See -- le.
-  Wenn We -- llen mich be -- drän -- gen, "" mich mit Sor -- gen quä -- len.
+  Wenn Wel -- len mich be -- drän -- gen, "" mich mit Sor -- gen quä -- len.
   Du  bist der An -- ker, der An -- ker, An -- ker mei -- ner See -- le.
-  Du bist i -- mmer bei mir und hältst _ mich fest.
-  Du bist i -- mmer bei mir __ und hältst _ mich fest.
-  Du bist i -- mmer bei mir und hältst _ mich fest.
+  Du bist im -- mer bei mir und hältst _ mich fest.
+  Du bist im -- mer bei mir __ und hältst _ mich fest.
+  Du bist im -- mer bei mir und hältst _ mich fest.
   An -- ker __ mei -- ner See -- le.
 }
 
@@ -89,9 +89,9 @@ tekstDva = \lyricmode {
   und wenn ich nicht mehr se -- he und ha -- be kei -- ne Macht, __ _ 
   Du bist der Leucht -- turm, der Leucht -- turm,  
   Leucht -- turm mei -- ner See -- le.
-  Du bist i -- mmer bei mir und weist mir den Weg.
-  Du bist i -- mmer bei mir und weist mir den Weg.
-  Du bist i -- mmer bei mir und weist mir den Weg.
+  Du bist im -- mer bei mir und weist mir den Weg.
+  Du bist im -- mer bei mir __ und weist mir den Weg.
+  Du bist im -- mer bei mir und weist mir den Weg.
   Leucht -- turm mei -- ner See -- le.
 }
 

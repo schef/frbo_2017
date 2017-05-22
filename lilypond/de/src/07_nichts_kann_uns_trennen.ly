@@ -95,14 +95,14 @@ tekst = \lyricmode {
 Denn ich bin ge -- wiss, __ dass we -- der Tod __ noch __ Le -- ben, 
 we -- der En -- gel noch Mäch -- te noch Ge -- wal -- ten, 
 we -- der Ge -- gen -- wär -- ti -- ges __ noch Zu -- künf -- ti -- ges, __ 
-Uns von Go -- ttes gro -- ßer Lie -- be tre -- nnen kann. __
+uns von Got -- tes gro -- ßer Lie -- be tren -- nen kann. __
 
-Nichts kann uns tre -- nnen, von der Lie -- be Go -- ttes, 
-Nichts kann uns tre -- nnen, von sei -- ner Lie -- be. __
+Nichts kann uns tren -- nen, von der Lie -- be Got -- tes, 
+Nichts kann uns tren -- nen, von sei -- ner Lie -- be. __
 Nichts, nichts, trennt uns __ von der Lie -- be,
 die uns in Je -- sus, uns -- rem Herrn, er -- schie -- nen ist. __
 
-Wer __ kann uns tre -- nnen __ von der Lie -- be Chris -- ti? 
+Wer __ kann uns tren -- nen __ von der Lie -- be Chris -- ti? 
 Lei -- den o -- der Angst o -- der Ver -- fol -- gung o -- der Hun -- ger
 o -- der Ar -- mut o -- der Ge -- fahr o -- der Krieg? 
 In a -- llem ü -- ber -- win -- den wir __ weit __ durch den, der uns ge -- liebt hat. 

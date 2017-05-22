@@ -67,14 +67,14 @@ note = \relative c' {
 
 tekst = \lyricmode {
 Das Volk, das im Fin -- stern lebt, sieht ein gro -- ßes __ Licht; 
-ü -- ber Men -- schen, die oh -- ne Ho -- ffnung sind, strahlt ein he -- ller __ Schein.
+ü -- ber Men -- schen, die oh -- ne Hoff -- nung sind, strahlt ein hel -- ler __ Schein.
 
 Licht ver -- treibt die Dun -- kel -- heit.
 Ein Kind bringt uns Ge -- bor -- gen -- heit.  
 Sein Na -- me ist  E -- ma -- nu -- el, 
 Gott ist wirk -- lich mit uns. 
 
-Je -- sus kam in die -- se Welt als ein he -- lles Licht.
+Je -- sus kam in die -- se Welt als ein hel -- les Licht.
 Ob -- wohl von ihm ge -- scha -- ffen, er -- kann -- te sie ihn nicht. 
 Doch wer Je -- sus auf -- nimmt, sein Le -- ben auf ihn baut,
 der ist sein Kind auf e -- wig, weil er ihm ver --  traut. __

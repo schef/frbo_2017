@@ -6,9 +6,9 @@
   title = "DENNOCH BLEIBE ICH STETS AN DIR"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Psalm 73,23–26"
+  style = "Ps 73,23–26; Joh 6,68"
   broj = "5"
-  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Text und Musik: Frank Bosch | Psalam 73,23–26 } }
+  tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Text und Musik: Frank Bosch | Psalam 73,23–26; Ivan 6,68 } }
 }
 
 \include "de_footer.ily"
@@ -101,10 +101,10 @@ tekst = \lyricmode {
   Wenn ich nur Dich mein Gott ha -- be, 
   be -- deu -- ten mir auch Him -- mel und Er -- de nichts.
 
-  Herr wo -- hin sol -- len wir denn ge -- hen?
-  Du hast Wor -- te des e -- wi -- gen Le -- bens, 
-  und wir ha -- ben ge -- glaubt und er -- kannt 
-  Du bist Chris -- tus der Ret -- ter der Welt __
+  Herr, wo -- hin sol -- len wir denn ge -- hen?
+  Du hast Wor -- te des e -- wi -- gen Le -- bens; 
+  und wir ha -- ben ge -- glaubt und er -- kannt: 
+  Du bist Chris -- tus der Ret -- ter der Welt. __
 }
 
 tekstDva = \lyricmode {
