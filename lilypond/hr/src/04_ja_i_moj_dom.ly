@@ -12,7 +12,7 @@
 }
 
 \paper {
- \aFourL
+ \aFourR
  %annotate-spacing = ##t
 }
 
