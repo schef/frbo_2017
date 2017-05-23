@@ -53,14 +53,14 @@ note = \relative c' {
 
 tekst = \lyricmode {
   \set stanza = "1."
-Ich a -- ber und mein Haus, wo -- llen dem HERRN die -- nen. Mhmm. __ nen.
+Ich a -- ber und mein Haus, wol -- len dem HERRN die -- nen. Mhmm. __ nen.
 
 Wem denn sonst? Wem denn sonst? Wo ist solch ein Gott, so wie Er? Wem denn Er.
 }
 
 tekstDva = \lyricmode {
   \set stanza = "2."
-Ich a -- ber und mein Haus, wo -- llen Dir die -- nen, HERR. Ohooo __ HERR.
+Ich a -- ber und mein Haus, wol -- len Dir die -- nen, HERR. Ohooo __ HERR.
 
 Wem denn sonst? Wem denn sonst? Wo ist solch ein Gott, so wie Du? Wem denn Du?
 }

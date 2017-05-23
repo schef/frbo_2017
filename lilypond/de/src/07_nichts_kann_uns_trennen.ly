@@ -105,7 +105,7 @@ die uns in Je -- sus, uns -- rem Herrn, er -- schie -- nen ist. __
 Wer __ kann uns tren -- nen __ von der Lie -- be Chris -- ti? 
 Lei -- den o -- der Angst o -- der Ver -- fol -- gung o -- der Hun -- ger
 o -- der Ar -- mut o -- der Ge -- fahr o -- der Krieg? 
-In a -- llem ü -- ber -- win -- den wir __ weit __ durch den, der uns ge -- liebt hat. 
+In al -- lem ü -- ber -- win -- den wir __ weit __ durch den, der uns ge -- liebt hat. 
 Durch den, __ der uns ge -- liebt hat.
 }
 

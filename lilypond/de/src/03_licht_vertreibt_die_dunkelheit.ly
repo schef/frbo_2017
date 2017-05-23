@@ -7,7 +7,7 @@
   title = "LICHT VERTREIBT DIE DUNKELHEIT"
   titlex = "Anker"
   composer = "Frank Bosch"
-  style = "Jesaja 9,17.14"
+  style = "Jesaja 9,1.5; 7,14"
   broj = "3"
   tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Text und Musik: Frank Bosch | Izaija 9,17.14 } }
 }
@@ -75,7 +75,7 @@ Sein Na -- me ist  E -- ma -- nu -- el,
 Gott ist wirk -- lich mit uns. 
 
 Je -- sus kam in die -- se Welt als ein hel -- les Licht.
-Ob -- wohl von ihm ge -- scha -- ffen, er -- kann -- te sie ihn nicht. 
+Ob -- wohl von ihm ge -- schaf -- fen, er -- kann -- te sie ihn nicht. 
 Doch wer Je -- sus auf -- nimmt, sein Le -- ben auf ihn baut,
 der ist sein Kind auf e -- wig, weil er ihm ver --  traut. __
 }

@@ -109,8 +109,8 @@ tekst = \lyricmode {
 
 tekstDva = \lyricmode {
   \set stanza = "2."
-  Selbst wenn all mei -- ne Krä -- fte ver -- schwin -- den, 
-  _ so bist Du doch, Gott, _ a -- lle -- zeit, 
+  Selbst wenn all mei -- ne Kräf -- te ver -- schwin -- den, 
+  _ so bist Du doch, Gott, _ al -- le -- zeit, 
   _ mei -- nes Her -- zens Trost und mein Teil,
   von jetzt bis in E -- _ wig -- keit. __ _ _
   

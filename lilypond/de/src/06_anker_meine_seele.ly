@@ -85,7 +85,7 @@ tekst = \lyricmode {
 tekstDva = \lyricmode {
   \repeat unfold 15 { \skip1 }
   \set stanza = "2."
-  Herr Du bist mein Leucht -- turm in der dunk -- len Nacht __ _
+  Herr Du bist mein Leucht -- turm in der dun -- klen Nacht __ _
   und wenn ich nicht mehr se -- he und ha -- be kei -- ne Macht, __ _ 
   Du bist der Leucht -- turm, der Leucht -- turm,  
   Leucht -- turm mei -- ner See -- le.

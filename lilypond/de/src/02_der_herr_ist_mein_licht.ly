@@ -109,7 +109,7 @@ tekst = \lyricmode {
   Der
 
   Ei -- nes bit -- te ich vom HERRN, __ das hät -- te ich __ so __ gern: __ 
-  dass ich im Hau -- se des HERRN blei -- ben kö -- nne
+  dass ich im Hau -- se des HERRN blei -- ben kön -- ne
   mein Le -- ben lang, __ mein Le -- ben lang. __
 }
 

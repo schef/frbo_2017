@@ -57,13 +57,13 @@ note = \relative c''{
 
 tekst = \lyricmode {
   Singt dem HERRN ein neu -- es Lied.
-  Singt dem HERRN a -- lle Welt.
+  Singt dem HERRN al -- le Welt.
   Singt dem HERRN und lobt sei -- nen Na -- men.
   Ver -- kün -- det von Tag zu Tag sein Heil.
 
   \set stanza = "1."
   Er -- zählt un -- ter den Hei -- den von sei -- ner Herr -- lich -- keit,
-  _ un -- ter a -- _ llen Völ -- kern von sei -- nen Wun -- dern.
+  _ un -- ter al -- _ len Völ -- kern von sei -- nen Wun -- dern.
 
   Lasst uns nicht eh -- er ruh‘n,
   bis je -- der Mensch be -- kennt,
@@ -75,7 +75,7 @@ tekstDva = \lyricmode {
   \repeat unfold 31 {\skip4}
   \set stanza = "2."
   _ Sagt un -- ter den Hei -- den: Der HERR ist Kö -- _ nig!
-  Den Hi -- mmel und auch die Er -- de hat er ge -- macht. __ _
+  Den Him -- mel und auch die Er -- de hat er ge -- macht. __ _
 }
 
 %tekstTri = \lyricmode {

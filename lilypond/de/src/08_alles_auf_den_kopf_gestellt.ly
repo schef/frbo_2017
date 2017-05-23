@@ -89,7 +89,7 @@ note = \relative c'' {
 }
 
 tekst = \lyricmode {
-  A -- lles auf den Kopf ge -- stellt, a -- lles auf den Kopf ge -- stellt. 
+  Al -- les auf den Kopf ge -- stellt, al -- les auf den Kopf ge -- stellt. 
   Es ist in Got -- tes Kö -- nig -- reich nicht so, wie in die -- ser Welt.
   Kin -- der kom -- men ganz groß raus. Stol -- ze ge -- hen dort leer aus,
   denn in Got -- tes neu -- er Welt ist al -- les auf den Kopf ge -- stellt.
@@ -107,7 +107,7 @@ tekstDva = \lyricmode {
   \repeat unfold 58 {\skip 8}
   \set stanza = "2."
   Du brauchst nicht Schön -- heit und Be -- ga -- bung, 
-  coo -- les Han -- dy und viel Geld, denn da -- rauf kommt´s doch gar nicht an. 
+  cool -- es Han -- dy und viel Geld, denn da -- rauf kommt´s doch gar nicht an. 
   Wenn du Je -- su Lie -- be an -- nimmst, sie an an -- de -- re ver -- schenkst, 
   kommst du in sei -- nem Reich voll an.
 }

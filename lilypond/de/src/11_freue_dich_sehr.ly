@@ -96,7 +96,7 @@ tekst = \lyricmode {
   und rei -- tet auf ei -- nem E -- sel. __
   E -- sel.
 
-  Die -- ser Kö -- nig ist Je -- sus, der Re -- tter der Welt,
+  Die -- ser Kö -- nig ist Je -- sus, der Ret -- ter der Welt,
   aus Lie -- be zu uns __ arm ge -- wor -- den,
   im Stall ge -- bo -- ren, ge -- stor -- ben am Kreuz.
   Em -- pfan -- gen wir ihn voll Ver -- trau -- en. 
