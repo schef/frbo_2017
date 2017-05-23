@@ -163,7 +163,7 @@ Kontakt: www.mjuzikids.com\\
 \vspace{\impresspac}
 Notensatz: Stjepan und Benjamin Horvat | Lilypond 2.19.59 (http://lilypond.org)\\
 \vspace{\impresspac}
-Design von Bucheinband: Nolda Studio\\
+Design Bucheinband: Nolda Studio d.o.o\\
 \vspace{\impresspac}
 Gestaltung: Filip und Benjamin Horvat | LaTeX (http://latex-project.org) \\
 \vspace{\impresspac}
@@ -418,7 +418,7 @@ mjuzikids@gmail.com
 \newpage
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor3.}\hspace{\onedigitspacing}}{}LICHT VERTREIBT DIE DUNKELHEIT \ttfamily(Jes 9,17.14)}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor3.}\hspace{\onedigitspacing}}{}LICHT VERTREIBT DIE DUNKELHEIT \ttfamily(Jes 9,1.5; 7,14)}
 \includepdf[pages={1},noautoscale]{lilypond/de/src/03_licht_vertreibt_die_dunkelheit.pdf}
 \end{minipage}
 
@@ -432,7 +432,7 @@ mjuzikids@gmail.com
 %pjesma 4
 \newpage
 \phantomsection
-\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor4.}\hspace{\onedigitspacing}}{}ICH ABER UND MEIN HAUS \ttfamily(Jos 24,15}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor4.}\hspace{\onedigitspacing}}{}ICH ABER UND MEIN HAUS \ttfamily(Jos 24,15)}
 \includepdf[pages={1},noautoscale,]
          {lilypond/de/src/04_ich_und_mein_haus.pdf}
 
@@ -446,7 +446,7 @@ mjuzikids@gmail.com
 \newpage
 \phantomsection
 \begin{minipage}[b]{0.5\linewidth}
-\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor5.}\hspace{\onedigitspacing}}{}DENNOCH BLEIBE ICH STETS AN DIR \ttfamily(Ps 73,23–26; Joh 6,68)}
+\addcontentsline{toc}{section}{\texorpdfstring{{\rednifont\doccolor5.}\hspace{\onedigitspacing}}{}DENNOCH BLEIBE ICH STETS AN DIR \ttfamily(Ps 73,23–26)}
 \includepdf[pages={1},noautoscale]{lilypond/de/src/05_wenn_ich_nur_dich_habe.pdf}
 \end{minipage}
 
@@ -488,6 +488,11 @@ mjuzikids@gmail.com
          {lilypond/de/src/07_nichts_kann_uns_trennen.pdf}
 
 
+%pjesme za djeca spava
+\addtocontents{toc}{\cftpagenumbersoff{section}}
+\addcontentsline{toc}{section}{\texorpdfstring{\ttfamily\hspace{7.7mm}}{}KINDERECKE}
+\addtocontents{toc}{\cftpagenumberson{section}} % to restore the showing of page numbers
+
 %pjesma 8
 \newpage
 \phantomsection
@@ -498,13 +503,9 @@ mjuzikids@gmail.com
 
 \newpage
 \begin{center}
-\includegraphics[width=0.95\linewidth]{images/susanne/h8_allesaufdenkopfgestellt}
+\includegraphics[width=0.98\linewidth]{images/susanne/h8_allesaaufdenkopfgestellt2}
+\captionof*{figure}{Bild. Mihovil Dorotić}
 \end{center}
-
-%pjesme za djeca spava
-\addtocontents{toc}{\cftpagenumbersoff{section}}
-\addcontentsline{toc}{section}{\texorpdfstring{\ttfamily\hspace{7.7mm}}{}KINDERECKE}
-\addtocontents{toc}{\cftpagenumberson{section}} % to restore the showing of page numbers
 
 %pjesma 9
 \newpage
@@ -567,7 +568,7 @@ mjuzikids@gmail.com
 
 \includepdf[pages={2},noautoscale, %
     picturecommand={\setlength\unitlength{1cm}%
-         \put(2,5){\includegraphics[width=\linewidth,scale=1]{images/susanne/k11_freuedichsehr}}}]%
+         \put(5,2.5){\includegraphics[width=0.65\linewidth,scale=1]{images/susanne/k11_freuedichsehr}}}]%
          {lilypond/de/src/11_freue_dich_sehr.pdf}
 
 %pjesma 12
@@ -580,9 +581,18 @@ mjuzikids@gmail.com
 
 \newpage
 \begin{center}
-\includegraphics[width=0.95\linewidth]{images/susanne/l12_singtdemherrn}\\
-\vfill
-\includegraphics[width=0.95\linewidth]{images/susanne/a1_gedankendesfriedens}
+\includegraphics[width=0.94\linewidth]{images/susanne/h8_allesaufdenkopfgestellt}\\
+\end{center}
+
+\newpage
+\begin{center}
+\includegraphics[width=\linewidth]{images/susanne/l12_singtdemherrn}\\
+\end{center}
+
+\newpage
+\begin{center}
+\vspace*{5.5cm}
+\includegraphics[width=\linewidth]{images/susanne/a1_gedankendesfriedens}\\
 \end{center}
 
 \end{document}
